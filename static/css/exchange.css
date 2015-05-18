@@ -1,0 +1,54 @@
+.exchange {
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.input--exchange {
+    font-size: 18px;
+    font-family: PFDinTextCompProBold;
+    color: #232323;
+    margin-bottom: 10px;
+}
+
+.exchange-field {
+    margin-top: 40px;
+}
+
+.exchange-field__item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.from-to {
+    width: 23px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(/static/images/icon-to.png);
+    position: relative;
+    top: 50px;
+    margin: 0 35px;
+}
+
+.exchange-info__item {
+    width: 272px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 1px 15px 0;
+    line-height: 1.5;
+    padding: 16px 60px;
+    background: rgba(255, 255, 255, .15);
+    font-size: 16px;
+    font-family: PFDinTextCompProMedium;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.exchange-info__amount {
+    text-transform: uppercase;
+}
+
+.exchange .button--red {
+    float: right;
+}

@@ -1,0 +1,40 @@
+.footer {
+    background: #ffffff;
+    padding: 65px 0;
+    border-top: 1px solid rgba(183, 183, 183, .3);
+}
+
+.table__footer {
+    width: 100%;
+}
+
+.table__footer td {
+    vertical-align: top;
+}
+
+.table__footer td:not(:first-child) {
+    width: 265px;
+}
+
+.table__footer td > div {
+    margin-bottom: 15px;
+}
+
+.footer__copyrights, .footer__link {
+    font-size: 14px;
+    font-family: PFDinTextCompProRegular;
+    color: #8b8b8b;
+}
+
+.footer__link:hover {
+    color: #089e95;
+}
+
+.footer__title {
+    font-size: 14px;
+    font-family: PFDinTextCompProBold;
+    color: #323232;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}

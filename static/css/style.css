@@ -1,0 +1,166 @@
+@import url("bookmark.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("exchange.css");
+@import url("form.css");
+@import url("select.css");
+
+@font-face {
+    font-family: PFDinTextCompProRegular;
+    src: url(/static/fonts/PFDinTextCompProRegular.ttf);
+}
+@font-face {
+    font-family: PFDinTextCompProBlack;
+    src: url(/static/fonts/PFDinTextCompProBlack.ttf);
+}
+@font-face {
+    font-family: PFDinTextCompProMedium;
+    src: url(/static/fonts/PFDinTextCompProMedium.ttf);
+}
+@font-face {
+    font-family: PFDinTextCompProBold;
+    src: url(/static/fonts/PFDinTextCompProBold.ttf);
+}
+@font-face {
+    font-family: PFDinTextCompProLight;
+    src: url(/static/fonts/PFDinTextCompProLight.ttf);
+}
+
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: PFDinTextCompProBold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: PFDinTextCompProBold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+h3.light {
+    color: #ffffff;
+}
+
+h3.dark {
+    color: #1f1f1f;
+}
+
+h3:after {
+    content: '';
+    position: relative;
+    left: 15px;
+    top: 3px;
+    width: 22px;
+    height: 21px;
+    display: inline-block;
+    background: url(/static/images/icon-alert.png) no-repeat;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.button {
+    font-family: PFDinTextCompProBold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.button--red {
+    background: #ff535f;
+    border-radius: 3px;
+    padding: 17px 25px;
+    font-size: 18px;
+}
+
+.button--red:hover {
+    background: #e1404b;
+}
+
+.button--turquoise {
+    background: #089e95;
+}
+
+.button--turquoise:hover {
+    background: #136964;
+}
+
+.button__text {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.button__image {
+    width: 9px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 35px;
+    background: url(/static/images/icon-to2.png) no-repeat;
+}
+
+.error {
+    background: #ff535f;
+    padding: 20px 25px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: PFDinTextCompProRegular;
+    color: #ffffff;
+    margin: 15px 0 35px 0;
+    display: none;
+}
+
+.container {
+    width: 820px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.main {
+    width: 100%;
+    background: url(/static/images/bg.jpg) no-repeat;
+}

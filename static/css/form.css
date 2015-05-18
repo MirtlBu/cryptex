@@ -1,0 +1,19 @@
+.form__input {
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    padding: 20px 25px;
+    box-sizing: border-box;
+}
+
+.form__input--305px {
+    width: 305px;
+}
+
+.form--error input {
+    border: 3px solid #ff535f;
+}
+
+.form--error h3:after {
+    visibility: visible;
+}
