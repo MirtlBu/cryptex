@@ -1,0 +1,11 @@
+.description h2 {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.description p {
+    font-size: 17px;
+    font-family: PFDinTextCompProLight;
+    color: #1e1e1e;
+    line-height: 1.6;
+}

@@ -1,0 +1,44 @@
+.news h2 {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.news__item {
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.news__item:not(:last-child) {
+    margin-right: 55px;
+}
+
+.news__title {
+    font-size: 14px;
+    font-family: PFDinTextCompProBold;
+    color: #323232;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.news__text {
+    font-size: 14px;
+    font-family: PFDinTextCompProRegular;
+    color: #8b8b8b;
+    margin-bottom: 10px;
+}
+
+.news__date {
+    font-size: 12px;
+    font-family: PFDinTextCompProBold;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.news .button {
+    display: block;
+    margin: 0 auto;
+}

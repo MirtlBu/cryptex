@@ -1,5 +1,4 @@
-<?php echo
-'<div class="container">
+<div class="container">
     <div class="header">
         <div class="topbar">
             <div class="topbar__rates"> btc = 250 usd, 1 usd = 0.00023 btc</div>
@@ -20,7 +19,6 @@
         </ul>
         <div class="lang">English</div>
     </div>
-</div>';
-?>
+</div>
 
 

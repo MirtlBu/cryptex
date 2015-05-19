@@ -1,0 +1,52 @@
+.reviews h2 {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.reviews__item {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.reviews__title {
+    font-size: 14px;
+    font-family: PFDinTextCompProRegular;
+    color: #9c9c9c;
+    text-align: center;
+}
+
+.reviews__image {
+    width: 273px;
+    height: 14px;
+    background: url(/static/images/square-line-long.png);
+    margin: 10px 0 20px 0;
+}
+
+.reviews__text {
+    width: 265px;
+    padding: 30px 35px;
+    box-sizing: border-box;
+    background: #ffffff;
+    font-size: 17px;
+    font-family: PFDinTextCompProLight;
+    color: #1e1e1e;
+    line-height: 1.4;
+}
+
+.reviews__item:nth-child(1) .reviews__text {
+    float: left;
+}
+
+.reviews__item:nth-child(2) .reviews__text {
+    margin: 0 auto;
+}
+
+.reviews__item:nth-child(3) .reviews__text {
+    float: right;
+}
+
+.reviews .button {
+    display: block;
+    margin: 0 auto;
+}

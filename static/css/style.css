@@ -4,6 +4,10 @@
 @import url("exchange.css");
 @import url("form.css");
 @import url("select.css");
+@import url("features.css");
+@import url("description.css");
+@import url("reviews.css");
+@import url("news.css");
 
 @font-face {
     font-family: PFDinTextCompProRegular;
@@ -44,15 +48,23 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1 {
     font-size: 48px;
-    font-family: PFDinTextCompProBold;
+    font-family: PFDinTextCompProMedium;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: PFDinTextCompProMedium;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 h3 {
     font-size: 16px;
-    font-family: PFDinTextCompProBold;
+    font-family: PFDinTextCompProMedium;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 22px;
@@ -113,7 +125,7 @@ li {
 .button--red {
     background: #ff535f;
     border-radius: 3px;
-    padding: 17px 25px;
+    padding: 20px 25px 14px 25px;
     font-size: 18px;
 }
 
@@ -123,6 +135,8 @@ li {
 
 .button--turquoise {
     background: #089e95;
+    padding: 14px 20px 10px 20px;
+    font-size: 12px;
 }
 
 .button--turquoise:hover {

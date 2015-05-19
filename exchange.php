@@ -1,5 +1,4 @@
-<?php echo
-    '<div class="container">
+<div class="container">
     <form class="exchange">
         <h1>Title with main keyword</h1>
         <div class="error">
@@ -55,6 +54,5 @@
             </button>
         </div>
     </form>
-    </div>';
-?>
+    </div>
 
