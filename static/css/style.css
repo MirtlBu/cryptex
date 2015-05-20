@@ -40,6 +40,7 @@ body, html {
 
 body {
     background: #f1f1f1;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -137,6 +138,8 @@ li {
     background: #089e95;
     padding: 14px 20px 10px 20px;
     font-size: 12px;
+    display: block;
+    margin: 0 auto;
 }
 
 .button--turquoise:hover {
@@ -164,17 +167,34 @@ li {
     font-size: 18px;
     font-family: PFDinTextCompProRegular;
     color: #ffffff;
-    margin: 15px 0 35px 0;
+    margin: 15px 0;
+    text-align: left;
     display: none;
 }
 
-.container {
-    width: 820px;
+.error--bookmark {
+    font-size: 15px;
+    border-radius: 0;
+}
+
+.container-1230px {
+    width: 1230px;
     margin: 0 auto;
-    clear: both;
+    text-align: right;
+}
+
+.container-1230px--bookmark {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.container-820px {
+    width: 820px;
+    display: inline-block;
+    text-align: left;
 }
 
 .main {
-    width: 100%;
-    background: url(/static/images/bg.jpg) no-repeat;
+    position: relative;
 }

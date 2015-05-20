@@ -43,7 +43,10 @@
         <div class="terms__text">
             <p>Registered users can receive free daily Bitcoin of 0.10 – 0.50 USD (not more than once in 24 hours).For last 24 hours we paind 432 bonuses. Perfect Money </p>
         </div>
+        <div class="error error--bookmark">
+            <p>Извините, на данный момент заявки не выполняются. Зайдите позже.</p>
+        </div>
         <input class="form__input input--terms" placeholder="Type your bitcoin address"></input>
-        <button class="button button--turquoise button--terms" type="submit">Get it!</button>
+        <button class="button button--turquoise" type="submit">Get it!</button>
     </form>
 </div>

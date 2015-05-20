@@ -1,5 +1,7 @@
-<div class="container">
+
     <div class="features">
+        <div class="container-1230px">
+        <div class="container-820px">
         <ul>
             <li class="features__item">
                 <div class="features__image features__image--fast"></div>
@@ -23,5 +25,6 @@
                 </div>
             </li>
         </ul>
+    </div>
     </div>
 </div>

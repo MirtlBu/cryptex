@@ -1,4 +1,5 @@
 <div class="footer">
+    <div class="container-1230px">
     <table class="table__footer">
         <tr>
             <td class="footer__copyrights"><p>© 2001—2015,Cryptex24.com</p></td>
@@ -22,4 +23,5 @@
             </td>
         </tr>
     </table>
+    </div>
 </div>

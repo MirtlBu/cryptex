@@ -1,6 +1,7 @@
 .exchange {
     text-align: left;
-    padding-bottom: 80px;
+    padding: 75px 0;
+    background: url(/static/images/bg.jpg) no-repeat;
 }
 
 .input--exchange {
@@ -11,7 +12,7 @@
 }
 
 .exchange-field {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .exchange-field__item {

@@ -1,5 +1,7 @@
-<div class="container">
+
     <div class="news">
+        <div class="container-1230px">
+        <div class="container-820px">
         <h2>News</h2>
         <ul>
             <li class="news__item">
@@ -25,5 +27,6 @@
             </li>
         </ul>
         <button type="button" class="button button--turquoise">Все новости</button>
+    </div>
     </div>
 </div>

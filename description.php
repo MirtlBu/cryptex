@@ -1,5 +1,7 @@
-<div class="container">
+
     <div class="description">
+        <div class="container-1230px">
+            <div class="container-820px">
         <h2>What is Cryptex24?</h2>
         <p>
             Cryptex24 is a reputable exchange platform for crypto and digital currencies,
@@ -11,5 +13,6 @@
             If you need other extraordinary exchange please contact us and we will be glad to help you.Join us and enjoy
             fast and highly reliable service!
         </p>
+    </div>
     </div>
 </div>

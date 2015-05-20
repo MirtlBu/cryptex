@@ -1,5 +1,7 @@
-<div class="container">
+
     <form class="exchange">
+        <div class="container-1230px">
+        <div class="container-820px">
         <h1>Title with main keyword</h1>
         <div class="error">
             <p>Извините, на данный момент заявки не выполняются. Зайдите позже.</p>
@@ -10,11 +12,7 @@
                     <h3 class="light">Отдаёте</h3>
                     <input class="form__input input--exchange">
                 </label>
-                <select id="select-pay">
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                </select>
+                <select id="select-pay"></select>
             </div>
             <div class="exchange-field__item from-to"></div>
             <div class="exchange-field__item">
@@ -22,11 +20,7 @@
                     <h3 class="light">Получаете</h3>
                     <input class="form__input input--exchange">
                 </label>
-                <select id="select-take">
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                </select>
+                <select id="select-take"></select>
             </div>
         </div>
         <ul class="exchange-info">
@@ -53,6 +47,7 @@
                 <span class="button__image"></span>
             </button>
         </div>
+        </div>
+</div>
     </form>
-    </div>
 

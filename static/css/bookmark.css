@@ -2,10 +2,8 @@
     width: 360px;
     background: #ffffff;
     padding-top: 30px;
-    margin-right: 50px;
     position: absolute;
-    z-index: 0;
-    display: none;
+    z-index: 1;
 }
 
 .bookmark:after {
@@ -161,11 +159,6 @@
     letter-spacing: 1px;
 }
 
-.button--terms {
-    height: 35px;
-    line-height: 1.7;
-    display: block;
-    margin: 0 auto;
-    font-size: 18px;
-    padding: 6px 35px;
+.bookmark .form__input:focus {
+    color: #232323;
 }

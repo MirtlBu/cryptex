@@ -1,3 +1,8 @@
+.description {
+    background: url(/static/images/bg-2.jpg) no-repeat;
+    padding: 60px 0;
+}
+
 .description h2 {
     margin: 25px 0;
     text-align: center;

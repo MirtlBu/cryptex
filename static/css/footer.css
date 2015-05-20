@@ -6,6 +6,7 @@
 
 .table__footer {
     width: 100%;
+    text-align: left;
 }
 
 .table__footer td {

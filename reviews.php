@@ -1,5 +1,8 @@
-<div class="container">
+
+
     <div class="reviews">
+        <div class="container-1230px">
+        <div class="container-820px">
         <h2>Latest reviews</h2>
         <ul>
             <li class="reviews__item">
@@ -37,4 +40,6 @@
         </ul>
         <button type="button" class="button button--turquoise">Все отзывы</button>
     </div>
+    </div>
+
 </div>

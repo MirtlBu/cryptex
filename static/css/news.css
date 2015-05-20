@@ -1,5 +1,10 @@
+.news {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
 .news h2 {
-    margin: 25px 0;
+    margin-bottom: 25px;
     text-align: center;
 }
 
