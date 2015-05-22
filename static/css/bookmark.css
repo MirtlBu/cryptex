@@ -62,7 +62,8 @@
     border: 1px solid rgba(183, 183, 183, .3);
     box-sizing: border-box;
     font-size: 16px;
-    font-family: PFDinTextCompProMedium;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: normal;
     color: #232323;
     position: relative;
 }
@@ -104,7 +105,8 @@
 
 .table__bookmark th {
     font-size: 12px;
-    font-family: PFDinTextCompProBold;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #d0d0d0;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -113,6 +115,8 @@
 .table__bookmark td {
     font-size: 14px;
     font-family: PFDinTextCompProLight;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: #1a1a1a;
 }
 
@@ -133,8 +137,8 @@
 
 .terms__title {
     font-size: 16px;
-    font-family: PFDinTextCompProMedium;
-    color: #ff535f;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: normal;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -142,23 +146,18 @@
 .terms__text {
     font-size: 15px;
     font-family: PFDinTextCompProLight;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #1a1a1a;
     text-align: center;
     margin-bottom: 30px;
     line-height: 1.6;
 }
 
-.input--terms {
+.form__input--terms {
     width: 280px;
     margin-bottom: 22px;
-    background: #f1f1f1;
     font-size: 12px;
-    font-family: PFDinTextCompProBold;
-    color: #939393;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
-
-.bookmark .form__input:focus {
-    color: #232323;
 }

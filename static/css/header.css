@@ -28,16 +28,16 @@
 }
 
 .topbar__item {
-    font-size: 12px;
-    font-family: PFDinTextCompProBold;
-    color: #323232;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    display: block;
     padding-left: 15px;
     box-sizing: border-box;
 }
 
-.topbar__item:hover {
+.topbar__item h4 {
+    font-size: 12px;
+}
+
+.topbar__item:hover h4 {
     color: #089e95;
 }
 
@@ -56,12 +56,7 @@
 
 .header__navlinks {
     display: block;
-    margin-right: 28px;
-    font-size: 14px;
-    font-family: PFDinTextCompProBold;
-    color: #323232;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    margin-right: 20px;
     position: relative;
 }
 
@@ -70,7 +65,7 @@
     position: absolute;
     top: 50%;
     margin-top: -5px;
-    right: -20px;
+    right: -16px;
     width: 6px;
     height: 6px;
     background: url(/static/images/square-divider.png);
@@ -81,6 +76,6 @@
     height: 0;
 }
 
-.header__navlinks:hover {
+.header__navlinks:hover h4 {
     color: #089e95;
 }

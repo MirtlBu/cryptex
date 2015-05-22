@@ -33,7 +33,7 @@ $(function() {
     var selectlang = $('#select-lang');
     selectlang.fancySelect();
 
-    //
+    //переключение табов в меню bookamark
     $('.bookmark').on('click', '.bookmark__navlinks', function() {
         $('.bookmark__navlinks').removeClass('bookmark__navlinks--active');
         $(this).addClass('bookmark__navlinks--active');

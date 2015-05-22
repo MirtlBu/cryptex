@@ -102,7 +102,8 @@ div.fancy-select div.trigger:before {
     height: 28px;
     padding: 7px 10px;
     font-size: 12px;
-    font-family: PFDinTextCompProBold;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #323232;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -129,19 +130,24 @@ div.fancy-select div.trigger:before {
     width: 118px;
     height: auto;
     font-size: 12px;
-    font-family: PFDinTextCompProBold;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #323232;
     text-transform: uppercase;
     letter-spacing: 1px;
     background: #f1f1f1;
     border: 1px solid rgba(183, 183, 183, .3);
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .header div.fancy-select ul.options li {
     width: 118px;
     height: 26px;
     padding: 7px 10px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
     box-sizing: border-box;
 }
 
@@ -150,6 +156,6 @@ div.fancy-select div.trigger:before {
     color: #323232;
 }
 
-.header div.fancy-select ul.options li.selected:hover {
+.header div.fancy-select ul.options li:hover, .header div.fancy-select ul.options li.selected:hover {
     color: #089e95;
 }

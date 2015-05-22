@@ -21,7 +21,8 @@
 
 .news__title {
     font-size: 14px;
-    font-family: PFDinTextCompProBold;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #323232;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -37,7 +38,8 @@
 
 .news__date {
     font-size: 12px;
-    font-family: PFDinTextCompProBold;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: bold;
     color: #bbbbbb;
     text-transform: uppercase;
     letter-spacing: 1px;

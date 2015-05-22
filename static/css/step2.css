@@ -1,0 +1,28 @@
+.step2 {
+    padding: 25px 0;
+}
+
+.step2 h4, .step2 .text-whitefield, .step2 .text-greenfield {
+    margin-bottom: 15px;
+}
+
+.step2 label {
+    display: table;
+    margin-bottom: 15px;
+}
+
+.step2 .form__title, .step2 .form__input {
+    display: table-cell;
+}
+
+.step2 .form__link {
+    margin-left: 25px;
+}
+
+.step2 .button {
+    margin: 40px 0;
+}
+
+.step2 form {
+    text-align: right;
+}

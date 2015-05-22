@@ -1,13 +1,10 @@
 .exchange {
     text-align: left;
-    padding: 75px 0;
+    padding: 25px 0 45px 0;
     background: url(/static/images/bg.jpg) no-repeat;
 }
 
-.input--exchange {
-    font-size: 18px;
-    font-family: PFDinTextCompProBold;
-    color: #232323;
+.form__input--exchange {
     margin-bottom: 10px;
 }
 
@@ -40,7 +37,8 @@
     padding: 16px 60px;
     background: rgba(255, 255, 255, .15);
     font-size: 16px;
-    font-family: PFDinTextCompProMedium;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: normal;
     color: #ffffff;
     text-align: center;
     box-sizing: border-box;
