@@ -1,0 +1,84 @@
+.from-to .tcell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.currency-img {
+    background: url(/static/images/icon-currency.png);
+}
+
+.from-to-2 {
+    width: 20px;
+    height: 14px;
+    background: url(/static/images/icon-to3.png) no-repeat;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.tcell--45px {
+    width: 45px;
+}
+
+.tcell--135px {
+    width: 135px;
+    text-align: center;
+}
+
+.timer {
+    font-size: 65px;
+    font-family: PFDinTextCompProLight;
+    color: #ffffff;
+}
+
+.step3 .button__image {
+    margin-left: 90px;
+}
+
+.step3 .button {
+    margin: 10px 0 20px 0;
+    float: right;
+}
+
+.step3 .greenfield {
+    padding: 5px 0 15px 0;
+}
+
+.text-whitefield {
+    padding: 20px 0 35px 0;
+}
+
+.order__text {
+    font-size: 16px;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #232323;
+}
+
+.order-details {
+    padding: 2px 0 2px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-details table {
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-details td {
+    padding: 5px 8px;
+}
+
+.order-details .text-whitefield {
+    padding: 0;
+}
+
+.whitefield.whitefield--padded {
+    padding-bottom: 110px;
+}
+
+.whitefield.from-to {
+    margin: 25px 0 10px 0;
+}

@@ -25,6 +25,9 @@
 
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/step2")
                 { include "step2.php"; }
+
+            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/step3")
+                { include "step3.php"; }
         ?>
 
         <?php include "footer.php";?>

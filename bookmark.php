@@ -8,52 +8,14 @@
         <div class="square-line-short"></div>
     </div>
     <div class="bookmark__nav">
-        <a href="#" class="bookmark__navlinks bookmark__navlinks--active">Reserve</a><!--
-        --><a href="#" class="bookmark__navlinks bookmark__navlinks--midl">Best deals</a><!--
-        --><a href="#" class="bookmark__navlinks">Exchange</a>
+        <div href="#" class="bookmark__navlinks bookmark__navlinks--active" data-val="reserve">Reserve</div><!--
+        --><div href="#" class="bookmark__navlinks bookmark__navlinks--midl" data-val="best">Best deals</div><!--
+        --><div href="#" class="bookmark__navlinks" data-val="exchange">Exchange</div>
     </div>
-    <table class="table table__bookmark">
-        <thead>
-            <tr>
-                <th class="align-left">Name</td>
-                <th class="align-right">Reserve</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="align-left">Qiwi</td>
-                <td class="align-right">2106 rub</td>
-            </tr>
-            <tr>
-                <td class="align-left">Privat 24</td>
-                <td class="align-right">2106 uan</td>
-            </tr>
-            <tr>
-                <td class="align-left">Western Union</td>
-                <td class="align-right">2106 usd</td>
-            </tr>
-            <tr>
-                <td class="align-left">Perfect Money</td>
-                <td class="align-right">2106 rub</td>
-            </tr>
-            <tr>
-                <td class="align-left">Qiwi</td>
-                <td class="align-right">2106 rub</td>
-            </tr>
-            <tr>
-                <td class="align-left">Privat 24</td>
-                <td class="align-right">2106 uan</td>
-            </tr>
-            <tr>
-                <td class="align-left">Western Union</td>
-                <td class="align-right">2106 usd</td>
-            </tr>
-            <tr>
-                <td class="align-left">Perfect Money</td>
-                <td class="align-right">2106 rub</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="bookmark__tab">
+        <!--сюда вставляем html-->
+        <?php include "bookmark_tab_reserve.php";?>
+    </div>
     <form class="terms__bookmark">
         <div class="title4 title4--red terms__title">Get free bitcoin!</div>
         <div class="terms__text">

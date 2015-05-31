@@ -46,8 +46,8 @@
                             <div class="form__title">Middle name:</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
-                    </div>
-                    <div class="twocol">
+                    </div><!--
+                --><div class="twocol">
                         <label class="form--error">
                             <div class="form__title">City:</div>
                             <input type="text" class="form__input form__input--whitefield">

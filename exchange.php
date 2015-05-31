@@ -13,7 +13,7 @@
                     </label>
                     <select id="select-pay"></select>
                 </div>
-                <div class="exchange-field__item from-to"></div>
+                <div class="exchange-field__item from-to-1"></div>
                 <div class="exchange-field__item">
                     <label>
                         <div class="title3 title3--light">Получаете</div>

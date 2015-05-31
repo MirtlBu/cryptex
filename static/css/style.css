@@ -9,6 +9,7 @@
 @import url("reviews.css");
 @import url("news.css");
 @import url("step2.css");
+@import url("step3.css");
 
 @font-face {
     font-family: PFDinTextCompProRegular;
@@ -248,4 +249,13 @@ li {
     font-size: 18px;
     font-family: PFDinTextCompProRegular;
     color: #ffffff;
+    line-height: 1.5;
+}
+
+.currency-img {
+    width: 28px;
+    height: 29px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: bottom;
 }

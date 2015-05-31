@@ -80,11 +80,11 @@
     bottom: 2px;
     width: 100%;
     height: 1px;
-    background:  #09aea4;
+    background:  #089e95;
 }
 
 .form__link:hover:after {
-    background:  #089e95;
+    background:  #136964;
 }
 
 .onecol .form__title {
@@ -92,13 +92,9 @@
 }
 
 .twocol {
-    width: 48%;
+    width: 50%;
     display: inline-block;
     vertical-align: top;
-}
-
-.twocol:first-of-type {
-    margin-right: 20px;
 }
 
 .twocol .form__title {
