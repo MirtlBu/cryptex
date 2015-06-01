@@ -42,6 +42,10 @@ $(function() {
     var selectlang = $('#select-lang');
     selectlang.fancySelect();
 
+    $.each([$('#select-rate1'), $('#select-rate2'), $('#select-rate3')], function(index, val) {
+        val.fancySelect();
+    });
+
     //переключение табов в меню bookamark
     $('.bookmark').on('click', '.bookmark__navlinks', function() {
         $('.bookmark__navlinks').removeClass('bookmark__navlinks--active');

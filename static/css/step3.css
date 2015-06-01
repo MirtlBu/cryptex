@@ -15,15 +15,6 @@
     display: inline-block;
 }
 
-.tcell--45px {
-    width: 45px;
-}
-
-.tcell--135px {
-    width: 135px;
-    text-align: center;
-}
-
 .timer {
     font-size: 65px;
     font-family: PFDinTextCompProLight;
@@ -40,11 +31,11 @@
 }
 
 .step3 .greenfield {
-    padding: 5px 0 15px 0;
+    padding: 10px 0 15px 0;
 }
 
 .text-whitefield {
-    padding: 20px 0 35px 0;
+    margin: 20px 0;
 }
 
 .order__text {
@@ -54,24 +45,24 @@
     color: #232323;
 }
 
-.order-details {
+.order-invoice {
     padding: 2px 0 2px 0;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
 
-.order-details table {
+.order-invoice table {
     width: 100%;
     padding: 20px;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
 
-.order-details td {
+.order-invoice td {
     padding: 5px 8px;
 }
 
-.order-details .text-whitefield {
+.order-invoice .text-whitefield {
     padding: 0;
 }
 

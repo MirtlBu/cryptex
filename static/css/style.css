@@ -10,6 +10,8 @@
 @import url("news.css");
 @import url("step2.css");
 @import url("step3.css");
+@import url("order_completed.css");
+
 
 @font-face {
     font-family: PFDinTextCompProRegular;
@@ -220,6 +222,10 @@ li {
     position: relative;
 }
 
+.step2, .step3, .order_completed {
+    padding: 25px 0;
+}
+
 .background {
     width: 100%;
     height: 620px;
@@ -239,10 +245,11 @@ li {
 }
 
 .text-whitefield {
-    font-size: 16px;
-    font-family: PFDinTextCompProRegular;
+    font-size: 14px;
     color: #787878;
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .text-greenfield {
@@ -258,4 +265,32 @@ li {
     margin-right: 15px;
     display: inline-block;
     vertical-align: bottom;
+}
+
+.tcell--50px {
+    width: 50px;
+}
+
+.tcell--100px {
+    width: 100px;
+}
+
+.tcell--150px {
+    width: 150px;
+}
+
+.tcell--200px {
+    width: 200px;
+}
+
+.tcell--235px {
+    width: 235px;
+}
+
+.tcell--250px {
+    width: 250px;
+}
+
+.tcell--300px {
+    width: 300px;
 }
