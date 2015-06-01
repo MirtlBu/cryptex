@@ -11,6 +11,7 @@
 @import url("step2.css");
 @import url("step3.css");
 @import url("order_completed.css");
+@import url("order_processing.css");
 
 
 @font-face {
@@ -222,13 +223,13 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed {
+.step2, .step3, .order_completed, .order_processing {
     padding: 25px 0;
 }
 
 .background {
     width: 100%;
-    height: 620px;
+    height: 570px;
     background: url(/static/images/bg.jpg) no-repeat;
     position: absolute;
     top: 113px;
@@ -253,10 +254,30 @@ li {
 }
 
 .text-greenfield {
-    font-size: 18px;
-    font-family: PFDinTextCompProRegular;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
     color: #ffffff;
     line-height: 1.5;
+}
+
+.timer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.timer__img {
+    background: url(/static/images/icon-watch.png) no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.timer__text {
+    display: inline-block;
+    vertical-align: top;
+    line-height: .8;
 }
 
 .currency-img {

@@ -3,7 +3,7 @@ $(function() {
         return Array.prototype.join.call({length: n+1}, this);
     };
     console.log('init');
-    //селекты, инициализация и получение данных аджаксом
+    //пример селекта, инициализация и получение данных аджаксом
     var selectpay = $('#select-pay');
 
     var exchange = {
@@ -35,14 +35,8 @@ $(function() {
             });
         }
     });
-
-    var selecttake = $('#select-take');
-    selecttake.fancySelect();
-
-    var selectlang = $('#select-lang');
-    selectlang.fancySelect();
-
-    $.each([$('#select-rate1'), $('#select-rate2'), $('#select-rate3')], function(index, val) {
+    //остальные селекты, инициализация онли
+    $.each([$('#select-lang'), $('#select-take'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3')], function(index, val) {
         val.fancySelect();
     });
 

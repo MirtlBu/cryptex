@@ -15,23 +15,16 @@
     display: inline-block;
 }
 
-.timer {
-    font-size: 65px;
-    font-family: PFDinTextCompProLight;
-    color: #ffffff;
-}
-
 .step3 .button__image {
     margin-left: 90px;
 }
 
 .step3 .button {
-    margin: 10px 0 20px 0;
     float: right;
 }
 
 .step3 .greenfield {
-    padding: 10px 0 15px 0;
+    padding: 15px 0;
 }
 
 .text-whitefield {
@@ -72,4 +65,13 @@
 
 .whitefield.from-to {
     margin: 25px 0 10px 0;
+}
+
+.step3 .timer {
+    font-size: 65px;
+}
+
+.step3 .timer__img {
+    width: 57px;
+    height: 57px;
 }
