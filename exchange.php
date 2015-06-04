@@ -45,6 +45,7 @@
                     <span class="button__text">Обменять сейчас</span>
                     <span class="button__image"></span>
                 </button>
+                <img class="loader" src="static/images/loader.gif">
             </div>
         </div>
     </div>

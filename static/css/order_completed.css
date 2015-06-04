@@ -47,7 +47,7 @@
 }
 
 .rateus {
-    margin-top: 25px;
+    margin: 25px 0;
 }
 
 .rateus td {
@@ -75,4 +75,3 @@
     height: 136px;
     background: url(/static/images/curly.png) no-repeat;
 }
-

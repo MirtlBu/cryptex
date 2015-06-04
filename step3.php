@@ -8,19 +8,19 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
             <div class="whitefield from-to">
                 <ul>
-                    <li class="tcell tcell--45px">
+                    <li class="tcell tcell--50px">
                         <div class="currency-img"></div>
                     </li>
-                    <li class="tcell tcell--300px">
+                    <li class="tcell tcell--200px">
                         <div class="title4">100 bitcoin btc</div>
                     </li>
-                    <li class="tcell tcell--135px">
+                    <li class="tcell tcell--100px">
                         <div class="from-to-2"></div>
                     </li>
-                    <li class="tcell tcell--45px">
+                    <li class="tcell tcell--50px">
                         <div class="currency-img"></div>
                     </li>
-                    <li class="tcell tcell--300px">
+                    <li class="tcell tcell--250px">
                         <div class="title4">10 000 westernunion usd</div>
                     </li>
                 </ul>
@@ -40,12 +40,14 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     </button>
                 </div>
             </div>
-            <div class="whitefield whitefield--padded">
+            <div class="whitefield padded-field">
                 <div class="title4">Information</div>
                 <div class="text-whitefield">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit.
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit.
+                    </p>
                 </div>
-                <div class="order-details">
+                <div class="order-invoice">
                     <table>
                         <tbody>
                             <tr>
@@ -68,13 +70,15 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     </table>
                 </div>
                 <div class="text-whitefield">
-            Еще одна инструкция : реквизиты указаны ниже, пожалуйста, проверьте  правильность введенных данных
-            перед переводом
+                    <p>
+                    Еще одна инструкция : реквизиты указаны ниже, пожалуйста, проверьте  правильность введенных данных перед переводом.
+                    </p>
                 </div>
                 <button type="submit" class="button button--red align-right">
-                    <span class="button__text">Оплатить заказ</span>
+                    <span class="button__text">Подтвердить оплату</span>
                     <span class="button__image"></span>
                 </button>
+                <img class="loader" src="static/images/loader.gif">
             </div>
         </div>
     </div>

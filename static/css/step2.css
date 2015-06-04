@@ -15,18 +15,14 @@
     margin-left: 25px;
 }
 
-.step2 .button {
-    margin: 40px 0;
-}
-
 .step2 .button__image {
     margin-left: 90px;
 }
 
-.step2 form {
-    text-align: right;
-}
-
 .twocol:last-child label {
     float: right;
+}
+
+.step2 .button, .step2 .loader {
+    margin-top: 20px;
 }

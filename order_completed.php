@@ -29,7 +29,7 @@
                     </table>
                 </div>
             </div>
-            <form class="whitefield">
+            <form class="whitefield padded-field">
                 <div class="title4">Rate our service</div>
                 <div class="text-whitefield">
                     <p>
@@ -98,6 +98,11 @@
                         </tbody>
                     </table>
                 </div>
+                <button type="submit" class="button button--red">
+                    <span class="button__text">Save review</span>
+                    <span class="button__image"></span>
+                </button>
+                <img class="loader" src="static/images/loader.gif">
             </form>
         </div>
     </div>

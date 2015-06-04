@@ -48,6 +48,12 @@ body {
     position: relative;
 }
 
+button, input {
+    outline: 0;
+    box-shadow: none;
+    border: none;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -147,10 +153,13 @@ li {
 }
 
 .button--red {
+    width: 280px;
     background: #ff535f;
     border-radius: 3px;
     padding: 20px 25px 14px 25px;
     font-size: 18px;
+    position: relative;
+    text-align: left;
 }
 
 .button--red:hover {
@@ -169,17 +178,13 @@ li {
     background: #136964;
 }
 
-.button__text {
-    display: inline-block;
-    vertical-align: text-top;
-}
-
 .button__image {
     width: 9px;
     height: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 35px;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    margin-top: -4px;
     background: url(/static/images/icon-to2.png) no-repeat;
 }
 
@@ -314,4 +319,20 @@ li {
 
 .tcell--300px {
     width: 300px;
+}
+
+.padded-field {
+    padding-bottom: 110px;
+}
+
+.step2 .button, .step3 .button, .order_completed .button {
+    float: right;
+}
+
+.step2 .loader, .step3 .loader, .order_completed .loader {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 35px;
+    padding: 5px 0;
 }

@@ -15,14 +15,6 @@
     display: inline-block;
 }
 
-.step3 .button__image {
-    margin-left: 90px;
-}
-
-.step3 .button {
-    float: right;
-}
-
 .step3 .greenfield {
     padding: 15px 0;
 }
@@ -57,10 +49,6 @@
 
 .order-invoice .text-whitefield {
     padding: 0;
-}
-
-.whitefield.whitefield--padded {
-    padding-bottom: 110px;
 }
 
 .whitefield.from-to {
