@@ -12,13 +12,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="container-1230px container-1230px--bookmark">
+        <div class="background"></div>
+        <div class="container-1230px container-1230px--absolute">
             <?php include "bookmark.php";?>
         </div>
-
         <?php include "header.php";?>
-
-
         <?php
             if("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/")
                 { include "main.php"; }
@@ -35,9 +33,7 @@
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/order_processing")
                 { include "order_processing.php"; }
         ?>
-
         <?php include "footer.php";?>
-
 
         <script type="text/javascript" src="/static/js/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="/static/js/fancySelect.js"></script>

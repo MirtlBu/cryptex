@@ -14,7 +14,9 @@
     width: 195px;
     height: 140px;
     background: #ffffff;
-    transform: rotate(23deg) skew(-45deg);
+    -webkit-transform: rotate(23deg) skew(-45deg);
+        -ms-transform: rotate(23deg) skew(-45deg);
+            transform: rotate(23deg) skew(-45deg);
     z-index: -1;
 }
 
@@ -90,7 +92,9 @@
     width: 10px;
     height: 10px;
     background: #089e95;
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
 .bookmark__navlinks--midl {
