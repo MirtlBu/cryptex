@@ -2,9 +2,9 @@
 <div class="container-1230px">
     <div class="container-820px">
         <div class="order_completed" style="min-height: 620px;">
-            <h1>Order XXX-XX completed!</h1>
+            <h1>Order <span>XXX-XX</span> completed!</h1>
             <p class="text-greenfield">
-                Congratulation! Transaction is done and your order #xxx-xxx is completed. Please check your email for invoice.
+                Congratulation! Transaction is done and your order <span>#xxx-xxx</span> is completed. Please check your email for invoice.
             </p>
             <div class="whitefield">
                 <div class="title4">Outbound transfer information</div>

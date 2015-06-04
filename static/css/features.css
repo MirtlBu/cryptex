@@ -5,7 +5,7 @@
 .features__item {
     width: 270px;
     display: inline-block;
-    text-align: top;
+    vertical-align: top;
 }
 
 .features__image {
