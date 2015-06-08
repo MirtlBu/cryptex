@@ -23,8 +23,10 @@
 
 .footer__copyrights, .footer__link {
     font-size: 14px;
-    font-family: PFDinTextCompProRegular;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #8b8b8b;
+    -webkit-font-smoothing: antialiased;
 }
 
 .footer__link:hover {

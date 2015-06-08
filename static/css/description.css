@@ -9,8 +9,10 @@
 }
 
 .description p {
-    font-size: 17px;
-    font-family: PFDinTextCompProLight;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #1e1e1e;
     line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
 }

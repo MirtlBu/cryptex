@@ -14,7 +14,7 @@
 @import url("order_processing.css");
 
 
-@font-face {
+/*@font-face {
     font-family: PFDinTextCompProRegular;
     src: url(/static/fonts/PFDinTextCompProRegular.ttf);
 }
@@ -33,14 +33,14 @@
 @font-face {
     font-family: PFDinTextCompProLight;
     src: url(/static/fonts/PFDinTextCompProLight.ttf);
-}
+}*/
 
 body, html {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
-/*    -webkit-font-smoothing: antialiased;*/
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+   /* -webkit-font-smoothing: antialiased;*/
 }
 
 body {
@@ -61,27 +61,25 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1 {
     font-size: 48px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     margin: 10px;
 }
 
 h2 {
     font-size: 30px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     color: #222222;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .title3 {
     font-size: 16px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 22px;
@@ -110,8 +108,8 @@ h2 {
 
 .title4 {
     font-size: 14px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     color: #323232;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -143,8 +141,8 @@ li {
 }
 
 .button {
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
