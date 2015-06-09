@@ -12,17 +12,19 @@
 
 .order-details th {
     background: #f5f5f5;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #787878;
+    -webkit-font-smoothing: antialiased;
 }
 
 .order-details td {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #1e1e1e;
+    -webkit-font-smoothing: antialiased;
 }
 
 .order-details td:last-child {
@@ -31,6 +33,7 @@
 
 .order_completed .title4 {
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .order_completed .text-greenfield {
@@ -51,10 +54,12 @@
 }
 
 .rateus td {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #323232;
     line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
 }
 
 .rateus td div {
@@ -63,10 +68,11 @@
 }
 
 .rateus__title {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
     margin-right: 40px;
 }
 

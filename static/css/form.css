@@ -8,6 +8,7 @@
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #232323;
+    -webkit-font-smoothing: antialiased;
 }
 
 .form__textarea {
@@ -45,10 +46,12 @@
 }
 
 .form__title {
-    font-size: 16px;
-    font-family: PFDinTextCompProLight;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #323232;
     vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
 }
 
 .form--error .form__title {
@@ -72,9 +75,11 @@
 }
 
 .form__link {
-    font-size: 16px;
-    font-family: PFDinTextCompProLight;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #089e95;
+    -webkit-font-smoothing: antialiased;
     position: relative;
 }
 

@@ -10,6 +10,10 @@ div.fancy-select div.trigger {
     color: #1e1e1e;
     border-radius: 3px;
     box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .exchange div.fancy-select div.trigger {
@@ -77,6 +81,10 @@ div.fancy-select ul.options li {
     font-weight: 400;
     color: #1e1e1e;
     box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .exchange div.fancy-select ul.options li {
@@ -140,8 +148,8 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
 .header div.fancy-select div.trigger {
     width: 118px;
     height: 28px;
-    padding: 7px 10px;
-    font-size: 12px;
+    padding: 5px 10px;
+    font-size: 13px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #323232;
@@ -150,6 +158,10 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
     background: #f1f1f1;
     border: 1px solid rgba(183, 183, 183, .3);
     box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .header div.fancy-select div.trigger:after {
@@ -193,6 +205,10 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #323232;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .header div.fancy-select ul.options li.selected {

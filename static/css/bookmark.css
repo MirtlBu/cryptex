@@ -61,16 +61,20 @@
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    line-height: 1.9;
+    line-height: 1.7;
     border: 1px solid rgba(183, 183, 183, .3);
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #232323;
     -webkit-font-smoothing: antialiased;
     position: relative;
     cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .bookmark__navlinks:hover {
@@ -111,7 +115,7 @@
 }
 
 .table__bookmark th {
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #d0d0d0;
@@ -120,7 +124,7 @@
 }
 
 .table__bookmark td {
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #1a1a1a;
@@ -150,7 +154,7 @@
 }
 
 .terms__text {
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #1a1a1a;

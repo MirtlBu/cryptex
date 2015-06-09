@@ -35,7 +35,11 @@
 }
 
 .topbar__item .title4 {
-    font-size: 12px;
+    font-size: 13px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .topbar__item:hover .title4 {
@@ -79,4 +83,8 @@
 
 .header__navlinks:hover .title4 {
     color: #089e95;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }

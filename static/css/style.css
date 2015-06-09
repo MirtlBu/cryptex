@@ -13,28 +13,6 @@
 @import url("order_completed.css");
 @import url("order_processing.css");
 
-
-/*@font-face {
-    font-family: PFDinTextCompProRegular;
-    src: url(/static/fonts/PFDinTextCompProRegular.ttf);
-}
-@font-face {
-    font-family: PFDinTextCompProBlack;
-    src: url(/static/fonts/PFDinTextCompProBlack.ttf);
-}
-@font-face {
-    font-family: PFDinTextCompProMedium;
-    src: url(/static/fonts/PFDinTextCompProMedium.ttf);
-}
-@font-face {
-    font-family: PFDinTextCompProBold;
-    src: url(/static/fonts/PFDinTextCompProBold.ttf);
-}
-@font-face {
-    font-family: PFDinTextCompProLight;
-    src: url(/static/fonts/PFDinTextCompProLight.ttf);
-}*/
-
 body, html {
     width: 100%;
     margin: 0;
@@ -77,7 +55,7 @@ h2 {
 }
 
 .title3 {
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -107,7 +85,7 @@ h2 {
 }
 
 .title4 {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #323232;
@@ -149,6 +127,10 @@ li {
     border: none;
     box-sizing: border-box;
     cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .button--red {
@@ -167,7 +149,7 @@ li {
 
 .button--turquoise {
     background: #089e95;
-    padding: 14px 20px 10px 20px;
+    padding: 13px 20px 9px 20px;
     font-size: 12px;
     display: block;
     margin: 0 auto;
@@ -175,6 +157,11 @@ li {
 
 .button--turquoise:hover {
     background: #136964;
+}
+
+.bookmark .button--turquoise {
+    padding: 11px 20px 7px 20px;
+    font-size: 14px;
 }
 
 .button__image {
@@ -191,16 +178,18 @@ li {
     background: #ff535f;
     padding: 20px 25px;
     border-radius: 3px;
-    font-size: 18px;
-    font-family: PFDinTextCompProRegular;
+    font-size: 19px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #ffffff;
+    -webkit-font-smoothing: antialiased;
     margin: 15px 0;
     text-align: left;
     display: none;
 }
 
 .error--bookmark {
-    font-size: 15px;
+    font-size: 17px;
     border-radius: 0;
 }
 
@@ -250,25 +239,28 @@ li {
 }
 
 .text-whitefield {
-    font-size: 14px;
+    font-size: 17px;
     color: #787878;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
 }
 
 .text-greenfield {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-size: 19px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #ffffff;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 
 .timer {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #ffffff;
+    -webkit-font-smoothing: antialiased;
 }
 
 .timer__img {
