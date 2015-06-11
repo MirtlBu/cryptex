@@ -22,9 +22,15 @@
 }
 
 .footer__copyrights, .footer__link {
-    font-size: 14px;
-    font-family: PFDinTextCompProRegular;
+    font-size: 15px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #8b8b8b;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .footer__link:hover {

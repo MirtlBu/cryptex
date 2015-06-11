@@ -14,9 +14,11 @@
 }
 
 .reviews__title {
-    font-size: 14px;
-    font-family: PFDinTextCompProRegular;
+    font-size: 15px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #9c9c9c;
+    -webkit-font-smoothing: antialiased;
     text-align: center;
 }
 
@@ -30,8 +32,10 @@
 .reviews__text {
     width: 265px;
     font-size: 17px;
-    font-family: PFDinTextCompProLight;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #1e1e1e;
+    -webkit-font-smoothing: antialiased;
     line-height: 1.4;
 }
 

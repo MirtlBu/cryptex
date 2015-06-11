@@ -24,9 +24,9 @@
 }
 
 .order__text {
-    font-size: 16px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #232323;
 }
 

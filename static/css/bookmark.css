@@ -30,10 +30,11 @@
 .logo__text {
     height: 30px;
     font-size: 30px;
-    font-family: PFDinTextCompProBlack;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     color: #323232;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -60,15 +61,20 @@
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    line-height: 1.9;
+    line-height: 1.7;
     border: 1px solid rgba(183, 183, 183, .3);
     box-sizing: border-box;
-    font-size: 16px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     color: #232323;
+    -webkit-font-smoothing: antialiased;
     position: relative;
     cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .bookmark__navlinks:hover {
@@ -109,20 +115,20 @@
 }
 
 .table__bookmark th {
-    font-size: 12px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-size: 13px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     color: #d0d0d0;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .table__bookmark td {
-    font-size: 14px;
-    font-family: PFDinTextCompProLight;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-size: 15px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
 }
 
 .table__bookmark .align-right {
@@ -140,20 +146,19 @@
     margin: 0 auto;
 }
 
-.terms__title {
-    font-size: 16px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+.terms__title.title4 {
+    text-transform: none;
     text-align: center;
     margin-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .terms__text {
     font-size: 15px;
-    font-family: PFDinTextCompProLight;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
     text-align: center;
     margin-bottom: 30px;
     line-height: 1.6;

@@ -27,9 +27,11 @@
 }
 
 .features__text span {
-    font-size: 16px;
-    font-family: PFDinTextCompProLight;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #616161;
+    -webkit-font-smoothing: antialiased;
 }
 
 .features__image--fast {
