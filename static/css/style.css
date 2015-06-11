@@ -27,7 +27,7 @@ body {
     min-width: 1230px;
 }
 
-button, input {
+button, input, textarea {
     outline: 0;
     box-shadow: none;
     border: none;
@@ -216,7 +216,7 @@ li {
 }
 
 .step2, .step3, .order_completed, .order_processing {
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .background {

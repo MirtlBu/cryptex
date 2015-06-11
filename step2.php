@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="whitefield">
-                    <div class="title4">Personal information:</div>
+                    <div class="title4" style="margin-bottom: 10px;">Personal information:</div>
                     <div class="twocol">
                         <label>
                             <div class="form__title">First name:</div>

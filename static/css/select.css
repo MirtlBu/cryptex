@@ -4,7 +4,7 @@ div.fancy-select {
 }
 
 div.fancy-select div.trigger {
-    height: 50px;
+    height: 42px;
     border: none;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     color: #1e1e1e;
@@ -20,14 +20,15 @@ div.fancy-select div.trigger {
     width: 305px;
     font-size: 18px;
     font-weight: 400;
-    padding: 10px 15px;
+    padding: 7px 15px;
 }
 
 .order_completed div.fancy-select div.trigger {
     width: 170px;
     background: #f1f1f1;
     font-size: 16px;
-    padding: 13px 15px;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
 }
 
 div.fancy-select div.trigger:before {

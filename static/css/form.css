@@ -1,5 +1,5 @@
 .form__input {
-    height: 50px;
+    height: 42px;
     border-radius: 3px;
     border: 0;
     padding: 5px 25px 0 25px;
@@ -19,6 +19,7 @@
 
 .form__input--whitefield {
     background: #f1f1f1;
+    border: 1px solid #ccc;
 }
 
 .form__input--250 {
@@ -43,6 +44,10 @@
 
 .form--error h3:after, .form--error .form__label:after {
     visibility: visible;
+}
+
+.form__input:focus {
+    border: 1px solid #089e95;
 }
 
 .form__title {
