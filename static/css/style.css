@@ -12,6 +12,7 @@
 @import url("step3.css");
 @import url("order_completed.css");
 @import url("order_processing.css");
+@import url("sign_up.css");
 
 body, html {
     width: 100%;
@@ -215,7 +216,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing {
+.step2, .step3, .order_completed, .order_processing, .sign_up {
     padding: 15px 0;
 }
 
@@ -236,6 +237,10 @@ li {
     box-sizing: border-box;
     margin-bottom: 15px;
     text-align: left;
+}
+
+.whitefield .title4 {
+    margin-bottom: 15px;
 }
 
 .text-whitefield {
@@ -316,11 +321,11 @@ li {
     padding-bottom: 110px;
 }
 
-.step2 .button, .step3 .button, .order_completed .button {
+.step2 .button, .step3 .button, .order_completed .button, .sign_up .button {
     float: right;
 }
 
-.step2 .loader, .step3 .loader, .order_completed .loader {
+.step2 .loader, .step3 .loader, .order_completed .loader, .sign_up .loader {
     width: 50px;
     height: 50px;
     float: right;

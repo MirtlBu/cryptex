@@ -34,6 +34,9 @@
 
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/order_processing")
                 { include "order_processing.php"; }
+
+            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/sign_up")
+                { include "sign_up.php"; }
         ?>
         <?php include "footer.php";?>
 

@@ -1,25 +1,25 @@
-.step2 h4, .step2 .text-greenfield {
+.sign_up h4, .sign_up .text-greenfield {
     margin-bottom: 15px;
 }
 
-.step2 .text-whitefield {
+.sign_up .text-whitefield {
     margin: 0 auto 15px auto;
 }
 
-.step2 label {
+.sign_up label {
     display: table;
     margin-bottom: 15px;
 }
 
-.step2 .form__title, .step2 .form__input {
+.sign_up .form__title, .sign_up .form__input {
     display: table-cell;
 }
 
-.step2 .form__link {
+.sign_up .form__link {
     margin-left: 25px;
 }
 
-.step2 .button__image {
+.sign_up .button__image {
     margin-left: 90px;
 }
 
@@ -27,6 +27,10 @@
     float: right;
 }
 
-.step2 .button, .step2 .loader {
+.sign_up .button, .sign_up .loader {
     margin-top: 20px;
+}
+
+.sign_up .button {
+    width: 190px;
 }
