@@ -1,0 +1,7 @@
+.rates .text-greenfield {
+    margin-bottom: 20px;
+}
+
+.rates td {
+    border-bottom: 1px solid rgba(183, 183, 183, .3);
+}

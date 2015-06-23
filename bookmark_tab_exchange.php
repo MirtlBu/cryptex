@@ -1,4 +1,4 @@
-<table class="table table__bookmark table__bookmark--exchange">
+<table class="table__bookmark table__bookmark--exchange">
     <thead>
         <tr>
             <th class="align-left">From</td>
