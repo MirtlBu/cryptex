@@ -9,21 +9,21 @@
             <div class="whitefield">
                 <div class="title4">Outbound transfer information</div>
                 <div class="order-details">
-                    <table>
+                    <table class="table">
                         <thead>
                             <tr>
-                                <th class="tcell--150px">Amount</th>
-                                <th class="tcell--250px">Payment system</th>
-                                <th class="tcell--200px">Batch</th>
-                                <th class="tcell--100px">Status</th>
+                                <th class="th tcell--150px">Amount</th>
+                                <th class="th tcell--250px">Payment system</th>
+                                <th class="th tcell--200px">Batch</th>
+                                <th class="th tcell--100px">Status</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>100 USD</td>
-                                <td>Qiwi</td>
-                                <td>1212122</td>
-                                <td>Completed</td>
+                                <td class="td">100 USD</td>
+                                <td class="td">Qiwi</td>
+                                <td class="td">1212122</td>
+                                <td class="td">Completed</td>
                             </tr>
                         </tbody>
                     </table>

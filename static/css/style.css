@@ -1,4 +1,5 @@
 @import url("form.css");
+@import url("table.css");
 @import url("bookmark.css");
 @import url("header.css");
 @import url("footer.css");
@@ -14,6 +15,7 @@
 @import url("order_processing.css");
 @import url("sign_up.css");
 @import url("log_in.css");
+@import url("rates.css");
 
 body, html {
     width: 100%;
@@ -217,7 +219,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in {
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates {
     padding: 15px 0;
 }
 
@@ -288,34 +290,6 @@ li {
     margin-right: 15px;
     display: inline-block;
     vertical-align: bottom;
-}
-
-.tcell--50px {
-    width: 50px;
-}
-
-.tcell--100px {
-    width: 100px;
-}
-
-.tcell--150px {
-    width: 150px;
-}
-
-.tcell--200px {
-    width: 200px;
-}
-
-.tcell--235px {
-    width: 235px;
-}
-
-.tcell--250px {
-    width: 250px;
-}
-
-.tcell--300px {
-    width: 300px;
 }
 
 .padded-field {

@@ -1,4 +1,4 @@
-<table class="table table__bookmark table__bookmark--reserve">
+<table class="table__bookmark table__bookmark--reserve">
     <thead>
         <tr>
             <th class="align-left">Name</td>
