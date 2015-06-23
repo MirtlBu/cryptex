@@ -1,5 +1,9 @@
-.step2 h4, .step2 .text-whitefield, .step2 .text-greenfield {
+.step2 h4, .step2 .text-greenfield {
     margin-bottom: 15px;
+}
+
+.step2 .text-whitefield {
+    margin: 0 auto 15px auto;
 }
 
 .step2 label {
