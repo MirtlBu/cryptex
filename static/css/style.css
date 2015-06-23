@@ -13,6 +13,7 @@
 @import url("order_completed.css");
 @import url("order_processing.css");
 @import url("sign_up.css");
+@import url("log_in.css");
 
 body, html {
     width: 100%;
@@ -43,7 +44,7 @@ h1 {
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     margin: 10px;
 }
 
@@ -216,7 +217,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up {
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in {
     padding: 15px 0;
 }
 
@@ -321,14 +322,59 @@ li {
     padding-bottom: 110px;
 }
 
-.step2 .button, .step3 .button, .order_completed .button, .sign_up .button {
+.autorization-form .button, .step3 .button, .order_completed .button {
     float: right;
 }
 
-.step2 .loader, .step3 .loader, .order_completed .loader, .sign_up .loader {
+.autorization-form .loader, .step3 .loader, .order_completed .loader {
     width: 50px;
     height: 50px;
     float: right;
     margin-right: 35px;
     padding: 5px 0;
+}
+
+.autorization-form h4, .autorization-form .text-greenfield {
+    margin-bottom: 15px;
+}
+
+.autorization-form .text-whitefield {
+    margin: 0 auto 15px auto;
+}
+
+.autorization-form label {
+    display: table;
+    margin-bottom: 15px;
+}
+
+.autorization-form .checkbox label {
+    display: inline;
+}
+
+.autorization-form .form__title, .autorization-form .form__input {
+    display: table-cell;
+}
+
+.autorization-form .form__link {
+    margin-left: 25px;
+}
+
+.autorization-form .button__image {
+    margin-left: 90px;
+}
+
+.twocol:last-child label {
+    float: right;
+}
+
+.autorization-form .button, .autorization-form .loader {
+    margin-top: 20px;
+}
+
+.autorization-form .checkbox {
+    margin-top: 20px;
+}
+
+.checkbox {
+    display: inline-block;
 }

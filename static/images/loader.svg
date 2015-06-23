@@ -1,0 +1,23 @@
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        #loader {
+            stroke-dasharray: 30px 90px 30px 90px;
+            stroke-dashoffset: 0;
+            -webkit-animation: loader 2s linear infinite;
+                    animation: loader 2s linear infinite;
+        }
+        @-webkit-keyframes loader {
+            to {
+                stroke-dashoffset: -240px;
+            }
+        }
+        @keyframes loader {
+            to {
+                stroke-dashoffset: -240px;
+            }
+        }
+    </style>
+    <path d="M 30 0 L 60 30 L 30 60 L 0 30 Z" stroke-width="10" stroke="#EF6A68" fill="transparent"/>
+    <path d="M 30 0 L 60 30 L 30 60 L 0 30 Z" stroke-width="10" stroke="#F6AA49" fill="transparent"
+         id="loader"/>
+</svg>

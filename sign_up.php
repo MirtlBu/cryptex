@@ -1,9 +1,9 @@
 <div class="background"></div>
 <div class="container-1230px">
     <div class="container-820px">
-        <div class="sign_up" style="min-height: 620px;">
+        <div class="sign_up" style="min-height: 910px;">
             <h1>Sign up</h1>
-            <form class="padded-field">
+            <form class="padded-field autorization-form">
                 <p class="text-greenfield">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 <div class="error">

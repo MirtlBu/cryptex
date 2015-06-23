@@ -4,7 +4,7 @@
         <div class="step2" style="min-height: 620px;">
             <h1>Step 2</h1>
             <p class="text-greenfield">You are not registered user. Please enter your password for automatic registration.</p>
-            <form class="padded-field">
+            <form class="padded-field autorization-form">
                 <div class="error">
                     <p>Извините, на данный момент заявки не выполняются. Зайдите позже.</p>
                 </div>

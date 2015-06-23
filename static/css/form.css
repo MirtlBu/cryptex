@@ -137,3 +137,32 @@
     color: #939393;
 }
 
+.checkbox input {
+    display: none;
+}
+
+.checkbox label {
+    position: relative;
+    padding-left: 30px;
+}
+
+.checkbox label:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ffffff;
+}
+
+.checkbox label:after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 7px;
+    top: 6px;
+    left: 3px;
+    background: url(/static/images/icon-check.png) no-repeat;
+}
+
