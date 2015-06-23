@@ -144,6 +144,10 @@
 .checkbox label {
     position: relative;
     padding-left: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
 }
 
 .checkbox label:before {
@@ -157,12 +161,16 @@
 }
 
 .checkbox label:after {
-    content: '';
+    content: 0;
     position: absolute;
     width: 8px;
     height: 7px;
     top: 6px;
     left: 3px;
     background: url(/static/images/icon-check.png) no-repeat;
+}
+
+.checkbox input:checked ~ label:after {
+    content: '';
 }
 
