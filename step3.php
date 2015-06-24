@@ -34,7 +34,7 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 
                 </div><!--
             --><div class="twocol">
-                    <button type="submit" class="button button--red">
+                    <button type="submit" class="button button--red float-right">
                         <span class="button__text">Оплатить заказ</span>
                         <span class="button__image"></span>
                     </button>
@@ -74,11 +74,11 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     Еще одна инструкция : реквизиты указаны ниже, пожалуйста, проверьте  правильность введенных данных перед переводом.
                     </p>
                 </div>
-                <button type="submit" class="button button--red align-right">
+                <button type="submit" class="button button--red float-right">
                     <span class="button__text">Подтвердить оплату</span>
                     <span class="button__image"></span>
                 </button>
-                <img class="loader" src="static/images/loader.gif">
+                <img class="loader--big float-right" src="static/images/loader.gif">
             </div>
         </div>
     </div>

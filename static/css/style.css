@@ -16,6 +16,7 @@
 @import url("sign_up.css");
 @import url("log_in.css");
 @import url("rates.css");
+@import url("contacts.css");
 
 body, html {
     width: 100%;
@@ -56,6 +57,15 @@ h2 {
     color: #222222;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.title2 {
+    font-size: 24px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .title3 {
@@ -219,7 +229,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates {
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts {
     padding: 15px 0;
 }
 
@@ -274,14 +284,13 @@ li {
 .timer__img {
     background: url(/static/images/icon-watch.png) no-repeat;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     margin-right: 5px;
 }
 
 .timer__text {
     display: inline-block;
-    vertical-align: top;
-    line-height: .8;
+    vertical-align: middle;
 }
 
 .currency-img {
@@ -294,18 +303,6 @@ li {
 
 .padded-field {
     padding-bottom: 110px;
-}
-
-.autorization-form .button, .step3 .button, .order_completed .button {
-    float: right;
-}
-
-.autorization-form .loader, .step3 .loader, .order_completed .loader {
-    width: 50px;
-    height: 50px;
-    float: right;
-    margin-right: 35px;
-    padding: 5px 0;
 }
 
 .autorization-form h4, .autorization-form .text-greenfield {
@@ -337,12 +334,14 @@ li {
     margin-left: 90px;
 }
 
-.twocol:last-child label {
-    float: right;
+.twocol {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.autorization-form .button, .autorization-form .loader {
-    margin-top: 20px;
+.twocol:last-child label {
+    float: right;
 }
 
 .autorization-form .checkbox {
@@ -351,4 +350,19 @@ li {
 
 .checkbox {
     display: inline-block;
+}
+
+.loader--big {
+    width: 50px;
+    height: 50px;
+    margin: 20px 35px;
+    padding: 5px 0;
+}
+
+.float-right.button {
+    margin: 20px 0;
+}
+
+.float-right {
+    float: right;
 }

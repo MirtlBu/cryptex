@@ -39,7 +39,7 @@
                 <div class="error">
                     <p>Извините, на данный момент заявки не выполняются. Зайдите позже.</p>
                 </div>
-                <div class="onecol">
+                <div class="form__row">
                     <label>
                         <div class="form__title">Your nickname:</div>
                         <input type="text" class="form__input form__input--whitefield form__input--250">
@@ -50,7 +50,7 @@
                     </label>
                 </div>
                 <div class="rateus">
-                    <table>
+                    <table class="table">
                         <tbody>
                             <tr>
                                 <td rowspan="3" class="tcell--235px">
@@ -98,11 +98,11 @@
                         </tbody>
                     </table>
                 </div>
-                <button type="submit" class="button button--red">
+                <button type="submit" class="button button--red float-right">
                     <span class="button__text">Save review</span>
                     <span class="button__image"></span>
                 </button>
-                <img class="loader" src="static/images/loader.gif">
+                <img class="loader--big float-right" src="static/images/loader.gif">
             </form>
         </div>
     </div>

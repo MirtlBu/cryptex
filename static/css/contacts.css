@@ -1,0 +1,26 @@
+.contacts__title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contacts__text {
+    font-size: 17px;
+}
+
+.contacts .title2 {
+    margin-bottom: 15px;
+}
+
+.contacts td {
+    padding-bottom: 10px;
+}
+
+.contacts .text-greenfield p {
+    margin: 15px 0 25px 0;
+}
+
+.contacts .twocol {
+    margin-bottom: 15px;
+}

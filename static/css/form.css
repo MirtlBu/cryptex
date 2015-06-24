@@ -107,14 +107,22 @@
     background:  #136964;
 }
 
-.onecol .form__title {
-    width: 240px;
+.form__row label {
+    display: table;
+    margin-bottom: 15px;
 }
 
-.twocol {
-    width: 50%;
-    display: inline-block;
+.form__row .form__title, .form__row .form__input, .form__row .form__textarea {
+    display: table-cell;
+    vertical-align: baseline;
+}
+
+.form__row .form__textarea {
     vertical-align: top;
+}
+
+.form__row .form__title {
+    width: 240px;
 }
 
 .twocol .form__title {
