@@ -41,11 +41,11 @@
                     <div class="title3 title3--light">Ваш e-mail</div>
                     <input type="text" class="form__input form__input--exchange form__input--305px">
                 </label>
-                <button type="submit" class="button button--red">
+                <button type="submit" class="button button--red float-right">
                     <span class="button__text">Обменять сейчас</span>
                     <span class="button__image"></span>
                 </button>
-                <img class="loader" src="static/images/loader.gif">
+                <img class="loader--big float-right" src="static/images/loader.gif">
             </div>
         </div>
     </div>

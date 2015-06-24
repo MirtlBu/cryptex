@@ -22,11 +22,3 @@
 .step2 .button__image {
     margin-left: 90px;
 }
-
-.twocol:last-child label {
-    float: right;
-}
-
-.step2 .button, .step2 .loader {
-    margin-top: 20px;
-}

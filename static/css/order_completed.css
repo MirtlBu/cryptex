@@ -11,15 +11,6 @@
     margin-bottom: 20px;
 }
 
-.order_completed label {
-    display: table;
-    margin-bottom: 15px;
-}
-
-.order_completed .form__title, .order_completed .form__input {
-    display: table-cell;
-}
-
 .rateus {
     margin: 25px 0;
 }

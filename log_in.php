@@ -11,7 +11,7 @@
                 </div>
                 <div class="whitefield">
                     <div class="title4">Account information</div>
-                    <div class="onecol">
+                    <div class="form__row">
                         <label>
                             <div class="form__title">Your email:</div>
                             <input type="text" class="form__input form__input--whitefield form__input--350">
@@ -29,11 +29,11 @@
                         <span>Remember me</span>
                     </label>
                 </div>
-                <button type="submit" class="button button--red">
+                <button type="submit" class="button button--red float-right">
                     <span class="button__text">Log in</span>
                     <span class="button__image"></span>
                 </button>
-                 <img class="loader" src="static/images/loader.gif">
+                 <img class="loader--big float-right" src="static/images/loader.gif">
             </form>
         </div>
     </div>

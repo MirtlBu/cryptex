@@ -37,7 +37,6 @@
 }
 
 .order-invoice table {
-    width: 100%;
     padding: 20px;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -52,11 +51,16 @@
 }
 
 .whitefield.from-to {
-    margin: 25px 0 10px 0;
+    margin: 25px 0 0 0;
+}
+
+.step3 .twocol {
+    vertical-align: middle;
 }
 
 .step3 .timer {
     font-size: 65px;
+    line-height: 55px;
 }
 
 .step3 .timer__img {

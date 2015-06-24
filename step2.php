@@ -10,7 +10,7 @@
                 </div>
                 <div class="whitefield">
                     <div class="title4">Account information</div>
-                    <div class="onecol">
+                    <div class="form__row">
                         <label>
                             <div class="form__title">Account password:</div>
                             <input type="text" class="form__input form__input--whitefield form__input--350">
@@ -24,7 +24,7 @@
                     <div class="text-whitefield">Еще одна инструкция: реквизиты указаны ниже, пожалуйста, проверьте  правильность введенных данных
                         перед переводом.
                     </div>
-                    <div class="onecol">
+                    <div class="form__row">
                         <label class="form--error">
                             <div class="form__title">Target account:</div>
                             <input type="text" class="form__input form__input--whitefield form__input--350">
@@ -58,11 +58,11 @@
                         </label>
                     </div>
                 </div>
-                <button type="submit" class="button button--red">
+                <button type="submit" class="button button--red float-right">
                     <span class="button__text">Save order</span>
                     <span class="button__image"></span>
                 </button>
-                 <img class="loader" src="static/images/loader.gif">
+                 <img class="loader--big float-right" src="static/images/loader.gif">
             </form>
         </div>
     </div>

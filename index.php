@@ -43,6 +43,9 @@
 
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/rates")
                 { include "rates.php"; }
+
+            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/contacts")
+                { include "contacts.php"; }
         ?>
         <?php include "footer.php";?>
 
