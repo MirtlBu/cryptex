@@ -54,7 +54,7 @@ $(function() {
         else if(dataVal == 'exchange') {
             $('.bookmark__tab').load('bookmark_tab_exchange.php', function() {
                 $('.table__bookmark--exchange tbody .align-right').each(function(i) {
-                    $(this).html('<a href="">' + exchange.webmoney[i] + '</a>');
+                    $(this).html('<a href="" class="underlined">' + exchange.webmoney[i] + '</a>');
                 });
             });
         }

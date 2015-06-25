@@ -48,7 +48,7 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     </p>
                 </div>
                 <div class="order-invoice">
-                    <table>
+                    <table class="table">
                         <tbody>
                             <tr>
                                 <td class="order__title text-whitefield align-right">Банк:</td>

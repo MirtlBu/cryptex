@@ -15,10 +15,27 @@
     display: table-cell;
 }
 
-.step2 .form__link {
+.step2 .button__image {
+    margin-left: 90px;
+}
+
+.step2 .underlined {
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #089e95;
+    -webkit-font-smoothing: antialiased;
     margin-left: 25px;
 }
 
-.step2 .button__image {
-    margin-left: 90px;
+.step2 .underlined:after {
+    background: #089e95;
+}
+
+.step2 .underlined:hover {
+    color: #00857d;
+}
+
+.step2 .underlined:after {
+    background: #00857d;
 }
