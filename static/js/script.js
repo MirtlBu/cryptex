@@ -81,4 +81,8 @@ $(function() {
             $(this).html('<a href="">' + arr[i] + '</a>');
         });
     });
+
+    $( "#accordion" ).accordion({
+        heightStyle: "content"
+    });
 });
