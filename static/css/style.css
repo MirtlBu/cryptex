@@ -327,10 +327,6 @@ li {
     display: table-cell;
 }
 
-.autorization-form .form__link {
-    margin-left: 25px;
-}
-
 .autorization-form .button__image {
     margin-left: 90px;
 }
@@ -366,4 +362,18 @@ li {
 
 .float-right {
     float: right;
+}
+
+.underlined {
+    position: relative;
+}
+
+.underlined:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: none;
+    bottom: 1px;
+    width: 100%;
+    height: 1px;
 }

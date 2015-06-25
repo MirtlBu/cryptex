@@ -12,7 +12,7 @@
                             <tbody>
                                 <tr>
                                     <td class="personal-info__td">Account type:</td>
-                                    <td class="personal-info__td align-right">Anonymous</td>
+                                    <td class="personal-info__td align-right"><span class="highlighted">anonymous</span></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-info__td">Daily limit:</td>
@@ -45,22 +45,22 @@
                             <tbody>
                                 <tr>
                                     <td class="personal-info__td">Password:</td>
-                                    <td class="personal-info__td align-right">Change password</td>
+                                    <td class="personal-info__td align-right"><a href="#" class="underlined">Change password</a></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-info__td">Change:</td>
-                                    <td class="personal-info__td align-right">link 2</td>
+                                    <td class="personal-info__td align-right"><a href="#" class="underlined">link 2</a></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-info__td">Change:</td>
-                                    <td class="personal-info__td align-right">link 2</td>
+                                    <td class="personal-info__td align-right"><a href="#" class="underlined">link 2</a></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="whitefield padded-field">
+            <div class="whitefield">
                 <h2>Latest Orders</h2>
                 <table class="table">
                         <thead>

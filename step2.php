@@ -14,7 +14,7 @@
                         <label>
                             <div class="form__title">Account password:</div>
                             <input type="text" class="form__input form__input--whitefield form__input--350">
-                            <a href="#" class="form__link">Show password</a>
+                            <a href="#" class="underlined">Show password</a>
                         </label>
                     </div>
 

@@ -36,8 +36,9 @@
     border-bottom: 1px solid #ccc;
 }
 
-.order-invoice table {
+.order-invoice .table {
     padding: 20px;
+    border-collapse: separate;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }

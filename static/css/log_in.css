@@ -1,3 +1,21 @@
 .log_in .button {
     width: 190px;
 }
+
+.log_in .underlined {
+    color: #089e95;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 25px;
+}
+
+.log_in .underlined:after {
+    background: #089e95;
+}
+
+.log_in .underlined:hover {
+    color: #00857d;
+}
+
+.log_in .underlined:after {
+    background: #00857d;
+}

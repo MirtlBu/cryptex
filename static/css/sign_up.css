@@ -1,3 +1,21 @@
 .sign_up .button {
     width: 190px;
 }
+
+.sign_up .underlined {
+    color: #089e95;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 25px;
+}
+
+.sign_up .underlined:after {
+    background: #089e95;
+}
+
+.sign_up .underlined:hover {
+    color: #00857d;
+}
+
+.sign_up .underlined:after {
+    background: #00857d;
+}
