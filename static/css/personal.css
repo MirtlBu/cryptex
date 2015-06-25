@@ -1,0 +1,56 @@
+.personal h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.personal .whitefield h2 {
+    color: #191919;
+}
+
+.personal .threecol {
+    margin: 10px auto 20px auto;
+}
+
+.personal .threecol__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 265px;
+    height: 310px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: relative;
+    background: rgba(67, 169, 166, .4);
+}
+
+.personal .threecol__item:nth-child(2) {
+    margin: 0 12px;
+}
+
+.personal-info__title {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.personal-info__td {
+    font-size: 19px;
+    padding: 15px 0;
+    border-bottom: 1px solid #06877a;
+    vertical-align: middle;
+}
+
+.personal-info__text {
+    font-size: 17px;
+    margin:  15px 0;
+}
+
+.personal .button {
+    width: 217px;
+    height: 50px;
+    padding: 14px 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

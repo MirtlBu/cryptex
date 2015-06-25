@@ -17,6 +17,7 @@
 @import url("log_in.css");
 @import url("rates.css");
 @import url("contacts.css");
+@import url("personal.css");
 
 body, html {
     width: 100%;
@@ -48,7 +49,7 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 h2 {
@@ -229,7 +230,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts {
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal {
     padding: 15px 0;
 }
 
