@@ -63,32 +63,32 @@
             <div class="whitefield">
                 <h2>Latest Orders</h2>
                 <table class="table">
-                        <thead>
-                            <tr>
-                                <th class="th tcell--100px">#</th>
-                                <th class="th tcell--350px">Exchange</th>
-                                <th class="th tcell--100px">Income</th>
-                                <th class="th tcell--100px">Outcome</th>
-                                <th class="th tcell--150px">Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="td">124-67</td>
-                                <td class="td">100 Bitcoin BTC - 2000 Money Gram USD</td>
-                                <td class="td">Paid</td>
-                                <td class="td">Paid</td>
-                                <td class="td">2015-09-01</td>
-                            </tr>
-                            <tr>
-                                <td class="td">124-67</td>
-                                <td class="td">100 Bitcoin BTC - 2000 Money Gram USD</td>
-                                <td class="td">Paid</td>
-                                <td class="td">Paid</td>
-                                <td class="td">2015-09-01</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <thead>
+                        <tr>
+                            <th class="th tcell--100px">#</th>
+                            <th class="th tcell--350px">Exchange</th>
+                            <th class="th tcell--100px">Income</th>
+                            <th class="th tcell--100px">Outcome</th>
+                            <th class="th tcell--150px">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="td">124-67</td>
+                            <td class="td">100 Bitcoin BTC - 2000 Money Gram USD</td>
+                            <td class="td">Paid</td>
+                            <td class="td">Paid</td>
+                            <td class="td">2015-09-01</td>
+                        </tr>
+                        <tr>
+                            <td class="td">124-67</td>
+                            <td class="td">100 Bitcoin BTC - 2000 Money Gram USD</td>
+                            <td class="td">Paid</td>
+                            <td class="td">Paid</td>
+                            <td class="td">2015-09-01</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

@@ -1,0 +1,65 @@
+#accordion {
+    margin-top: 25px;
+}
+
+.faq .title3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    color: #43a9a6;
+}
+
+.faq .title3:before {
+    content: '';
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    margin-top: -2px;
+    width: 10px;
+    height: 9px;
+    background: url(/static/images/triangle-2.png) no-repeat;
+    transition: all .2s linear;
+}
+
+.faq .whitefield {
+    margin: 0 auto;
+}
+
+.faq :focus {
+    outline: none;
+}
+
+.faq__item p {
+    color: #818181;
+}
+
+.faq .ui-accordion-header {
+    margin-top: 2px;
+}
+
+.faq .ui-accordion .ui-accordion-header {
+    padding: 10px 35px;
+}
+
+.faq .ui-accordion .ui-accordion-content {
+    padding: 10px 35px 20px 40px;
+}
+
+.faq .ui-accordion-header-active {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.faq .ui-accordion-header-active .title3 {
+    color: #1b1b1b;
+    font-weight: 700;
+}
+
+.faq .ui-accordion-header-active .title3:before {
+    transform: rotate(180deg);
+}
+
+.faq .ui-accordion-content-active {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}

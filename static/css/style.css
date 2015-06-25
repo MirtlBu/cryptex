@@ -18,6 +18,7 @@
 @import url("rates.css");
 @import url("contacts.css");
 @import url("personal.css");
+@import url("faq.css");
 
 body, html {
     width: 100%;
@@ -230,7 +231,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal {
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq {
     padding: 15px 0;
 }
 
