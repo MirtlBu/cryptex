@@ -1,4 +1,4 @@
-<div class="description">
+<div class="main-description">
     <div class="container-1230px">
         <div class="container-820px">
             <h2>What is Cryptex24?</h2>

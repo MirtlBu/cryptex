@@ -1,25 +1,25 @@
-.news {
+.main-news {
     padding: 60px 0;
     background: #ffffff;
 }
 
-.news h2 {
+.main-news h2 {
     margin-bottom: 25px;
     text-align: center;
 }
 
-.news__item {
+.main-news__item {
     width: 230px;
     display: inline-block;
     vertical-align: top;
     margin-bottom: 40px;
 }
 
-.news__item:not(:last-child) {
+.main-news__item:not(:last-child) {
     margin-right: 55px;
 }
 
-.news__title {
+.main-news__title {
     font-size: 14px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -29,7 +29,7 @@
     margin-bottom: 25px;
 }
 
-.news__text {
+.main-news__text {
     font-size: 15px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -38,7 +38,7 @@
     margin-bottom: 10px;
 }
 
-.news__date {
+.main-news__date {
     font-size: 12px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -47,7 +47,7 @@
     letter-spacing: 1px;
 }
 
-.news .button {
+.main-news .button {
     display: block;
     margin: 0 auto;
 }

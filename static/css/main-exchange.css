@@ -1,18 +1,17 @@
-.exchange {
+.main-exchange {
     text-align: left;
     padding: 15px 0 45px 0;
-    /*background: url(/static/images/bg.jpg) no-repeat;*/
 }
 
-.form__input--exchange {
+.form__input--main-exchange {
     margin-bottom: 10px;
 }
 
-.exchange-field {
+.main-exchange-field {
     margin-top: 30px;
 }
 
-.exchange-field__item {
+.main-exchange-field__item {
     display: inline-block;
     vertical-align: top;
 }
@@ -28,7 +27,7 @@
     margin: 0 35px;
 }
 
-.exchange-info__item {
+.main-exchange-info__item {
     width: 272px;
     display: inline-block;
     vertical-align: top;
@@ -44,6 +43,6 @@
     box-sizing: border-box;
 }
 
-.exchange-info__amount {
+.main-exchange-info__amount {
     text-transform: uppercase;
 }

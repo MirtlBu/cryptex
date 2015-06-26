@@ -50,8 +50,12 @@
 
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/personal")
                 { include "personal.php"; }
+
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/faq")
                 { include "faq.php"; }
+
+            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/news")
+                { include "newspage.php"; }
         ?>
         <?php include "footer.php";?>
 
