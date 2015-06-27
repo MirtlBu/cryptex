@@ -85,4 +85,13 @@ $(function() {
     $( "#accordion" ).accordion({
         heightStyle: "content"
     });
+
+    $('.pagination').pagination({
+        items: 50,
+        itemsOnPage: 5,
+        displayedPages: 3,
+        edges: 3,
+        prevText: 'Предыдущая',
+        nextText: 'Следующая'
+    });
 });

@@ -1,6 +1,7 @@
 @import url("form.css");
 @import url("table.css");
 @import url("select.css");
+@import url("pagination.css");
 @import url("bookmark.css");
 @import url("header.css");
 @import url("footer.css");
@@ -19,6 +20,7 @@
 @import url("contacts.css");
 @import url("personal.css");
 @import url("faq.css");
+@import url("news.css");
 
 body, html {
     width: 100%;
@@ -231,7 +233,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq {
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news {
     padding: 15px 0;
 }
 

@@ -1,6 +1,0 @@
-{
-    "webmoney":["perfectmoney", "paypal", "sberbank"],
-    "perfectmoney":["webmoney", "paypal", "sberbank"],
-    "paypal":["webmoney", "perfectmoney", "sberbank"],
-    "sberbank":["webmoney", "perfectmoney", "paypal"]
-}
