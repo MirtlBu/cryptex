@@ -16,7 +16,7 @@ div.fancy-select div.trigger {
             user-select: none;
 }
 
-.exchange div.fancy-select div.trigger {
+.main-exchange div.fancy-select div.trigger {
     width: 305px;
     font-size: 18px;
     font-weight: 400;
@@ -56,7 +56,7 @@ div.fancy-select ul.options {
     border-radius: 3px;
 }
 
-.exchange div.fancy-select ul.options {
+.main-exchange div.fancy-select ul.options {
     width: 305px;
     font-size: 18px;
 }
@@ -66,7 +66,7 @@ div.fancy-select ul.options {
     font-size: 16px;
 }
 
-.exchange div.fancy-select ul.options.open {
+.main-exchange div.fancy-select ul.options.open {
     top: 52px;
     border: none;
 }
@@ -88,7 +88,7 @@ div.fancy-select ul.options li {
             user-select: none;
 }
 
-.exchange div.fancy-select ul.options li {
+.main-exchange div.fancy-select ul.options li {
     height: 50px;
     padding: 10px 15px;
     font-size: 18px;
@@ -100,7 +100,7 @@ div.fancy-select ul.options li {
     font-size: 16px;
 }
 
-.exchange div.fancy-select ul.options li.selected {
+.main-exchange div.fancy-select ul.options li.selected {
     background: #ffffff;
     color: #1e1e1e;
 }
@@ -110,7 +110,7 @@ div.fancy-select ul.options li {
     color: #a0a0a0;
 }
 
-.exchange div.fancy-select ul.options li:hover, .exchange div.fancy-select ul.options li.selected:hover {
+.main-exchange div.fancy-select ul.options li:hover, .main-exchange div.fancy-select ul.options li.selected:hover {
     background: #f5f5f5;
     color: #089e95;
 }

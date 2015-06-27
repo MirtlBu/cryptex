@@ -40,7 +40,7 @@ $(function() {
         val.fancySelect();
     });
 
-    //переключение табов в меню bookamark
+    //переключение табов в меню bookmark
     $('.bookmark').on('click', '.bookmark__navlinks', function() {
         $('.bookmark__navlinks').removeClass('bookmark__navlinks--active');
         $(this).addClass('bookmark__navlinks--active');
@@ -78,11 +78,20 @@ $(function() {
         }
 
         $('.table__bookmark--exchange').find('tbody').find('.align-right').each(function(i) {
-            $(this).html('<a href="">' + arr[i] + '</a>');
+            $(this).html('<a href="" class="underlined">' + arr[i] + '</a>');
         });
     });
 
     $( "#accordion" ).accordion({
         heightStyle: "content"
+    });
+
+    $('.pagination').pagination({
+        items: 50,
+        itemsOnPage: 5,
+        displayedPages: 3,
+        edges: 3,
+        prevText: 'Предыдущая',
+        nextText: 'Следующая'
     });
 });

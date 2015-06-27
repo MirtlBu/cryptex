@@ -1,14 +1,14 @@
-.description {
+.main-description {
     background: url(/static/images/bg-2.jpg) no-repeat;
     padding: 60px 0;
 }
 
-.description h2 {
+.main-description h2 {
     margin: 25px 0;
     text-align: center;
 }
 
-.description p {
+.main-description p {
     font-size: 17px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 400;

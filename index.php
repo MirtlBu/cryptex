@@ -4,8 +4,9 @@
         <title>Title</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <link rel="stylesheet" href="/static/css/fancySelect.css" type="text/css">
-        <link rel="stylesheet" href="/static/js/jquery-ui-1.11.4.custom/jquery-ui.min.css" type="text/css">
+        <link rel="stylesheet" href="/static/vendors/FancySelect/fancySelect.css" type="text/css">
+        <link rel="stylesheet" href="/static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.css" type="text/css">
+        <link rel="stylesheet" href="/static/vendors/flaviusmatis-simplePagination.js-7be6bd6/simplePagination.css" type="text/css">
         <link rel="stylesheet" href="/static/css/style.css" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -50,14 +51,19 @@
 
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/personal")
                 { include "personal.php"; }
+
             else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/faq")
                 { include "faq.php"; }
+
+            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/news")
+                { include "news.php"; }
         ?>
         <?php include "footer.php";?>
 
         <script type="text/javascript" src="/static/js/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="/static/js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="/static/js/fancySelect.js"></script>
+        <script type="text/javascript" src="/static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/vendors/FancySelect/fancySelect.js"></script>
+        <script type="text/javascript" src="/static/vendors/flaviusmatis-simplePagination.js-7be6bd6/jquery.simplePagination.js"></script>
         <script type="text/javascript" src="/static/js/script.js"></script>
 
     </body>
