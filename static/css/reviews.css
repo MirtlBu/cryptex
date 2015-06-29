@@ -1,0 +1,152 @@
+.reviews {
+    position: relative;
+}
+
+.boast {
+    background: #43a9a6;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 27px;
+    font-size: 19px;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.boast span {
+    -webkit-font-smoothing: auto;
+}
+
+.reviews .text-greenfield {
+    margin: 25px auto 20px auto;
+}
+
+.reviews .whitefield {
+    position: relative;
+    min-height: 140px;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.reviews .underlined {
+    color: #ffffff;
+}
+
+.reviews .underlined:after {
+    background: #ffffff;
+}
+
+.reviews__content {
+    width: 535px;
+    padding: 30px 35px;
+    box-sizing: border-box;
+}
+
+.reviews__title {
+    font-size: 15px;
+    color: #9c9c9c;
+    margin-bottom: 15px;
+}
+
+.reviews__text {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #292929;
+}
+
+.reviews__rates {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 3px;
+    padding: 30px 35px;
+    box-sizing: border-box;
+    background: #f7f7f7;
+}
+
+.starrate {
+    width: 68px;
+}
+
+.starrate.td {
+    padding-right: 10px;
+}
+
+.reviews td {
+    padding: 5px 0;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.starrate__inner {
+    width: 0%;
+    height: 12px;
+    background: url(/static/images/innerstar.png) no-repeat;
+}
+
+.starrate__outer {
+    width: 100%;
+    height: 12px;
+    background: url(/static/images/outerstar.png) no-repeat;
+    margin-right: 5px;
+}
+
+.star1 {
+    width: 20%;
+}
+
+.star2 {
+    width: 40%;
+}
+
+.star3 {
+    width: 60%;
+}
+
+.star4 {
+    width: 80%;
+}
+
+.star5 {
+    width: 100%;
+}
+
+.reviews__response {
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    padding: 30px 35px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.reviews__response:before {
+    content: '';
+    position: absolute;
+    left: 35px;
+    top: -4px;
+    width: 508px;
+    height: 5px;
+    background: url(/static/images/curly-2.png) no-repeat;
+    box-sizing: border-box;
+}
+
+.reviews__response .reviews__title {
+    padding-left: 20px;
+    position: relative;
+}
+
+.reviews__response .reviews__title:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 11px;
+    height: 11px;
+    background: url(/static/images/square-divider2.png) no-repeat;
+}

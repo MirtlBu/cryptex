@@ -21,6 +21,7 @@
 @import url("personal.css");
 @import url("faq.css");
 @import url("news.css");
+@import url("reviews.css");
 
 body, html {
     width: 100%;
@@ -233,7 +234,7 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news {
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews {
     padding: 15px 0;
 }
 
