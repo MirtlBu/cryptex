@@ -15,7 +15,7 @@
     line-height: 38px;
     min-width: 38px;
     padding: 0;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 0;
     box-shadow: none;
     background: #ffffff;
@@ -34,9 +34,9 @@
     box-shadow: none;
 }
 
-
 .light-theme .ellipse {
     background: #ffffff;
+    border: 1px solid transparent
 }
 
 .light-theme .prev {
