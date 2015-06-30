@@ -1,4 +1,4 @@
-<div class="background"></div>
+<div class="background" style="height: 470px;"></div>
 <div class="container-1230px">
     <div class="container-820px">
         <div class="order_processing" style="min-height: 910px;">

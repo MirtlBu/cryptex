@@ -1,6 +1,6 @@
 .main-exchange {
     text-align: left;
-    padding: 15px 0 45px 0;
+    padding-bottom: 60px;
 }
 
 .form__input--main-exchange {
@@ -8,7 +8,7 @@
 }
 
 .main-exchange-field {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .main-exchange-field__item {
@@ -31,7 +31,7 @@
     width: 272px;
     display: inline-block;
     vertical-align: top;
-    margin: 15px 1px 15px 0;
+    margin: 15px 1px 25px 0;
     line-height: 1.5;
     padding: 16px 60px;
     background: rgba(255, 255, 255, .15);
@@ -45,4 +45,12 @@
 
 .main-exchange-info__amount {
     text-transform: uppercase;
+}
+
+.main-exchange .float-right {
+    margin-top: -7px;
+}
+
+.main-exchange .float-right.button {
+    margin-top: -7px;
 }
