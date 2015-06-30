@@ -1,3 +1,4 @@
+<div class="background" style="height: 660px;"></div>
 <div class="main">
     <?php include "main-exchange.php";?>
     <?php include "main-features.php";?>

@@ -16,7 +16,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="background"></div>
         <div class="container-1230px container-1230px--absolute">
             <?php include "bookmark.php";?>
         </div>
