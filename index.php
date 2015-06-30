@@ -20,46 +20,16 @@
             <?php include "bookmark.php";?>
         </div>
         <?php include "header.php";?>
+
         <?php
-            if("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/")
-                { include "main.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/step2")
-                { include "step2.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/step3")
-                { include "step3.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/order_completed")
-                { include "order_completed.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/order_processing")
-                { include "order_processing.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/sign_up")
-                { include "sign_up.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/log_in")
-                { include "log_in.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/rates")
-                { include "rates.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/contacts")
-                { include "contacts.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/personal")
-                { include "personal.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/faq")
-                { include "faq.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/news")
-                { include "news.php"; }
-
-            else if ("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" == "http://localhost:8000/reviews")
-                { include "reviews.php"; }
+            if(file_exists(basename($_GET['file']))) {
+                include (basename($_GET['file']));
+            }
+            else {
+                include "main.php";
+            }
         ?>
+
         <?php include "footer.php";?>
 
         <script type="text/javascript" src="/static/js/jquery-2.1.4.min.js"></script>
