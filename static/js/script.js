@@ -44,42 +44,9 @@ $(function() {
     $('.bookmark').on('click', '.bookmark__navlinks', function() {
         $('.bookmark__navlinks').removeClass('bookmark__navlinks--active');
         $(this).addClass('bookmark__navlinks--active');
-        var dataVal = $(this).attr('data-val');
-        if(dataVal == 'reserve') {
-            $('.bookmark__tab').load('bookmark_tab_reserve.php');
-        }
-        else if(dataVal == 'best') {
-            $('.bookmark__tab').load('bookmark_tab_best.php');
-        }
-        else if(dataVal == 'exchange') {
-            $('.bookmark__tab').load('bookmark_tab_exchange.php', function() {
-                $('.table__bookmark--exchange tbody .align-right').each(function(i) {
-                    $(this).html('<a href="" class="underlined">' + exchange.webmoney[i] + '</a>');
-                });
-            });
-        }
-    });
-
-    $('.bookmark').on('click', '.td__bookmark--exchange', function() {
-        var dataVal = $(this).attr('data-val');
-        var td = $('.table__bookmark--exchange tbody .align-right').get();
-        var tr = '<tr><td class="align-left"></td><td class="align-right"></td></tr>';
-        var arr = exchange[dataVal];
-
-        $('.td__bookmark--exchange').removeClass('align-left--active');
-        $(this).addClass('align-left--active');
-
-        if(arr.length >= td.length) {
-            tr = tr.times(arr.length - td.length);
-            $('.table__bookmark--exchange').find('tbody').append(tr);
-        }
-        else {
-            $('.table__bookmark--exchange tr').slice(arr.length - td.length).remove();
-        }
-
-        $('.table__bookmark--exchange').find('tbody').find('.align-right').each(function(i) {
-            $(this).html('<a href="" class="underlined">' + arr[i] + '</a>');
-        });
+        var dataVal = $(this).attr('data-nav');
+        $('.bookmark__item--active').removeClass('bookmark__item--active');
+        $('[data-tab=' + dataVal + ']').addClass('bookmark__item--active');
     });
 
     $( "#accordion" ).accordion({

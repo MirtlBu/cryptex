@@ -53,6 +53,7 @@
 .bookmark__nav {
     width: 280px;
     margin: 0 auto 30px auto;
+    font-size: 0;
 }
 
 .bookmark__navlinks {
@@ -108,7 +109,49 @@
     border-left: none;
 }
 
-.table__bookmark {
+.bookmark__item {
+    width: 280px;
+    margin: 0 auto 40px auto;
+    display: none;
+}
+
+.bookmark__item--active {
+    display: block;
+}
+
+.bookmark__row {
+    font-size: 0;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(183, 183, 183, .3);
+}
+
+.bookmark__row--header .bookmark__col {
+    font-size: 13px;
+    font-weight: 700;
+    color: #d0d0d0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.bookmark__row--body .bookmark__col {
+    font-size: 15px;
+    font-weight: 400;
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bookmark__col {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bookmark__col.align-right {
+    text-transform: uppercase;
+}
+
+/*.table__bookmark {
     width: 280px;
     margin: 0 auto 40px auto;
     border-collapse: collapse;
@@ -139,7 +182,7 @@
 .table__bookmark th, .table__bookmark td {
     padding: 10px 0;
     border-bottom: 1px solid rgba(183, 183, 183, .3);
-}
+}*/
 
 .terms__bookmark {
     width: 280px;
@@ -172,7 +215,7 @@
     letter-spacing: 1px;
 }
 
-.td__bookmark--exchange {
+/*.td__bookmark--exchange {
     cursor: pointer;
 }
 
@@ -199,4 +242,4 @@
 
 .table__bookmark--exchange .underlined:after {
     background: #00857d;
-}
+}*/
