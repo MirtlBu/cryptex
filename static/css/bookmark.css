@@ -138,7 +138,8 @@
 
 .table__bookmark th, .table__bookmark td {
     padding: 10px 0;
-    border-bottom: 1px solid rgba(183, 183, 183, .3);
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid transparent;
 }
 
 .terms__bookmark {
@@ -172,7 +173,7 @@
     letter-spacing: 1px;
 }
 
-.td__bookmark--exchange {
+.td__bookmark--exchange.align-left {
     cursor: pointer;
 }
 
@@ -182,6 +183,12 @@
     padding: 5px 10px;
     margin-left: -10px;
     border-radius: 3px;
+}
+
+.table__bookmark--exchange {
+    display: inline-table;
+    width: 140px;
+    margin: 0 auto;
 }
 
 .table__bookmark--exchange .underlined {
@@ -199,4 +206,18 @@
 
 .table__bookmark--exchange .underlined:after {
     background: #00857d;
+}
+
+table[data-val] {
+    display: none;
+}
+
+.table__bookmark--exchange.table__bookmark--active {
+    display: inline-table;
+}
+
+.bookmark__tab {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 50px;
 }
