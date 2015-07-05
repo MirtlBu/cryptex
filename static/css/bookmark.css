@@ -141,6 +141,10 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.bookmark__row--hidden {
+    display: none;
+}
+
 .bookmark__col {
     width: 50%;
     display: inline-block;
@@ -151,38 +155,51 @@
     text-transform: uppercase;
 }
 
-/*.table__bookmark {
-    width: 280px;
-    margin: 0 auto 40px auto;
-    border-collapse: collapse;
+.bookmark__item--best .bookmark__col {
+    width: 33%;
 }
 
-.table__bookmark th {
-    font-size: 13px;
-    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    color: #d0d0d0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.bookmark__item--exchange .bookmark__row--body .bookmark__col.align-right {
+    text-transform: none;
 }
 
-.table__bookmark td {
-    font-size: 15px;
-    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    color: #1a1a1a;
-    -webkit-font-smoothing: antialiased;
+.exchange-from {
+    cursor: pointer;
 }
 
-.table__bookmark .align-right {
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.exchange-from--active {
+    cursor: default;
+    color: #ffffff;
+    background: #089e95;
+    padding: 5px 10px;
+    margin-left: -10px;
+    border-radius: 3px;
 }
 
-.table__bookmark th, .table__bookmark td {
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(183, 183, 183, .3);
-}*/
+.exchange-to {
+    display: none;
+}
+
+.exchange-to--active {
+    display: inline;
+}
+
+.bookmark__item--exchange .underlined {
+    text-transform: none;
+    color: #089e95;
+}
+
+.bookmark__item--exchange .underlined:after {
+    background: #089e95;
+}
+
+.bookmark__item--exchange .underlined:hover {
+    color: #00857d;
+}
+
+.bookmark__item--exchange .underlined:after {
+    background: #00857d;
+}
 
 .terms__bookmark {
     width: 280px;
@@ -214,32 +231,3 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
-/*.td__bookmark--exchange {
-    cursor: pointer;
-}
-
-.bookmark .align-left--active span {
-    color: #ffffff;
-    background: #089e95;
-    padding: 5px 10px;
-    margin-left: -10px;
-    border-radius: 3px;
-}
-
-.table__bookmark--exchange .underlined {
-    text-transform: none;
-    color: #089e95;
-}
-
-.table__bookmark--exchange .underlined:after {
-    background: #089e95;
-}
-
-.table__bookmark--exchange .underlined:hover {
-    color: #00857d;
-}
-
-.table__bookmark--exchange .underlined:after {
-    background: #00857d;
-}*/

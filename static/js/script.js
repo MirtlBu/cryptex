@@ -6,13 +6,6 @@ $(function() {
     //пример селекта, инициализация и получение данных аджаксом
     var selectpay = $('#select-pay');
 
-    var exchange = {
-        webmoney:["qiwi", "perfectmoney", "western union", "sberbank"],
-        perfectmoney:["okpay", "webmoney", "paypal", "sberbank"],
-        paypal:["western union", "webmoney", "qiwi", "perfectmoney", "sberbank", "vtb24"],
-        sberbank:["qiwi", "okpay", "webmoney", "western union", "perfectmoney", "paypal"]
-    };
-
     $.ajax({
         url: "/static/js/options.json",
         success: function(data) {
@@ -44,9 +37,36 @@ $(function() {
     $('.bookmark').on('click', '.bookmark__navlinks', function() {
         $('.bookmark__navlinks').removeClass('bookmark__navlinks--active');
         $(this).addClass('bookmark__navlinks--active');
-        var dataVal = $(this).attr('data-nav');
+        var dataVal = $(this).data('nav');
         $('.bookmark__item--active').removeClass('bookmark__item--active');
-        $('[data-tab=' + dataVal + ']').addClass('bookmark__item--active');
+        $('.bookmark__item--' + dataVal).addClass('bookmark__item--active');
+
+    });
+
+    $('.bookmark__item--exchange').on('click', '.exchange-from', function() {
+        if ($(this).hasClass('exchange-from--active')) {
+            return false;
+        }
+
+        var from = $(this).data('from');
+        $(this)
+            .closest('.bookmark__item')
+                .find('.exchange-from--active').removeClass('exchange-from--active').end()
+                .find('.exchange-to').removeClass('exchange-to--active')
+                    .filter('[data-from=' + from + ']').addClass('exchange-to--active').end()
+                .end()
+                .find('.bookmark__row')
+                    .removeClass('bookmark__row--hidden')
+                    .filter(function(idx, elem) {
+                        return !$(this).find('.exchange-from').data('from')
+                            && $(this).find('.exchange-to[data-from=' + from + ']').length === 0;
+                    }).addClass('bookmark__row--hidden').end()
+                .end()
+            .end()
+            .addClass('exchange-from--active');
+
+        $(this).closest('.bookmark__item')
+
     });
 
     $( "#accordion" ).accordion({
