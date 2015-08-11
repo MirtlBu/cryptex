@@ -8,8 +8,6 @@
         <link rel="stylesheet" href="/static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.css" type="text/css">
         <link rel="stylesheet" href="/static/vendors/flaviusmatis-simplePagination.js-7be6bd6/simplePagination.css" type="text/css">
         <link rel="stylesheet" href="/static/css/style.css" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
         <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
