@@ -71,7 +71,7 @@
   width: 22px;
   height: 21px;
   display: inline-block;
-  background: url(/static/images/icon-alert.png) no-repeat;
+  background: url(/static/desktop/images/icon-alert.png) no-repeat;
   visibility: hidden;
 }
 
@@ -148,7 +148,7 @@
     height: 7px;
     top: 6px;
     left: 3px;
-    background: url(/static/images/icon-check.png) no-repeat;
+    background: url(/static/desktop/images/icon-check.png) no-repeat;
 }
 
 .checkbox input:checked ~ label:after {

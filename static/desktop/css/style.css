@@ -28,7 +28,6 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-   /* -webkit-font-smoothing: antialiased;*/
 }
 
 body {
@@ -99,7 +98,7 @@ h2 {
     width: 22px;
     height: 21px;
     display: inline-block;
-    background: url(/static/images/icon-alert.png) no-repeat;
+    background: url(/static/desktop/images/icon-alert.png) no-repeat;
     visibility: hidden;
 }
 
@@ -190,7 +189,7 @@ li {
     top: 50%;
     right: 25px;
     margin-top: -4px;
-    background: url(/static/images/icon-to2.png) no-repeat;
+    background: url(/static/desktop/images/icon-to2.png) no-repeat;
 }
 
 .error {
@@ -242,7 +241,7 @@ li {
 .background {
     min-width: 1230px;
     width: 100%;
-    background: url(/static/images/bg.jpg) no-repeat;
+    background: url(/static/desktop/images/bg.jpg) no-repeat;
     position: absolute;
     top: 113px;
     left: 0;
@@ -287,7 +286,7 @@ li {
 }
 
 .timer__img {
-    background: url(/static/images/icon-watch.png) no-repeat;
+    background: url(/static/desktop/images/icon-watch.png) no-repeat;
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;

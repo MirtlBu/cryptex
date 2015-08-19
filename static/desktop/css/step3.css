@@ -4,13 +4,13 @@
 }
 
 .currency-img {
-    background: url(/static/images/icon-currency.png);
+    background: url(/static/desktop/images/icon-currency.png);
 }
 
 .from-to-2 {
     width: 20px;
     height: 14px;
-    background: url(/static/images/icon-to3.png) no-repeat;
+    background: url(/static/desktop/images/icon-to3.png) no-repeat;
     box-sizing: border-box;
     display: inline-block;
 }

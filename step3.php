@@ -78,7 +78,7 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     <span class="button__text">Подтвердить оплату</span>
                     <span class="button__image"></span>
                 </button>
-                <img class="loader--big float-right" src="static/images/loader.gif">
+                <img class="loader--big float-right" src="static/desktop/images/loader.gif">
             </div>
         </div>
     </div>

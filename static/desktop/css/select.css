@@ -38,7 +38,7 @@ div.fancy-select div.trigger:before {
 
 div.fancy-select div.trigger:after {
     border: none;
-    background: url(/static/images/triangle.png) center center no-repeat;
+    background: url(/static/desktop/images/triangle.png) center center no-repeat;
     width: 10px;
     height: 6px;
     padding: 5px;
@@ -167,7 +167,7 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
 
 .header div.fancy-select div.trigger:after {
     border: none;
-    background: url(/static/images/triangle.png) center center no-repeat;
+    background: url(/static/desktop/images/triangle.png) center center no-repeat;
     background-size: 7px 3px;
     width: 7px;
     height: 3px;

@@ -24,7 +24,7 @@
     width: 46px;
     height: 42px;
     margin: 0 auto 20px auto;
-    background: url(/static/images/square-bunch.png);
+    background: url(/static/desktop/images/square-bunch.png);
 }
 
 .logo__text {
@@ -47,7 +47,7 @@
     width: 50px;
     height: 11px;
     margin: 0 auto 30px auto;
-    background: url(/static/images/square-line-short.png);
+    background: url(/static/desktop/images/square-line-short.png);
 }
 
 .bookmark__nav {

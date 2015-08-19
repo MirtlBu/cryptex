@@ -12,10 +12,10 @@
                         <input type="text" class="form__input form__input--main-exchange">
                     </label>
                     <select id="select-pay">
-                        <option value="bitcoin" data-value="rub" data-icon="/static/images/icon-bank.png">Bitcoin</option>
-                        <option value="webmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Webmoney</option>
-                        <option value="paypal" data-value="usd" data-icon="/static/images/icon-bank.png">Paypal</option>
-                        <option value="perfectmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Perfectmoney</option>
+                        <option value="bitcoin" data-value="rub" data-icon="/static/desktop/images/icon-bank.png">Bitcoin</option>
+                        <option value="webmoney" data-value="eur" data-icon="/static/desktop/images/icon-currency.png">Webmoney</option>
+                        <option value="paypal" data-value="usd" data-icon="/static/desktop/images/icon-bank.png">Paypal</option>
+                        <option value="perfectmoney" data-value="eur" data-icon="/static/desktop/images/icon-currency.png">Perfectmoney</option>
                     </select>
                 </div>
                 <div class="main-exchange-field__item from-to-1"></div>
@@ -25,10 +25,10 @@
                         <input type="text" class="form__input form__input--main-exchange">
                     </label>
                     <select id="select-take">
-                        <option value="bitcoin" data-value="rub" data-icon="/static/images/icon-bank.png">Bitcoin</option>
-                        <option value="webmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Webmoney</option>
-                        <option value="paypal" data-value="usd" data-icon="/static/images/icon-bank.png">Paypal</option>
-                        <option value="perfectmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Perfectmoney</option>
+                        <option value="bitcoin" data-value="rub" data-icon="/static/desktop/images/icon-bank.png">Bitcoin</option>
+                        <option value="webmoney" data-value="eur" data-icon="/static/desktop/images/icon-currency.png">Webmoney</option>
+                        <option value="paypal" data-value="usd" data-icon="/static/desktop/images/icon-bank.png">Paypal</option>
+                        <option value="perfectmoney" data-value="eur" data-icon="/static/desktop/images/icon-currency.png">Perfectmoney</option>
                     </select>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     <span class="button__text">Обменять сейчас</span>
                     <span class="button__image"></span>
                 </button>
-                <img class="loader--big float-right" src="static/images/loader.gif">
+                <img class="loader--big float-right" src="static/desktop/images/loader.gif">
             </div>
         </div>
     </div>
