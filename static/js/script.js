@@ -1,21 +1,8 @@
 $(function() {
-    String.prototype.times = function(n) {
-        return Array.prototype.join.call({length: n+1}, this);
-    };
-    console.log('init');
-    //пример селекта, инициализация и получение данных аджаксом
-    var selectpay = $('#select-pay');
 
-    $.ajax({
-        url: "/static/js/options.json",
-        success: function(data) {
-            var options = (JSON.parse(data)).psList;
-            $.each(options, function(index, val) {
-                selectpay.append('<option value="' + val['PsIdFrom'] + '"data-value="' + val['CurTitle'] + '"data-icon="' + val['FrontIcon'] + '">' + val['Title'] + '</option>');
-                selectpay.trigger('update.fs');
-            });
-             selectpay.fancySelect({
-                optionTemplate: function(optionEl) {
+    $.each([$('#select-pay'), $('#select-take')], function(index, val) {
+        val.fancySelect({
+            optionTemplate: function(optionEl) {
                     return '<span class="currency-img" style="background: url(' + optionEl.data('icon') + ')"></span>' +
                     '<span class="select-title">' + optionEl.text() + '</span>' +
                     '<span class="select-cur">(' + optionEl.data('value') + ')</span>';
@@ -25,12 +12,11 @@ $(function() {
                     '<span class="select-title">' + optionEl.text() + '</span>' +
                     '<span class="select-cur">(' + optionEl.data('value') + ')</span>';
                 }
-            });
-        }
+        });
     });
-    //остальные селекты, инициализация онли
-    $.each([$('#select-lang'), $('#select-take'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3')], function(index, val) {
-        val.fancySelect();
+
+    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3')], function(index, val) {
+        val.fancySelect({});
     });
 
     //переключение табов в меню bookmark
@@ -55,7 +41,7 @@ $(function() {
                 .find('.exchange-to').removeClass('exchange-to--active')
                     .filter('[data-from=' + from + ']').addClass('exchange-to--active').end()
                 .end()
-                .find('.bookmark__row')
+                .find('.bookmark__body')
                     .removeClass('bookmark__row--hidden')
                     .filter(function(idx, elem) {
                         return !$(this).find('.exchange-from').data('from')
@@ -65,20 +51,45 @@ $(function() {
             .end()
             .addClass('exchange-from--active');
 
-        $(this).closest('.bookmark__item')
-
     });
 
-    $( "#accordion" ).accordion({
-        heightStyle: "content"
+    $('#accordion').accordion({
+        heightStyle: 'content'
     });
 
-    $('.pagination').pagination({
-        items: 50,
-        itemsOnPage: 5,
-        displayedPages: 3,
-        edges: 3,
-        prevText: 'Предыдущая',
-        nextText: 'Следующая'
+    // поведение пагинации
+    $('.pagination__link').on('click', function() {
+        var $this = $(this);
+        if($this.hasClass('pagination__text')) {
+            if($this.hasClass('pagination__link--current')) {
+                return;
+            }
+            else {
+                var currentIndex = parseInt($('.pagination__link--current:not(".pagination__text")').attr('data-index'));
+                $('.pagination__link').removeClass('pagination__link--current');
+                if($this.attr('data-index') === 'next') {
+                    $('.pagination__link[data-index = ' + (currentIndex + 1) + ']').addClass('pagination__link--current');
+                    if(currentIndex + 1 === 6) {
+                        $this.addClass('pagination__link--current');
+                    }
+                }
+                else if($this.attr('data-index') === 'prev') {
+                    $('.pagination__link[data-index = ' + (currentIndex - 1) + ']').addClass('pagination__link--current');
+                    if(currentIndex - 1 === 1) {
+                        $this.addClass('pagination__link--current');
+                    }
+                }
+            }
+        }
+        else {
+            $('.pagination__link').removeClass('pagination__link--current');
+            $this.addClass('pagination__link--current');
+            if($this.attr('data-index') === '1') {
+                $('.pagination__link[data-index = "prev"]').addClass('pagination__link--current');
+            }
+            else if($this.attr('data-index') === '6') {
+                $('.pagination__link[data-index = "next"]').addClass('pagination__link--current');
+            }
+        }
     });
 });

@@ -6,9 +6,7 @@
         <meta name="keywords" content="">
         <link rel="stylesheet" href="/static/vendors/FancySelect/fancySelect.css" type="text/css">
         <link rel="stylesheet" href="/static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.css" type="text/css">
-        <link rel="stylesheet" href="/static/vendors/flaviusmatis-simplePagination.js-7be6bd6/simplePagination.css" type="text/css">
         <link rel="stylesheet" href="/static/css/style.css" type="text/css">
-
         <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,8 +18,8 @@
         <?php include "header.php";?>
 
         <?php
-            if(file_exists(basename($_GET['file']))) {
-                include (basename($_GET['file']));
+            if(file_exists(basename('.' . $_SERVER['REQUEST_URI'] . '.php'))) {
+                include (basename('.' . $_SERVER['REQUEST_URI'] . '.php'));
             }
             else {
                 include "main.php";
@@ -33,7 +31,6 @@
         <script type="text/javascript" src="/static/js/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="/static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
         <script type="text/javascript" src="/static/vendors/FancySelect/fancySelect.js"></script>
-        <script type="text/javascript" src="/static/vendors/flaviusmatis-simplePagination.js-7be6bd6/jquery.simplePagination.js"></script>
         <script type="text/javascript" src="/static/js/script.js"></script>
 
     </body>
