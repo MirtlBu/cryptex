@@ -11,7 +11,12 @@
                         <div class="title3 title3--light">Отдаёте</div>
                         <input type="text" class="form__input form__input--main-exchange">
                     </label>
-                    <select id="select-pay"></select>
+                    <select id="select-pay">
+                        <option value="bitcoin" data-value="rub" data-icon="/static/images/icon-bank.png">Bitcoin</option>
+                        <option value="webmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Webmoney</option>
+                        <option value="paypal" data-value="usd" data-icon="/static/images/icon-bank.png">Paypal</option>
+                        <option value="perfectmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Perfectmoney</option>
+                    </select>
                 </div>
                 <div class="main-exchange-field__item from-to-1"></div>
                 <div class="main-exchange-field__item">
@@ -19,7 +24,12 @@
                         <div class="title3 title3--light">Получаете</div>
                         <input type="text" class="form__input form__input--main-exchange">
                     </label>
-                    <select id="select-take"></select>
+                    <select id="select-take">
+                        <option value="bitcoin" data-value="rub" data-icon="/static/images/icon-bank.png">Bitcoin</option>
+                        <option value="webmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Webmoney</option>
+                        <option value="paypal" data-value="usd" data-icon="/static/images/icon-bank.png">Paypal</option>
+                        <option value="perfectmoney" data-value="eur" data-icon="/static/images/icon-currency.png">Perfectmoney</option>
+                    </select>
                 </div>
             </div>
             <ul class="main-exchange-info">
