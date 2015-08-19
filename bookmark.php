@@ -59,65 +59,84 @@
                 </li>
             </ul>
         </div>
-        <?php
-            $paysys = [
-                "qiwi" => "Qiwi",
-                "wm" => "Webmoney",
-                "pm" => "Perfectmoney",
-                "wu" => "Western Union",
-                "sb" => "Sberbank",
-                "vtb24" => "VTB 24",
-                "paypal" => "Paypal",
-            ];
-            $exchange = [
-                "wm" => ["qiwi", "pm", "paypal", "wu"],
-                "pm" => ["wm", "paypal"],
-                "qiwi" => ["wu", "wm", "pm", "sb", "vtb24", "paypal"],
-                "sb" => ["qiwi", "wm", "wu", "pm", "paypal"]
-            ];
-            $table = [];
-            $i = 0;
-
-            foreach ($exchange as $from => $to_arr) {
-                if ($i == count($table))
-                    array_push($table, [null, []]);
-                $table[$i][0] = $from;
-                foreach ($to_arr as $j => $to) {
-                    if ($j == count($table))
-                        array_push($table, [null, []]);
-                    $table[$j][1][$from] = $to;
-                }
-                $i++;
-            }
-        ?>
 
         <div class="bookmark__item bookmark__item--exchange">
-            <ul>
-                <li class="bookmark__row bookmark__row--header">
-                    <div class="bookmark__col align-left"><span>From</span></div>
-                    <div class="bookmark__col align-right"><span>To</span></div>
+
+            <div class="bookmark__row bookmark__row--header">
+                <div class="bookmark__col align-left">
+                    <span>From</span>
+                </div>
+                <div class="bookmark__col align-right">
+                    <span>To</span>
+                </div>
+            </div>
+
+            <ul class="bookmark__col align-left">
+                <li class="bookmark__row bookmark__row--body ">
+                    <span class="exchange-from exchange-from--active" data-from="wm">Webmoney</span>
                 </li>
-                <?php
-                $from_first = $table[0][0];
-                foreach ($table as $index => $row) { ?>
-                    <li class="bookmark__row bookmark__row--body <?php echo !$row[0] && !$row[1][$from_first] ? 'bookmark__row--hidden' : '' ?>">
-                        <div class="bookmark__col align-left">
-                            <span class="exchange-from <?php echo $index == 0 ? 'exchange-from--active' : '' ?>"
-                                data-from="<?php echo $row[0] ?>">
-                                <?php echo $paysys[$row[0]] ?>
-                            </span>
-                        </div>
-                        <div class="bookmark__col align-right" data-cur>
-                            <?php foreach ($row[1] as $from => $to) { ?>
-                                <a href="<?php echo '#' . $from . '-' . $to ?>"
-                                    class="underlined exchange-to <?php echo $from == $from_first ? 'exchange-to--active' : '' ?>"
-                                    data-from="<?php echo $from ?>">
-                                    <?php echo $paysys[$to] ?>
-                                </a>
-                            <?php } ?>
-                        </div>
-                    </li>
-                <?php } ?>
+                <li class="bookmark__row bookmark__row--body ">
+                    <span class="exchange-from " data-from="pm">Perfectmoney</span>
+                </li>
+                <li class="bookmark__row bookmark__row--body ">
+                    <span class="exchange-from " data-from="qiwi">Qiwi</span>
+                </li>
+                <li class="bookmark__row bookmark__row--body ">
+                    <span class="exchange-from " data-from="sb">Sberbank</span>
+                </li>
+            </ul>
+
+            <ul class="bookmark__col align-right">
+                <li class="bookmark__row--body wm">
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to">Qiwi</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Paypal</a>
+                    </div>
+                </li>
+                <li class="bookmark__row--body bookmark__row--body--hidden sb">
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to">Qiwi</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Webmoney</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Western Union</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Qiwi</a>
+                    </div>
+                </li>
+                <li class="bookmark__row--body bookmark__row--body--hidden qiwi">
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Webmoney</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Western Union</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Qiwi</a>
+                    </div>
+                </li>
+                <li class="bookmark__row--body bookmark__row--body--hidden pm">
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Webmoney</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Western Union</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Qiwi</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Perfect Money</a>
+                    </div>
+                    <div class="bookmark__row">
+                        <a href="#" class="underlined exchange-to ">Paypal</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
