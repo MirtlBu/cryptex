@@ -1,0 +1,21 @@
+{
+    "name": "cryptex",
+    "version": "0.0.1",
+    "description": "Cryptex project",
+    "main": "index.js",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+    "author": "Mirtl",
+    "license": "ISC",
+    "devDependencies": {
+    "gulp": "latest",
+    "autoprefixer-core": "latest",
+    "gulp-concat": "latest",
+    "gulp-uglify": "latest",
+    "gulp-notify": "latest",
+    "gulp-util": "latest",
+    "gulp-cssmin": "latest",
+    "gulp-rename": "latest"
+    }
+}
