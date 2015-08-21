@@ -85,13 +85,13 @@
 .starrate__inner {
     width: 0%;
     height: 12px;
-    background: url(/static/images/innerstar.png) no-repeat;
+    background: url(/static/desktop/images/innerstar.png) no-repeat;
 }
 
 .starrate__outer {
     width: 100%;
     height: 12px;
-    background: url(/static/images/outerstar.png) no-repeat;
+    background: url(/static/desktop/images/outerstar.png) no-repeat;
     margin-right: 5px;
 }
 
@@ -132,7 +132,7 @@
     top: -4px;
     width: 508px;
     height: 5px;
-    background: url(/static/images/curly-2.png) no-repeat;
+    background: url(/static/desktop/images/curly-2.png) no-repeat;
     box-sizing: border-box;
 }
 
@@ -148,5 +148,5 @@
     top: 3px;
     width: 11px;
     height: 11px;
-    background: url(/static/images/square-divider2.png) no-repeat;
+    background: url(/static/desktop/images/square-divider2.png) no-repeat;
 }

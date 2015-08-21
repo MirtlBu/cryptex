@@ -51,7 +51,7 @@
     width: 9px;
     height: 12px;
     padding: 0;
-    background: url(/static/images/icon-avatar.png);
+    background: url(/static/desktop/images/icon-avatar.png);
 }
 
 .header__nav, .lang {
@@ -73,7 +73,7 @@
     right: -16px;
     width: 6px;
     height: 6px;
-    background: url(/static/images/square-divider.png);
+    background: url(/static/desktop/images/square-divider.png);
 }
 
 .header__nav li:last-child .header__navlinks:after {

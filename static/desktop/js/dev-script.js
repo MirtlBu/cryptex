@@ -33,24 +33,15 @@ $(function() {
         if ($(this).hasClass('exchange-from--active')) {
             return false;
         }
+        else {
+            $('.exchange-from--active').removeClass('exchange-from--active');
+            $(this).addClass('exchange-from--active');
+        }
 
-        var from = $(this).data('from');
-        $(this)
-            .closest('.bookmark__item')
-                .find('.exchange-from--active').removeClass('exchange-from--active').end()
-                .find('.exchange-to').removeClass('exchange-to--active')
-                    .filter('[data-from=' + from + ']').addClass('exchange-to--active').end()
-                .end()
-                .find('.bookmark__body')
-                    .removeClass('bookmark__row--hidden')
-                    .filter(function(idx, elem) {
-                        return !$(this).find('.exchange-from').data('from')
-                            && $(this).find('.exchange-to[data-from=' + from + ']').length === 0;
-                    }).addClass('bookmark__row--hidden').end()
-                .end()
-            .end()
-            .addClass('exchange-from--active');
-
+        var from = '.' + $(this).data('from');
+        console.log(from);
+        $('.bookmark__item--exchange .align-right .bookmark__row--body').addClass('bookmark__row--body--hidden');
+        $('.bookmark__item--exchange .align-right').find(from).removeClass('bookmark__row--body--hidden');
     });
 
     $('#accordion').accordion({

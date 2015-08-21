@@ -36,13 +36,13 @@
 }
 
 .main-features__image--fast {
-    background: url(/static/images/icon-features.png) 0 0;
+    background: url(/static/desktop/images/icon-features.png) 0 0;
 }
 
 .main-features__image--simple {
-    background: url(/static/images/icon-features.png) 98px 0;
+    background: url(/static/desktop/images/icon-features.png) 98px 0;
 }
 
 .main-features__image--reliable {
-    background: url(/static/images/icon-features.png) 197px 0;
+    background: url(/static/desktop/images/icon-features.png) 197px 0;
 }

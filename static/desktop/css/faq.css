@@ -17,7 +17,7 @@
     margin-top: -2px;
     width: 10px;
     height: 9px;
-    background: url(/static/images/triangle-2.png) no-repeat;
+    background: url(/static/desktop/images/triangle-2.png) no-repeat;
     transition: all .2s linear;
 }
 

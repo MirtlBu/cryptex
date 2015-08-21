@@ -82,7 +82,7 @@
     margin-top: -2px;
     width: 16px;
     height: 5px;
-    background: url(/static/images/icon-to4.png) no-repeat;
+    background: url(/static/desktop/images/icon-to4.png) no-repeat;
 }
 
 .pagination__text--prev:after {

@@ -102,7 +102,7 @@
                     <span class="button__text">Save review</span>
                     <span class="button__image"></span>
                 </button>
-                <img class="loader--big float-right" src="static/images/loader.gif">
+                <img class="loader--big float-right" src="static/desktop/images/loader.gif">
             </form>
         </div>
     </div>

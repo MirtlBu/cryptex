@@ -24,7 +24,7 @@
     width: 46px;
     height: 42px;
     margin: 0 auto 20px auto;
-    background: url(/static/images/square-bunch.png);
+    background: url(/static/desktop/images/square-bunch.png);
 }
 
 .logo__text {
@@ -47,7 +47,7 @@
     width: 50px;
     height: 11px;
     margin: 0 auto 30px auto;
-    background: url(/static/images/square-line-short.png);
+    background: url(/static/desktop/images/square-line-short.png);
 }
 
 .bookmark__nav {
@@ -141,10 +141,6 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.bookmark__row--hidden {
-    display: none;
-}
-
 .bookmark__col {
     width: 50%;
     display: inline-block;
@@ -176,14 +172,6 @@
     border-radius: 3px;
 }
 
-.exchange-to {
-    display: none;
-}
-
-.exchange-to--active {
-    display: inline;
-}
-
 .bookmark__item--exchange .underlined {
     text-transform: none;
     color: #089e95;
@@ -199,6 +187,44 @@
 
 .bookmark__item--exchange .underlined:after {
     background: #00857d;
+}
+
+.bookmark__item--exchange {
+    font-size: 0;
+}
+
+.bookmark__item--exchange .bookmark__row {
+    font-size: 15px;
+    border-bottom: 1px solid rgba(233, 233, 233, 1);
+}
+
+.bookmark__item--exchange .bookmark__row--header {
+    font-size: 0px;
+}
+
+.bookmark__item--exchange .bookmark__row--body {
+    position: relative;
+}
+
+.bookmark__item--exchange .bookmark__row--body:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid rgba(233, 233, 233, 1);
+}
+
+.bookmark__item--exchange .align-left .bookmark__row--body:after {
+    right: -100%;
+    bottom: -1px;
+}
+
+.bookmark__item--exchange .align-right .bookmark__row--body:after {
+    left: -100%;
+    bottom: 0;
+}
+
+.bookmark__row--body--hidden {
+    display: none;
 }
 
 .terms__bookmark {

@@ -4,7 +4,7 @@
         <div class="order_processing" style="min-height: 910px;">
             <h1>Payment is successful</h1>
             <div class="text-greenfield order_processing__loading">
-                <img src="static/images/loader.gif">
+                <img src="static/desktop/images/loader.gif">
                 <span>Order is processing...</span>
             </div>
             <div class="text-greenfield order_processing__warning">
