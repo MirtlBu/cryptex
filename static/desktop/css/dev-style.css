@@ -227,15 +227,16 @@ li {
 .container-820px {
     width: 820px;
     margin-left: 400px;
+    overflow: auto; /*just test this*/
 }
 
 .main {
     position: relative;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .background {
@@ -243,7 +244,7 @@ li {
     width: 100%;
     background: url(/static/desktop/images/bg.jpg) no-repeat;
     position: absolute;
-    top: 113px;
+    top: 120px;
     left: 0;
 }
 
