@@ -8,7 +8,7 @@
             </div>
             <div class="text-greenfield">
                 <p>We would be happy to get feed back from our customers. Please rate write some words about our service
-                    <a href="#" class="underlined">here</a>.
+                    <a href="#" class="underlined text-link--white">here</a>.
                 </p>
             </div>
             <div class="reviews__item">

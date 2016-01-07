@@ -15,20 +15,36 @@
                     <table>
                         <tbody>
                             <tr>
-                                <td class="contacts__title">Email:</td>
-                                <td class="contacts__text">support@cryptex24.com</td>
+                                <td class="contacts__title">
+                                    <span>Email:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="mailto:support@cryptex24.com" class="text-link--white">support@cryptex24.com</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Skype:</td>
-                                <td class="contacts__text">cryptex24com</td>
+                                <td class="contacts__title">
+                                    <span>Skype:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="#" class="text-link--white">click here</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Icq:</td>
-                                <td class="contacts__text">13123123</td>
+                                <td class="contacts__title">
+                                    <span>Icq:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="" class="text-link--white">678706590</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Jabber:</td>
-                                <td class="contacts__text">jaber@cryptex24.com</td>
+                                <td class="contacts__title">
+                                    <span>Jabber:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="mailto:jabber@cryptex24.com" class="text-link--white">mailto:jabber@cryptex24.com</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -38,12 +54,20 @@
                     <table>
                         <tbody>
                             <tr>
-                                <td class="contacts__title">Email:</td>
-                                <td class="contacts__text">support@cryptex24.com</td>
+                                <td class="contacts__title">
+                                    <span>Email:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="mailto:support@cryptex24.com" class="text-link--white">support@cryptex24.com</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Skype:</td>
-                                <td class="contacts__text">cryptex24com</td>
+                                <td class="contacts__title">
+                                    <span>Skype:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="#" class="text-link--white">click here</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

@@ -1,11 +1,11 @@
-.contacts__title {
+.contacts__title span {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.contacts__text {
+.contacts__text a {
     font-size: 17px;
 }
 

@@ -33,27 +33,25 @@
                 </div>
                 <div class="whitefield">
                     <div class="title4">Personal information:</div>
+                    <div class="text-whitefield">Выберите адрес
+                    </div>
                     <div class="twocol">
                         <label>
-                            <div class="form__title">First name:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label class="form--error">
-                            <div class="form__title">Last name:</div>
+                            <div class="form__title">First name*</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
                         <label>
-                            <div class="form__title">Middle name:</div>
+                            <div class="form__title">Middle name</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
                     </div><!--
                 --><div class="twocol">
-                        <label class="form--error">
-                            <div class="form__title">City:</div>
+                        <label>
+                            <div class="form__title">Last name*</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
-                        <label>
-                            <div class="form__title">Country:</div>
+                        <label class="form--error">
+                            <div class="form__title">Account</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
                     </div>

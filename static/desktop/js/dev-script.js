@@ -1,5 +1,7 @@
 $(function() {
 
+    var hashNum = parseInt(location.hash.match(/\d+/));
+
     $.each([$('#select-pay'), $('#select-take')], function(index, val) {
         val.fancySelect({
             optionTemplate: function(optionEl) {
@@ -39,13 +41,19 @@ $(function() {
         }
 
         var from = '.' + $(this).data('from');
-        console.log(from);
-        $('.bookmark__item--exchange .align-right .bookmark__row--body').addClass('bookmark__row--body--hidden');
-        $('.bookmark__item--exchange .align-right').find(from).removeClass('bookmark__row--body--hidden');
+        $('.exchange-switch li').addClass('bookmark__body--hidden');
+        $('.exchange-switch').find(from).removeClass('bookmark__body--hidden');
     });
 
+    //поведение аккордеона в faq
+
+    function openAccordion() {
+        return hashNum - 1 || 0;
+    }
+
     $('#accordion').accordion({
-        heightStyle: 'content'
+        heightStyle: 'content',
+        active: openAccordion()
     });
 
     // поведение пагинации

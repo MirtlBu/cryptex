@@ -12,7 +12,7 @@
                             Please consider the fact that  we will not able send and receive transfers in these days.
                             We are sorry for the inconvenience that this may cause to you.
                             <span class="continue">
-                                <a href="#">Read more</a>
+                                <a href="#" class="text-link--green">Read more</a>
                             </span>
                         </p>
                         <div class="news__data">
@@ -30,7 +30,7 @@
                             Please consider the fact that  we will not able send and receive transfers in these days.
                             We are sorry for the inconvenience that this may cause to you.
                             <span class="continue">
-                                <a href="#">Read more</a>
+                                <a href="#" class="text-link--green">Read more</a>
                             </span>
                         </p>
                         <div class="news__data">
@@ -48,7 +48,7 @@
                             Please consider the fact that  we will not able send and receive transfers in these days.
                             We are sorry for the inconvenience that this may cause to you.
                             <span class="continue">
-                                <a href="#">Read more</a>
+                                <a href="#" class="text-link--green">Read more</a>
                             </span>
                         </p>
                         <div class="news__data">

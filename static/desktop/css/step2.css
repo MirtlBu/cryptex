@@ -39,3 +39,17 @@
 .step2 .underlined:after {
     background: #00857d;
 }
+
+input {
+    position: relative;
+}
+
+input:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background: red;
+}

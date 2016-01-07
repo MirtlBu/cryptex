@@ -25,7 +25,7 @@
                     <div class="main-news__date">20 апр 2015</div>
                 </li>
             </ul>
-            <button type="button" class="button button--turquoise">Все новости</button>
+            <a  href="" class="button button--turquoise">Все новости</a>
         </div>
     </div>
 </div>

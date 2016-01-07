@@ -36,7 +36,7 @@
                     </div>
                 </li>
             </ul>
-            <button type="button" class="button button--turquoise">Все отзывы</button>
+            <a href="" class="button button--turquoise">Все отзывы</a>
         </div>
     </div>
 </div>

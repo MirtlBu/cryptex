@@ -27,6 +27,12 @@
     background: url(/static/desktop/images/square-bunch.png);
 }
 
+.logo {
+    display: block;
+    width: 190px;
+    margin: 0 auto;
+}
+
 .logo__text {
     height: 30px;
     font-size: 30px;
@@ -120,13 +126,11 @@
 }
 
 .bookmark__row {
-    font-size: 0;
-    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     padding: 10px 0;
     border-bottom: 1px solid rgba(183, 183, 183, .3);
 }
 
-.bookmark__row--header .bookmark__col {
+.bookmark__header {
     font-size: 13px;
     font-weight: 700;
     color: #d0d0d0;
@@ -134,28 +138,35 @@
     letter-spacing: 1px;
 }
 
-.bookmark__row--body .bookmark__col {
+.bookmark__body {
     font-size: 15px;
     font-weight: 400;
     color: #1a1a1a;
     -webkit-font-smoothing: antialiased;
 }
 
-.bookmark__col {
-    width: 50%;
-    display: inline-block;
-    vertical-align: top;
+.bookmark__item--best .bookmark__col:nth-child(1), .bookmark__item--best .bookmark__col:nth-child(2) {
+    flex: 4;
 }
 
-.bookmark__col.align-right {
+.bookmark__item--best .bookmark__col:nth-child(3) {
+    flex: 1;
+}
+
+.bookmark__item--exchange .bookmark__col:first-child {
+    flex: 1;
+}
+
+.bookmark__item--exchange .bookmark__col:last-child {
+    text-align: right;
+    flex: 1;
+}
+
+.bookmark__col:last-child {
     text-transform: uppercase;
 }
 
-.bookmark__item--best .bookmark__col {
-    width: 33%;
-}
-
-.bookmark__item--exchange .bookmark__row--body .bookmark__col.align-right {
+.bookmark__item--exchange .bookmark__body .bookmark__col:last-child {
     text-transform: none;
 }
 
@@ -166,10 +177,21 @@
 .exchange-from--active {
     cursor: default;
     color: #ffffff;
+    position: relative;
+}
+
+.exchange-from--active:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20px;
     background: #089e95;
     padding: 5px 10px;
     margin-left: -10px;
     border-radius: 3px;
+    top: -7px;
+    left: 0;
+    z-index: -1;
 }
 
 .bookmark__item--exchange .underlined {
@@ -189,41 +211,34 @@
     background: #00857d;
 }
 
-.bookmark__item--exchange {
-    font-size: 0;
-}
-
 .bookmark__item--exchange .bookmark__row {
-    font-size: 15px;
     border-bottom: 1px solid rgba(233, 233, 233, 1);
-}
-
-.bookmark__item--exchange .bookmark__row--header {
-    font-size: 0px;
-}
-
-.bookmark__item--exchange .bookmark__row--body {
     position: relative;
 }
 
-.bookmark__item--exchange .bookmark__row--body:after {
+.bookmark__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmark__item--exchange .bookmark__body:after {
     content: '';
     position: absolute;
     width: 100%;
     border-bottom: 1px solid rgba(233, 233, 233, 1);
 }
 
-.bookmark__item--exchange .align-left .bookmark__row--body:after {
+.bookmark__item--exchange .bookmark__col:first-child .bookmark__body:after {
     right: -100%;
     bottom: -1px;
 }
 
-.bookmark__item--exchange .align-right .bookmark__row--body:after {
+.bookmark__item--exchange .bookmark__col:last-child .bookmark__body:after {
     left: -100%;
-    bottom: 0;
+    bottom: -1px;
 }
 
-.bookmark__row--body--hidden {
+.bookmark__body--hidden {
     display: none;
 }
 

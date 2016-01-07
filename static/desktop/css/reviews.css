@@ -31,10 +31,6 @@
     margin-bottom: 2px;
 }
 
-.reviews .underlined {
-    color: #ffffff;
-}
-
 .reviews .underlined:after {
     background: #ffffff;
 }
