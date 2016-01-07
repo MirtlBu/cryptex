@@ -73,9 +73,13 @@
 .step3 .flexbox {
     margin: 15px 0;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 .step3 .flexbox__item--grow {
     flex: 1;
+}
+
+.order-invoice .flexbox {
+    align-items: baseline;
 }

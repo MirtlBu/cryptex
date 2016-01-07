@@ -143,7 +143,6 @@ li {
 .flexbox {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .flexbox__item--shrink {
