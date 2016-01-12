@@ -1,0 +1,19 @@
+.start h1 {
+    margin-top: 90px;
+}
+
+.start .flexbox {
+    margin-bottom: 50px;
+}
+
+.start .flexbox__item--left {
+    margin-right: 30px;
+}
+
+.start .flexbox__item--text {
+    flex: 6;
+}
+
+.start .flexbox__item--img {
+    flex: 5;
+}

@@ -22,6 +22,7 @@
 @import url("faq.css");
 @import url("news.css");
 @import url("reviews.css");
+@import url("start.css");
 
 body, html {
     width: 100%;
@@ -58,7 +59,7 @@ h1 {
 h2 {
     font-size: 30px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-    color: #222222;
+    color: #3a3a3a;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -87,7 +88,7 @@ h2 {
 }
 
 .title3--dark {
-    color: #1f1f1f;
+    color: #3a3a3a;
 }
 
 .title3:after {
@@ -106,7 +107,7 @@ h2 {
     font-size: 16px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
-    color: #323232;
+    color: #3a3a3a;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -341,10 +342,6 @@ li {
     margin-bottom: 15px;
 }
 
-.autorization-form .checkbox label {
-    display: inline;
-}
-
 .autorization-form .form__title, .autorization-form .form__input {
     display: table-cell;
 }
@@ -361,14 +358,6 @@ li {
 
 .twocol:last-child label {
     float: right;
-}
-
-.autorization-form .checkbox {
-    margin-top: 35px;
-}
-
-.checkbox {
-    display: inline-block;
 }
 
 .loader--big {

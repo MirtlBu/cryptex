@@ -11,6 +11,7 @@ var gulp = require('gulp'),
 
 var cssfiles = [
     'static/vendors/FancySelect/fancySelect.css',
+    'static/vendors/slick.css',
     'static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.css',
     'static/desktop/css/form.css',
     'static/desktop/css/table.css',
@@ -36,6 +37,7 @@ var cssfiles = [
     'static/desktop/css/faq.css',
     'static/desktop/css/news.css',
     'static/desktop/css/reviews.css',
+    'static/desktop/css/start.css',
     'static/desktop/css/dev-style.css'
 ];
 
@@ -43,12 +45,14 @@ var jsfiles = [
     'static/vendors/jquery-2.1.4.min.js',
     'static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.js',
     'static/vendors/FancySelect/fancySelect.js',
+    'static/vendors/slick.min.js',
     'static/desktop/js/dev-script.js'
 ];
 
 gulp.task('watch', function() {
-  gulp.watch('static/desktop/css/*.css', ['css']);
-  gulp.watch('static/desktop/js/*.js', ['js']);
+    gulp.watch('static/desktop/js/*.js', ['js']);
+    gulp.watch('static/desktop/css/*.css', ['css']);
+
 });
 
 gulp.task('css', function () {

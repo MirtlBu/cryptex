@@ -91,4 +91,42 @@ $(function() {
             }
         }
     });
+    //выбор адреса
+    $('.step2').on('click', '.address-selection__item', function() {
+        var $this = $(this);
+        if($this.hasClass('address-selection__item--active')) {
+            return;
+        }
+        else {
+            $('.address-selection__item').removeClass('address-selection__item--active');
+            $this.addClass('address-selection__item--active');
+        }
+    });
+    //слайдер с адресам
+    $('.address-selection__items').slick({
+        appendArrows: $('.address-selection__controls'),
+        prevArrow: '<span class="slick-prev">',
+        nextArrow: '<span class="slick-next">',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: false,
+        variableWidth: true
+    });
+
+    var toShow = $('.address-selection__items').slick('slickGetOption', 'slidesToShow');
+
+    $('.address-selection__items').on('afterChange', function(event, slick, currentSlide) {
+        // if(currentSlide === slick.slideCount - toShow) {
+        //     $('.slick-next').addClass('slick-next--inactive');
+        // }
+        // else if(currentSlide === 0) {
+        //     $('.slick-prev').addClass('slick-prev--inactive');
+        // }
+        // if($('.slick-disabled').hasClass('slick-prev')) {
+        //     $(this).addClass('slick-prev--inactive');
+        // }
+        // else if($('.slick-disabled').hasClass('slick-next')) {
+        //     $(this).addClass('slick-next--inactive');
+        // }
+    });
 });

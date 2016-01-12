@@ -33,16 +33,66 @@
                 </div>
                 <div class="whitefield">
                     <div class="title4">Personal information:</div>
-                    <div class="text-whitefield">Выберите адрес
+                    <div class="text-whitefield">Выберите адрес</div>
+                    <div class="address-selection">
+                        <ul class="address-selection__items flexbox">
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Москва, ул.Ленина, 6-27</div>
+                                <div class="address-selection__name">start</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item address-selection__item--active">
+                                <div class="address-selection__address">Санкт-Петербург, ул.26 бакинских комисаров, к.3, 138-46</div>
+                                <div class="address-selection__name">Васисуалий Кошечкин</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Реутов, пр-т.Карла Маркса, 60-270</div>
+                                <div class="address-selection__name">Константин Константинопольский</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Лондон, пл.Пикадили, 6-20</div>
+                                <div class="address-selection__name">Джон Булл</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Москва, ул.Ленина, 6-27</div>
+                                <div class="address-selection__name">Иван Иванов</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Санкт-Петербург, ул.26 бакинских комисаров, к.3, 138-46</div>
+                                <div class="address-selection__name">Васисуалий Кошечкин</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Реутов, пр-т.Карла Маркса, 60-270</div>
+                                <div class="address-selection__name">Константин Константинопольский</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Лондон, пл.Пикадили, 6-20</div>
+                                <div class="address-selection__name">Джон Булл</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__address">Спрингфилд, ул.Лонгвэлли, 5-70</div>
+                                <div class="address-selection__name">the end</div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                        </ul>
+                        <div class="address-selection__controls">
+                        </div>
                     </div>
                     <div class="twocol">
                         <label>
                             <div class="form__title">First name*</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
-                        <label>
+                        <label class="form--lock">
                             <div class="form__title">Middle name</div>
-                            <input type="text" class="form__input form__input--whitefield">
+                            <input type="password" class="form__input form__input--whitefield">
                         </label>
                     </div><!--
                 --><div class="twocol">
@@ -54,6 +104,12 @@
                             <div class="form__title">Account</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
+                        <div class="checkbox text-whitefield">
+                            <input type="checkbox" class="form__checkbox" id="remember_check" checked></input>
+                            <label for="remember_check">
+                                <span>Remember me</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
                 <button type="submit" class="button button--red float-right">
