@@ -38,6 +38,7 @@ var cssfiles = [
     'static/desktop/css/news.css',
     'static/desktop/css/reviews.css',
     'static/desktop/css/start.css',
+    'static/desktop/css/verification.css',
     'static/desktop/css/dev-style.css'
 ];
 
