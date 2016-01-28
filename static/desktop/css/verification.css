@@ -9,15 +9,15 @@
     font-family: 'PT Sans Narrow',Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    visibility: hidden;
 }
 
 .verification__status span {
     padding-left: 30px;
-    visibility: hidden;
 }
 
 .verification__status:after {
-    content: none;
+    content: '';
     position: absolute;
     width: 15px;
     height: 12px;
@@ -27,12 +27,8 @@
     background-repeat: no-repeat;
 }
 
-.verification__status--uploaded span {
+.verification__status--uploaded {
     visibility: visible;
-}
-
-.verification__status--uploaded:after {
-    content: '';
 }
 
 .verification .flexbox {

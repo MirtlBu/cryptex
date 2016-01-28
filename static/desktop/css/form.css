@@ -19,6 +19,10 @@
     resize: none;
 }
 
+.form__input[readonly] {
+    color: #b6b6b6;
+}
+
 .form__input--whitefield {
     background: #f1f1f1;
     border: 1px solid #ccc;
@@ -54,6 +58,10 @@
 
 .form__input:focus {
     border: 1px solid #089e95;
+}
+
+.form__input:focus[readonly] {
+    border: 1px solid #ccc;
 }
 
 .form__title {

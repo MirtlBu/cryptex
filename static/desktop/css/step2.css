@@ -48,6 +48,7 @@
 .address-selection__item {
     position: relative;
     width: 215px !important;
+    height: 122px;
     margin-right: 9px;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
@@ -135,18 +136,3 @@
 .slick-next.slick-disabled {
     background-position: -50px 0;
 }
-
-
-/*input {
-    position: relative;
-}
-
-input:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 10px;
-    height: 10px;
-    background: red;
-}*/

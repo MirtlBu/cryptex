@@ -37,48 +37,52 @@
                     <div class="address-selection">
                         <ul class="address-selection__items flexbox">
                             <li class="address-selection__item">
-                                <div class="address-selection__address">Москва, ул.Ленина, 6-27</div>
-                                <div class="address-selection__name">start</div>
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Константин Константинопольский</div>
+                                </div>
                                 <span class="address-selection__remove">Удалить адрес</span>
                             </li>
                             <li class="address-selection__item address-selection__item--active">
-                                <div class="address-selection__address">Санкт-Петербург, ул.26 бакинских комисаров, к.3, 138-46</div>
-                                <div class="address-selection__name">Васисуалий Кошечкин</div>
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654</div>
+                                    <div class="address-selection__name">ИВАНОВ иван</div>
+                                </div>
                                 <span class="address-selection__remove">Удалить адрес</span>
                             </li>
                             <li class="address-selection__item">
-                                <div class="address-selection__address">Реутов, пр-т.Карла Маркса, 60-270</div>
-                                <div class="address-selection__name">Константин Константинопольский</div>
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Летисия Ортис Рокасолано</div>
+                                </div>
                                 <span class="address-selection__remove">Удалить адрес</span>
                             </li>
                             <li class="address-selection__item">
-                                <div class="address-selection__address">Лондон, пл.Пикадили, 6-20</div>
-                                <div class="address-selection__name">Джон Булл</div>
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Константин Константинопольский</div>
+                                </div>
                                 <span class="address-selection__remove">Удалить адрес</span>
                             </li>
                             <li class="address-selection__item">
-                                <div class="address-selection__address">Москва, ул.Ленина, 6-27</div>
-                                <div class="address-selection__name">Иван Иванов</div>
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654</div>
+                                    <div class="address-selection__name">ИВАНОВ иван</div>
+                                </div>
                                 <span class="address-selection__remove">Удалить адрес</span>
                             </li>
                             <li class="address-selection__item">
-                                <div class="address-selection__address">Санкт-Петербург, ул.26 бакинских комисаров, к.3, 138-46</div>
-                                <div class="address-selection__name">Васисуалий Кошечкин</div>
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Летисия Ортис Рокасолано</div>
+                                </div>
                                 <span class="address-selection__remove">Удалить адрес</span>
                             </li>
                             <li class="address-selection__item">
-                                <div class="address-selection__address">Реутов, пр-т.Карла Маркса, 60-270</div>
-                                <div class="address-selection__name">Константин Константинопольский</div>
-                                <span class="address-selection__remove">Удалить адрес</span>
-                            </li>
-                            <li class="address-selection__item">
-                                <div class="address-selection__address">Лондон, пл.Пикадили, 6-20</div>
-                                <div class="address-selection__name">Джон Булл</div>
-                                <span class="address-selection__remove">Удалить адрес</span>
-                            </li>
-                            <li class="address-selection__item">
-                                <div class="address-selection__address">Спрингфилд, ул.Лонгвэлли, 5-70</div>
-                                <div class="address-selection__name">the end</div>
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Константин Константинопольский</div>
+                                </div>
                                 <span class="address-selection__remove">Удалить адрес</span>
                             </li>
                         </ul>
@@ -92,13 +96,17 @@
                         </label>
                         <label class="form--lock">
                             <div class="form__title">Middle name</div>
-                            <input type="password" class="form__input form__input--whitefield">
+                            <input type="text" class="form__input form__input--whitefield" value="readonly" readonly >
                         </label>
                     </div><!--
                 --><div class="twocol">
                         <label>
                             <div class="form__title">Last name*</div>
-                            <input type="text" class="form__input form__input--whitefield">
+                            <select id="select-country">
+                                <option>Russian Federation</option>
+                                <option>USA</option>
+                                <option>China</option>
+                            </select>
                         </label>
                         <label class="form--error">
                             <div class="form__title">Account</div>
