@@ -19,10 +19,13 @@
                         </p>
                         <p class="text-whitefield">Formats Accepted: JPG, PNG, PDF</p>
                     </div>
-                    <div class="flexbox__item">
+                    <div class="button-spinner flexbox__item">
+                        <img class="spinner" src="static/desktop/images/loader.gif">
                         <input type="file" id="uploadphoto">
-                        <label for="uploadphoto" class="button button--red">Upload</label>
-                        <img class="loader--big" src="static/desktop/images/loader.gif">
+                        <label for="uploadphoto" class="button button--red button--long">
+                            <span class="button__text">Upload</span>
+                            <span class="button__image"></span>
+                        </label>
                     </div>
                     <div class="flexbox__item">
                         <div class="verification__status verification__status--uploaded">
@@ -37,10 +40,13 @@
                         <div class="title4">Security code + face</div>
                         <p class="text-whitefield">Formats Accepted: JPG, PNG, PDF</p>
                     </div>
-                    <div class="flexbox__item">
+                    <div class="button-spinner flexbox__item">
+                        <img class="spinner spinner--active" src="static/desktop/images/loader.gif">
                         <input type="file" id="uploadphoto">
-                        <label for="uploadphoto" class="button button--red">Upload</label>
-                        <img class="loader--big" src="static/desktop/images/loader.gif">
+                        <label for="uploadphoto" class="button button--red button--long">
+                            <span class="button__text">Upload</span>
+                            <span class="button__image"></span>
+                        </label>
                     </div>
                     <div class="flexbox__item">
                         <div class="verification__status verification__status--uploaded">
@@ -57,14 +63,14 @@
                 <p class="text-whitefield">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse.
                 </p>
-                <ul class="digitalcopy__list">
-                    <li class="digitalcopy__items">
+                <ul class="squaredlist">
+                    <li class="squaredlist__item">
                         <p class="text-whitefield">Scaner - please scan doc and upload </p>
                     </li>
-                    <li class="digitalcopy__items">
+                    <li class="squaredlist__item">
                         <p class="text-whitefield">Make foto with your smartphone or photocamera</p>
                     </li>
-                    <li class="digitalcopy__items">
+                    <li class="squaredlist__item">
                         <p class="text-whitefield">If you have web cam on you PC use online service like: http:webcamtoy.com, http:www.pixect.com,
 http:/webcamio.com.</p>
                     </li>

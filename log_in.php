@@ -9,7 +9,7 @@
                 <div class="error">
                     <p>Извините, на данный момент заявки не выполняются. Зайдите позже.</p>
                 </div>
-                <div class="whitefield">
+                <div class="whitefield whitefield--padded">
                     <div class="title4">Account information</div>
                     <div class="form__row">
                         <label>
@@ -29,11 +29,13 @@
                         <span>Remember me</span>
                     </label>
                 </div>
-                <button type="submit" class="button button--red float-right">
-                    <span class="button__text">Log in</span>
-                    <span class="button__image"></span>
-                </button>
-                 <img class="loader--big float-right" src="static/desktop/images/loader.gif">
+                <div class="button-spinner float-right">
+                    <img class="spinner" src="static/desktop/images/loader.gif">
+                    <button type="submit" class="button button--red button--medium">
+                        <span class="button__text">Send message</span>
+                        <span class="button__image"></span>
+                    </button>
+                </div>
             </form>
         </div>
     </div>

@@ -21,20 +21,16 @@ magna aliqua. Ut enim ad minim veniam, quis nosdivud exercitation ullamco labori
                     <div class="title4 flexbox__item--grow">1000000000 sberbank rub</div>
                 </div>
             </div>
-            <div class="greenfield">
-                <div class="twocol">
-                    <div class="timer">
-                        <div class="timer__img"></div>
-                        <div class="timer__text">1 : 59 : 03</div>
-                    </div>
-
-                </div><!--
-            --><div class="twocol">
-                    <button type="submit" class="button button--red float-right">
-                        <span class="button__text">Оплатить заказ</span>
-                        <span class="button__image"></span>
-                    </button>
-                </div>
+            <div class="timer">
+                <div class="timer__img"></div>
+                <div class="timer__text">1 : 59 : 03</div>
+            </div>
+            <div class="button-spinner float-right">
+                <img class="spinner" src="static/desktop/images/loader.gif">
+                <button type="submit" class="button button--red button--long">
+                    <span class="button__text">Оплатить заказ</span>
+                    <span class="button__image"></span>
+                </button>
             </div>
             <div class="whitefield padded-field">
                 <div class="title4">Information</div>
@@ -68,11 +64,13 @@ magna aliqua. Ut enim ad minim veniam, quis nosdivud exercitation ullamco labori
                     Еще одна инструкция : реквизиты указаны ниже, пожалуйста, проверьте  правильность введенных данных перед переводом.
                     </p>
                 </div>
-                <button type="submit" class="button button--red float-right">
-                    <span class="button__text">Подтвердить оплату</span>
-                    <span class="button__image"></span>
-                </button>
-                <img class="loader--big float-right" src="static/desktop/images/loader.gif">
+                <div class="button-spinner float-right">
+                    <img class="spinner" src="static/desktop/images/loader.gif">
+                    <button type="submit" class="button button--red button--long">
+                        <span class="button__text">Подтвердить оплату</span>
+                        <span class="button__image"></span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>

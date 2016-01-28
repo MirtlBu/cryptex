@@ -25,7 +25,7 @@
                 </div>
                 <p class="text-greenfield">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-                <div class="whitefield">
+                <div class="whitefield whitefield--padded">
                     <div class="title4">Personal information:</div>
                     <div class="twocol">
                         <label>
@@ -52,11 +52,13 @@
                         </label>
                     </div>
                 </div>
-                <button type="submit" class="button button--red float-right">
-                    <span class="button__text">Sign up</span>
-                    <span class="button__image"></span>
-                </button>
-                 <img class="loader--big float-right" src="static/desktop/images/loader.gif">
+                <div class="button-spinner float-right">
+                    <img class="spinner" src="static/desktop/images/loader.gif">
+                    <button type="submit" class="button button--red button--medium">
+                        <span class="button__text">Sign up</span>
+                        <span class="button__image"></span>
+                    </button>
+                </div>
             </form>
         </div>
     </div>

@@ -31,7 +31,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="whitefield">
+                <div class="whitefield whitefield--padded">
                     <div class="title4">Personal information:</div>
                     <div class="text-whitefield">Выберите адрес</div>
                     <div class="address-selection">
@@ -112,11 +112,13 @@
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="button button--red float-right">
-                    <span class="button__text">Save order</span>
-                    <span class="button__image"></span>
-                </button>
-                 <img class="loader--big float-right" src="static/desktop/images/loader.gif">
+                <div class="button-spinner float-right">
+                    <img class="spinner" src="static/desktop/images/loader.gif">
+                    <button type="submit" class="button button--red button--medium">
+                        <span class="button__text">Save order</span>
+                        <span class="button__image"></span>
+                    </button>
+                </div>
             </form>
         </div>
     </div>
