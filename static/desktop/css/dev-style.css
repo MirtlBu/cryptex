@@ -156,6 +156,7 @@ li {
 }
 
 .button {
+    position: relative;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #ffffff;
@@ -170,11 +171,23 @@ li {
             user-select: none;
 }
 
-.button--red {
+.button--long {
     width: 280px;
+}
+
+.button--medium{
+    width: 200px;
+}
+
+.button--short {
+    width: 120px;
+}
+
+.button--red {
+    height: 57px;
     background: #ff535f;
     border-radius: 2px;
-    padding: 20px 25px 14px 25px;
+    padding: 0 25px;
     font-size: 18px;
     position: relative;
     text-align: left;
@@ -203,15 +216,37 @@ li {
     font-size: 14px;
 }
 
+.spinner {
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+}
+
+.spinner--active {
+    visibility: visible;
+}
+
 .button__image {
     width: 9px;
     height: 10px;
     position: absolute;
     top: 50%;
     right: 25px;
-    margin-top: -4px;
+    margin-top: -7px;
     background-image: url(/static/desktop/images/icon-to2.png);
     background-repeat: no-repeat;
+}
+
+.button-spinner {
+    margin-top: -7px;
+}
+
+.button-spinner .button, .button-spinner .spinner {
+    vertical-align: middle;
+}
+
+.button-spinner .spinner {
+    margin-right: 20px;
 }
 
 .error {
@@ -226,6 +261,10 @@ li {
     margin: 10px 0;
     text-align: left;
     display: none;
+}
+
+.error--active {
+    display: block;
 }
 
 .error--bookmark {
@@ -279,6 +318,10 @@ li {
     text-align: left;
 }
 
+.whitefield--padded {
+    margin-bottom: 40px;
+}
+
 .whitefield .title4 {
     margin-bottom: 10px;
 }
@@ -302,6 +345,8 @@ li {
 }
 
 .timer {
+    display: inline-block;
+    margin-bottom: 30px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #ffffff;
@@ -364,17 +409,9 @@ li {
     float: right;
 }
 
-.loader--big {
-    width: 50px;
-    height: 50px;
-    margin: 20px 35px;
-    position: relative;
-    top: 3px;
-}
-
-.float-right.button {
+/*.float-right.button {
     margin: 20px 0;
-}
+}*/
 
 .float-right {
     float: right;
@@ -401,3 +438,104 @@ li {
     width: 100%;
     height: 1px;
 }
+
+.warning {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px 50px 20px 80px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.warning:after {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 29px;
+    top: 23px;
+    left: 25px;
+    background-image: url(/static/desktop/images/icon-warning.png);
+    background-repeat: no-repeat;
+}
+
+.semitransparent {
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.semitransparent--center {
+    text-align: center;
+}
+
+.semitransparent .flexbox__item {
+    flex: 1;
+    margin: 0 1px 25px 0;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, .15);
+}
+
+.semitransparent span:last-of-type {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+
+.squarelist, .circlelist {
+    margin-top: 15px;
+}
+
+.squarelist__item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.circlelist__item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+.squarelist__item:after, .circlelist__item:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+.squarelist__item:after {
+    width: 11px;
+    height: 11px;
+    top: 6px;
+    background-image: url(/static/desktop/images/square-divider3.png);
+}
+
+.circlelist__item:after {
+    width: 22px;
+    height: 22px;
+    top: 0;
+    background-image: url(/static/desktop/images/icon-check3.png);
+}
+
+.circlelist__num {
+    font-weight: 700;
+    color: #3a3a3a;
+}
+
+.padded-p {
+    margin-bottom: 25px;
+}
+
+
+

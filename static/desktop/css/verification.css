@@ -53,18 +53,22 @@
 
 .verification .button--red {
     width: auto;
-    margin: 0 20px;
-    float: right;
+    height: 45px;
+    padding: 12px 25px;
+    margin-right: 20px;
+    box-sizing: border-box;
 }
 
-.verification .loader--big {
-    margin: 0;
-    float: right;
-    top: 0;
+.verification .button-spinner {
+    margin-top: 0;
 }
 
-.verification .button--red {
-    padding: 11px 25px;
+.verification .button__image {
+    display: none;
+}
+
+.verification .flexbox__item:nth-of-type(2) {
+    text-align: right;
 }
 
 #uploadphoto {
@@ -98,23 +102,4 @@
     margin-bottom: 10px;
 }
 
-.digitalcopy__list {
-    margin-top: 15px;
-}
 
-.digitalcopy__items {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-}
-
-.digitalcopy__items:after {
-    content: '';
-    position: absolute;
-    width: 11px;
-    height: 11px;
-    top: 6px;
-    left: 0;
-    background-image: url(/static/desktop/images/square-divider3.png);
-    background-repeat: no-repeat;
-}

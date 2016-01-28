@@ -1,5 +1,8 @@
 .main-description {
-    background: url(/static/desktop/images/bg-2.jpg) no-repeat;
+    background-color: #e8e8e8;
+    background-image: url(/static/desktop/images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
     padding: 50px 0;
 }
 
