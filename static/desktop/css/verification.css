@@ -72,6 +72,11 @@
     left: -9999px;
 }
 
+#uploadcode {
+    position: absolute;
+    left: -9999px;
+}
+
 .verification .title4.title4--padded {
     text-transform: none;
     margin: 20px auto 5px;

@@ -42,8 +42,8 @@
                     </div>
                     <div class="button-spinner flexbox__item">
                         <img class="spinner spinner--active" src="static/desktop/images/loader.gif">
-                        <input type="file" id="uploadphoto">
-                        <label for="uploadphoto" class="button button--red button--long">
+                        <input type="file" id="uploadcode">
+                        <label for="uploadcode" class="button button--red button--long">
                             <span class="button__text">Upload</span>
                             <span class="button__image"></span>
                         </label>

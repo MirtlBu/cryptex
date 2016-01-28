@@ -1,7 +1,7 @@
 <div class="background" style="height: 990px;"></div>
 <div class="container-1230px">
     <div class="container-820px">
-        <div class="converting" style="min-height: 910px;">
+        <form class="converting" style="min-height: 910px;">
             <h1>WesterUnion to Bitcoin (H1)</h1>
             <div class="warning">
                 If someone contacts you from other account and says he is Cryptex24 director or manager please know that he is trying to cheat you!
@@ -79,7 +79,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </form>
     </div>
 </div>
 <div class="main-features">

@@ -113,4 +113,13 @@ $(function() {
         variableWidth: true
     });
 
+    //converting form submit
+    $('#uploadphoto').on('change', function() {
+        console.log('there will be submit form with photo');
+    });
+
+    $('#uploadcode').on('change', function() {
+        console.log('there will be submit form with code');
+    });
+
 });
