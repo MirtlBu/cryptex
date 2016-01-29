@@ -143,11 +143,6 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
     line-height: 29px;
 }
 
-.header div.fancy-select {
-    float: right;
-    top: -7px;
-}
-
 .header div.fancy-select div.trigger {
     width: 118px;
     height: 28px;
@@ -221,6 +216,35 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
 
 .header div.fancy-select ul.options li:hover, .header div.fancy-select ul.options li.selected:hover {
     color: #089e95;
+}
+
+#select-program ~ .trigger {
+    width: auto;
+    height: auto;
+    border: none;
+    overflow: visible;
+    padding: 0 15px;
+}
+
+#select-program ~ .options {
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: #fff;
+}
+
+#select-program ~ .options li {
+    width: auto;
+    height: auto;
+    padding: 7px 15px;
+}
+
+#select-program ~ .options li.selected {
+    background-color: #fff;
+}
+
+#select-program + .trigger:after {
+    right: 0;
 }
 
 .step2 div.fancy-select div.trigger {

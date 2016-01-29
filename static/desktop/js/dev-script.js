@@ -17,7 +17,7 @@ $(function() {
         });
     });
 
-    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3'), $('#select-country')], function(index, val) {
+    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3'), $('#select-country'), $('#select-program')], function(index, val) {
         val.fancySelect({});
     });
 

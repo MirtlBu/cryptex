@@ -290,13 +290,9 @@ li {
     margin-left: 400px;
 }
 
-.main {
+.main, .step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews {
     position: relative;
-    padding-top: 10px;
-}
-
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews {
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .background {
@@ -305,7 +301,7 @@ li {
     background-image: url(/static/desktop/images/bg.jpg);
     background-repeat: no-repeat;
     position: absolute;
-    top: 120px;
+    top: 125px;
     left: 0;
 }
 
