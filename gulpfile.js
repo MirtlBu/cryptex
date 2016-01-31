@@ -40,7 +40,8 @@ var cssfiles = [
     'static/desktop/css/start.css',
     'static/desktop/css/verification.css',
     'static/desktop/css/converting.css',
-    'static/desktop/css/dev-style.css'
+    'static/desktop/css/dev-style.css',
+    'static/desktop/css/320.css'
 ];
 
 var jsfiles = [
