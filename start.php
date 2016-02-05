@@ -1,4 +1,4 @@
-<div class="background" style="height: 325px;"></div>
+<div class="background" style="height: 200px;"></div>
 <div class="container-1230px">
     <div class="container-820px">
         <div class="start" style="min-height: 910px;">

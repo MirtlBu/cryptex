@@ -290,7 +290,7 @@ li {
     margin-left: 400px;
 }
 
-.main, .step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews {
+.main, .step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews, .start, .verification, .converting {
     position: relative;
     padding: 15px 0;
 }
