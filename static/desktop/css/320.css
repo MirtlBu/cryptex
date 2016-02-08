@@ -1,3 +1,49 @@
 @media (max-width: 600px) {
 
+    .container-1230px {
+        width: auto;
+    }
+
+    .container-820px {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .bookmark {
+        width: 320px;
+        padding: 0;
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .logo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 70px;
+        padding: 0 15px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .square-line-short {
+        display: none;
+    }
+
+    .square-bunch {
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+        margin: 0;
+    }
+
+    .logo__text {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
 }

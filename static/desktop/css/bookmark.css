@@ -24,7 +24,8 @@
     width: 46px;
     height: 42px;
     margin: 0 auto 20px auto;
-    background: url(/static/desktop/images/square-bunch.png);
+    background-image: url(/static/desktop/images/square-bunch.png);
+    background-repeat: no-repeat;
 }
 
 .logo {
