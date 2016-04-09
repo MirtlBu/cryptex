@@ -92,14 +92,19 @@ $(function() {
         }
     });
     //выбор адреса
-    $('.step2').on('click', '.address-selection__item', function() {
-        var $this = $(this);
-        if($this.hasClass('address-selection__item--active')) {
-            return;
+    $('.step2').on('click', '.address-selection__item', function(e) {
+        if($(e.target).hasClass('address-selection__remove')) {
+            e.stopPropagation();
+            $(e.target).closest('.address-selection__item').remove();
         }
         else {
-            $('.address-selection__item').removeClass('address-selection__item--active');
-            $this.addClass('address-selection__item--active');
+            if($(this).hasClass('address-selection__item--active')) {
+                return;
+            }
+            else {
+                $('.address-selection__item').removeClass('address-selection__item--active');
+                $(this).addClass('address-selection__item--active');
+            }
         }
     });
     //слайдер с адресам
