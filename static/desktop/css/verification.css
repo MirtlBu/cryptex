@@ -44,14 +44,14 @@
 }
 
 .verification .flexbox__item:nth-of-type(3) {
-    flex: 1;
+    flex: 2;
 }
 
 .verification .button--red {
     width: auto;
     height: 45px;
     padding: 12px 25px;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     box-sizing: border-box;
 }
 
@@ -61,10 +61,6 @@
 
 .verification .button__image {
     display: none;
-}
-
-.verification .flexbox__item:nth-of-type(2) {
-    text-align: right;
 }
 
 #uploadphoto {

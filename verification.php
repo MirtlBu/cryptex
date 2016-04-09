@@ -34,6 +34,7 @@
                     </div>
                 </form>
             </div>
+            <!-- two buttons example -->
             <div class="whitefield">
                 <form class="flexbox">
                     <div class="flexbox__item">
@@ -49,9 +50,11 @@
                         </label>
                     </div>
                     <div class="flexbox__item">
-                        <div class="verification__status verification__status--uploaded">
-                            <span>Uploaded</span>
-                        </div>
+                        <input type="file" id="uploadcode">
+                        <label for="uploadcode" class="button button--red button--long" style="padding: 12px 15px;">
+                            <span class="button__text">Create online</span>
+                            <span class="button__image"></span>
+                        </label>
                     </div>
                 </form>
                 <div class="title4 title4--padded">What is security code?</div>
