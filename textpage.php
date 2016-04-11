@@ -27,12 +27,12 @@
                     </p>
                 </div>
             </div>
-            <div class="flexbox">
-                <div class="flexbox__item flexbox__img">
+            <div class="flexbox flexbox--img">
+                <div class="flexbox__item flexbox__item--img">
                     <img class="" src="static/desktop/images/image_example.jpg" alt="Мы уважаем нашего клиента
                     и его права.">
                 </div>
-                <div class="flexbox__item flexbox__text">
+                <div class="flexbox__item flexbox__item--text">
                     Описание фотки: <br />
                     Мы уважаем нашего клиента
                     и его права.

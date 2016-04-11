@@ -30,16 +30,13 @@
     margin-right: 40px;
 }
 
-.textpage .flexbox__img img {
+.textpage .flexbox--img {
+    justify-content: flex-start;
+}
+
+.textpage .flexbox__item--img img {
     max-width: 530px;
-}
-
-.textpage .flexbox__img {
-    flex: 2;
-}
-
-.textpage .flexbox__text {
-    flex: 1;
+    margin-right: 30px;
 }
 
 .bordered {
