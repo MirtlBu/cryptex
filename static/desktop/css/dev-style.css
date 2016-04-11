@@ -23,6 +23,7 @@
 @import url("news.css");
 @import url("reviews.css");
 @import url("start.css");
+@import url("textpage.css");
 
 body, html {
     width: 100%;
@@ -294,7 +295,7 @@ li {
     margin-left: 400px;
 }
 
-.main, .step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews, .start, .verification, .converting {
+.main, .step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews, .start, .verification, .converting, .textpage {
     position: relative;
     padding: 15px 0;
 }
@@ -535,6 +536,10 @@ li {
 
 .padded-p {
     margin-bottom: 25px;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 

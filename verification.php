@@ -19,7 +19,7 @@
                         </p>
                         <p class="text-whitefield">Formats Accepted: JPG, PNG, PDF</p>
                     </div>
-                    <div class="button-spinner flexbox__item">
+                    <div class="button-spinner flexbox__item hidden">
                         <img class="spinner" src="static/desktop/images/loader.gif">
                         <input type="file" id="uploadphoto">
                         <label for="uploadphoto" class="button button--red button--long">
