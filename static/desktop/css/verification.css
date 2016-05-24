@@ -3,20 +3,20 @@
 }
 
 .verification__status {
-    position: relative;
     font-size: 17px;
     color: #089e95;
     font-family: 'PT Sans Narrow',Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    visibility: hidden;
+    display: none;
 }
 
 .verification__status span {
+    position: relative;
     padding-left: 30px;
 }
 
-.verification__status:after {
+.verification__status span:after {
     content: '';
     position: absolute;
     width: 15px;
@@ -28,7 +28,7 @@
 }
 
 .verification__status--uploaded {
-    visibility: visible;
+    display: inline-block;
 }
 
 .verification .flexbox {
@@ -36,22 +36,18 @@
 }
 
 .verification .flexbox__item:nth-of-type(1) {
-    flex: 6;
+    flex: 1;
 }
 
 .verification .flexbox__item:nth-of-type(2) {
-    flex: 3;
-}
-
-.verification .flexbox__item:nth-of-type(3) {
-    flex: 2;
+    flex: 1;
+    text-align: right;
 }
 
 .verification .button--red {
     width: auto;
     height: 45px;
     padding: 12px 25px;
-    /*margin-right: 20px;*/
     box-sizing: border-box;
 }
 
@@ -71,6 +67,10 @@
 #uploadcode {
     position: absolute;
     left: -9999px;
+}
+
+label[for="uploadcode"] {
+    margin-right: 10px;
 }
 
 .verification .title4.title4--padded {
@@ -97,6 +97,14 @@
 
 .verification h2 {
     margin-bottom: 10px;
+}
+
+.upload_controls {
+    display: inline-block;
+}
+
+.upload_controls--hidden {
+    display: none;
 }
 
 

@@ -12,7 +12,7 @@
                             <tbody>
                                 <tr>
                                     <td class="personal-info__td">Account type:</td>
-                                    <td class="personal-info__td align-right"><span class="highlighted">anonymous</span></td>
+                                    <td class="personal-info__td align-right"><span class="highlighted highlighted--verified">anonymous</span></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-info__td">Daily limit:</td>
@@ -45,15 +45,15 @@
                             <tbody>
                                 <tr>
                                     <td class="personal-info__td">Password:</td>
-                                    <td class="personal-info__td align-right"><a href="#" class="underlined">Change password</a></td>
+                                    <td class="personal-info__td align-right"><a href="#" class="underlined text-link--white">Change password</a></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-info__td">Change:</td>
-                                    <td class="personal-info__td align-right"><a href="#" class="underlined">link 2</a></td>
+                                    <td class="personal-info__td align-right"><a href="#" class="underlined text-link--white">link 2</a></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-info__td">Change:</td>
-                                    <td class="personal-info__td align-right"><a href="#" class="underlined">link 2</a></td>
+                                    <td class="personal-info__td align-right"><a href="#" class="underlined text-link--white">link 2</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -75,14 +75,14 @@
                     <tbody>
                         <tr>
                             <td class="td">124-67</td>
-                            <td class="td">100 Bitcoin BTC - 2000 Money Gram USD</td>
+                            <td class="td"><a href="" class="underlined text-link--green">100 Bitcoin BTC - 2000 Money Gram USD</a></td>
                             <td class="td">Paid</td>
                             <td class="td">Paid</td>
                             <td class="td">2015-09-01</td>
                         </tr>
                         <tr>
                             <td class="td">124-67</td>
-                            <td class="td">100 Bitcoin BTC - 2000 Money Gram USD</td>
+                            <td class="td"><a href="" class="underlined text-link--green">100 Bitcoin BTC - 2000 Money Gram USD</a></td>
                             <td class="td">Paid</td>
                             <td class="td">Paid</td>
                             <td class="td">2015-09-01</td>

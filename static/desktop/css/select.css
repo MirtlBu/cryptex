@@ -209,6 +209,10 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
             user-select: none;
 }
 
+.header div.fancy-select ul.options li a {
+    color: #323232;
+}
+
 .header div.fancy-select ul.options li.selected {
     background: #f1f1f1;
     color: #323232;
@@ -305,4 +309,14 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
 
 .step2 div.fancy-select ul.options li.selected:hover {
     background-color: #d3d3d3;
+}
+
+.card_block div.fancy-select {
+    width: 100px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.card_block div.fancy-select div.trigger, .card_block div.fancy-select ul.options {
+    width: 100%;
 }

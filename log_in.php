@@ -23,8 +23,8 @@
                         </label>
                     </div>
                 </div>
-                <div class="checkbox text-greenfield">
-                    <input type="checkbox" class="form__checkbox" id="remember_check" checked></input>
+                <div class="checkbox checkbox--white">
+                    <input type="checkbox" class="form__checkbox" id="remember_check" checked="checked"></input>
                     <label for="remember_check">
                         <span>Remember me</span>
                     </label>

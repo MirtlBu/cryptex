@@ -6,18 +6,12 @@
     z-index: 1;
 }
 
-.bookmark:after {
-    content: '';
+.bookmark__triangle {
+    width: 0;
+    height: 0;
+    border: 180px solid rgba(255, 255, 255, 0);
+    border-top: 85px solid #fff !important;
     position: absolute;
-    left: 82px;
-    bottom: -70px;
-    width: 195px;
-    height: 140px;
-    background: #ffffff;
-    -webkit-transform: rotate(23deg) skew(-45deg);
-        -ms-transform: rotate(23deg) skew(-45deg);
-            transform: rotate(23deg) skew(-45deg);
-    z-index: -1;
 }
 
 .square-bunch {
@@ -58,13 +52,14 @@
 }
 
 .bookmark__nav {
+    display: flex;
     width: 280px;
     margin: 0 auto 30px auto;
     font-size: 0;
 }
 
 .bookmark__navlinks {
-    width: 93px;
+    flex: 1;
     height: 30px;
     display: inline-block;
     vertical-align: top;

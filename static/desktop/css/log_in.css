@@ -15,3 +15,7 @@
 .log_in .underlined:after {
     background: #00857d;
 }
+
+.log_in .checkbox {
+    margin-top: 11px;
+}

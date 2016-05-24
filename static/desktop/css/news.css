@@ -31,3 +31,12 @@
     font-size: 14px;
     color: #bcbcbc;
 }
+
+.news .underlined {
+    color: #089e95;
+    -webkit-font-smoothing: antialiased;
+}
+
+.news .underlined:after {
+    background: #00857d;
+}

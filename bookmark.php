@@ -154,4 +154,5 @@
         <input class="form__input form__input--whitefield form__input--terms" placeholder="Type your bitcoin address"></input>
         <button class="button button--turquoise" type="submit">Get it!</button>
     </form>
+    <div class="bookmark__triangle"></div>
 </div>

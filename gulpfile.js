@@ -50,6 +50,7 @@ var jsfiles = [
     'static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.js',
     'static/vendors/FancySelect/fancySelect.js',
     'static/vendors/slick.min.js',
+    'static/vendors/webcam.min.js',
     'static/desktop/js/dev-script.js'
 ];
 

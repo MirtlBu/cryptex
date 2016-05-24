@@ -17,9 +17,9 @@
                     <li><a href="#" class="header-topbar__link"><span class="title4">Verification</span></a></li>
                     <li>
                         <select class="header-topbar__link" id="select-program">
-                            <option>Affiliate program</option>
-                            <option>Long-long-long name program</option>
-                            <option>Affiliate program</option>
+                            <option data-url="rates">Rates</option>
+                            <option data-url="news">News</option>
+                            <option data-url="faq">FAQ</option>
                         </select>
                     </li>
                     <li><a href="#" class="header-topbar__link header-topbar__avatar header-topbar__avatar--out"></a></li>

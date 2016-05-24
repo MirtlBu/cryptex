@@ -19,15 +19,15 @@
                         </p>
                         <p class="text-whitefield">Formats Accepted: JPG, PNG, PDF</p>
                     </div>
-                    <div class="button-spinner flexbox__item hidden">
+                    <div class="button-spinner flexbox__item">
                         <img class="spinner" src="static/desktop/images/loader.gif">
-                        <input type="file" id="uploadphoto">
-                        <label for="uploadphoto" class="button button--red button--long">
-                            <span class="button__text">Upload</span>
-                            <span class="button__image"></span>
-                        </label>
-                    </div>
-                    <div class="flexbox__item">
+                        <div class="upload_controls">
+                            <input type="file" id="uploadphoto">
+                            <label for="uploadphoto" class="button button--red button--long">
+                                <span class="button__text">Upload</span>
+                                <span class="button__image"></span>
+                            </label>
+                        </div>
                         <div class="verification__status">
                             <span>Uploaded</span>
                         </div>
@@ -42,19 +42,18 @@
                         <p class="text-whitefield">Formats Accepted: JPG, PNG, PDF</p>
                     </div>
                     <div class="button-spinner flexbox__item">
-                        <img class="spinner spinner--active" src="static/desktop/images/loader.gif">
-                        <input type="file" id="uploadcode">
-                        <label for="uploadcode" class="button button--red button--long">
-                            <span class="button__text">Upload</span>
-                            <span class="button__image"></span>
-                        </label>
-                    </div>
-                    <div class="flexbox__item">
-                        <input type="file" id="uploadcode">
-                        <label for="uploadcode" class="button button--red button--long" style="padding: 12px 15px;">
-                            <span class="button__text">Create online</span>
-                            <span class="button__image"></span>
-                        </label>
+                        <img class="spinner" src="static/desktop/images/loader.gif">
+                        <div class="upload_controls">
+                            <input type="file" id="uploadcode">
+                            <label for="uploadcode" class="button button--red button--long">
+                                <span class="button__text">Upload</span>
+                                <span class="button__image"></span>
+                            </label>
+                            <button class="button button--red button--long" type="button" id="create_photo">Create online</button>
+                        </div>
+                        <div class="verification__status">
+                            <span>Uploaded</span>
+                        </div>
                     </div>
                 </form>
                 <div class="title4 title4--padded">What is security code?</div>
@@ -80,5 +79,19 @@ http:/webcamio.com. If you have web cam on you PC use online service like</p>
                 </ul>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="modal_wrap">
+    <div class="modal">
+        <div class="modal__snapshots" id="my_camera"></div>
+        <div class="modal__snapshots" id="my_result">
+            <img src="">
+        </div>
+        <div class="modal__buttons">
+            <button class="button button--red modal__button" id="take_snapshot" type="button">Take Snapshot</button>
+            <button class="button button--red modal__button" id="send_snapshot" type="button">Send</button>
+        </div>
+        <div class="modal__close"></div>
     </div>
 </div>

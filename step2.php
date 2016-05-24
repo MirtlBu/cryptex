@@ -112,11 +112,41 @@
                             <div class="form__title">Account</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
-                        <div class="checkbox text-whitefield">
-                            <input type="checkbox" class="form__checkbox" id="remember_check" checked></input>
+                        <div class="checkbox checkbox--green">
+                            <input type="checkbox" class="form__checkbox" id="remember_check" checked="checked"></input>
                             <label for="remember_check">
                                 <span>Remember me</span>
                             </label>
+                        </div>
+                    </div>
+
+                    <div class="card_block">
+                        <div class="card_block__row">
+                            <div class="card_block__cell">
+                                <label>
+                                    <div class="form__title">Exp. date</div>
+                                    <select id="exp_date_month">
+                                        <option>Jan</option>
+                                        <option>Feb</option>
+                                        <option>Mr</option>
+                                        <option>Apr</option>
+                                        <option>Ma</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="card_block__cell">
+                                <label>
+                                    <div class="form__title slash">/</div>
+                                    <select id="exp_date_year">
+                                        <option>2011</option>
+                                        <option>2012</option>
+                                        <option>2013</option>
+                                        <option>2014</option>
+                                        <option>2015</option>
+                                        <option>2016</option>
+                                    </select>
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@
                                     <span>Email:</span>
                                 </td>
                                 <td class="contacts__text">
-                                    <a href="mailto:support@cryptex24.com" class="text-link--white">support@cryptex24.com</a>
+                                    <a href="mailto:support@cryptex24.com" class="underlined text-link--white">support@cryptex24.com</a>
                                 </td>
                             </tr>
                             <tr>
@@ -27,7 +27,7 @@
                                     <span>Skype:</span>
                                 </td>
                                 <td class="contacts__text">
-                                    <a href="#" class="text-link--white">click here</a>
+                                    <a href="#" class="underlined text-link--white">click here</a>
                                 </td>
                             </tr>
                             <tr>
@@ -35,7 +35,7 @@
                                     <span>Icq:</span>
                                 </td>
                                 <td class="contacts__text">
-                                    <a href="" class="text-link--white">678706590</a>
+                                    <a href="" class="underlined text-link--white">678706590</a>
                                 </td>
                             </tr>
                             <tr>
@@ -43,7 +43,7 @@
                                     <span>Jabber:</span>
                                 </td>
                                 <td class="contacts__text">
-                                    <a href="mailto:jabber@cryptex24.com" class="text-link--white">mailto:jabber@cryptex24.com</a>
+                                    <a href="mailto:jabber@cryptex24.com" class="underlined text-link--white">mailto:jabber@cryptex24.com</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -58,7 +58,7 @@
                                     <span>Email:</span>
                                 </td>
                                 <td class="contacts__text">
-                                    <a href="mailto:support@cryptex24.com" class="text-link--white">support@cryptex24.com</a>
+                                    <a href="mailto:support@cryptex24.com" class="underlined text-link--white">support@cryptex24.com</a>
                                 </td>
                             </tr>
                             <tr>
@@ -66,7 +66,7 @@
                                     <span>Skype:</span>
                                 </td>
                                 <td class="contacts__text">
-                                    <a href="#" class="text-link--white">click here</a>
+                                    <a href="#" class="underlined text-link--white">click here</a>
                                 </td>
                             </tr>
                         </tbody>
