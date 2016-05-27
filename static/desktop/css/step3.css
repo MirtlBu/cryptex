@@ -87,3 +87,12 @@
 .step3 .button-spinner {
     margin-top: 0
 }
+
+.step3 .from-to .flexbox {
+    justify-content: space-between;
+}
+
+.step3 .from-to .currency-num, .step3 .from-to .currency-text {
+    display: inline-block;
+    vertical-align: middle;
+}

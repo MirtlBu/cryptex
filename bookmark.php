@@ -41,20 +41,26 @@
                     <div class="bookmark__col"><span>Get</span></div>
                     <div class="bookmark__col"><span>Fee</span></div>
                 </li>
-                <li class="bookmark__row bookmark__body flexbox">
-                    <div class="bookmark__col"><span>Western Union USD</span></div>
-                    <div class="bookmark__col"><span>Visa Credit/Debit Card USD</span></div>
-                    <div class="bookmark__col"><span>5%</span></div>
+                <li class="bookmark__row bookmark__body">
+                    <a href="" class="flexbox">
+                        <div class="bookmark__col"><span>Western Union USD</span></div>
+                        <div class="bookmark__col"><span>Visa Credit/Debit Card USD</span></div>
+                        <div class="bookmark__col"><span>5%</span></div>
+                    </a>
                 </li>
-                <li class="bookmark__row bookmark__body flexbox">
-                    <div class="bookmark__col"><span>Visa Credit/Debit Card USD</span></div>
-                    <div class="bookmark__col"><span>Western Union USD</span></div>
-                    <div class="bookmark__col"><span>3%</span></div>
+                <li class="bookmark__row bookmark__body">
+                    <a href="" class="flexbox">
+                        <div class="bookmark__col"><span>Visa Credit/Debit Card USD</span></div>
+                        <div class="bookmark__col"><span>Western Union USD</span></div>
+                        <div class="bookmark__col"><span>3%</span></div>
+                    </a>
                 </li>
-                <li class="bookmark__row bookmark__body flexbox">
-                    <div class="bookmark__col"><span>Bitcoin</span></div>
-                    <div class="bookmark__col"><span>Sberbank</span></div>
-                    <div class="bookmark__col"><span>2%</span></div>
+                <li class="bookmark__row bookmark__body">
+                    <a href="" class="flexbox">
+                        <div class="bookmark__col"><span>Bitcoin</span></div>
+                        <div class="bookmark__col"><span>Sberbank</span></div>
+                        <div class="bookmark__col"><span>2%</span></div>
+                    </a>
                 </li>
             </ul>
         </div>

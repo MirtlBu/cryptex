@@ -8,17 +8,19 @@ magna aliqua. Ut enim ad minim veniam, quis nosdivud exercitation ullamco labori
             </p>
             <div class="whitefield from-to">
                 <div class="flexbox">
-                    <div class="flexbox__item--shrink">
+                    <div class="flexbox__item">
                         <img src="/static/desktop/images/icon-currency.png" class="currency-img">
+                        <div class="title4 currency-num">100000 perfect money usd</div>
                     </div>
-                    <div class="title4 flexbox__item--grow">100000 perfect money usd</div>
-                    <div class="flexbox__item--shrink">
+
+                    <div class="flexbox__item">
                         <img src="/static/desktop/images/icon-to3.png" class="from-to-2">
                     </div>
-                    <div class="flexbox__item--shrink">
+                    <div class="flexbox__item">
                         <img src="/static/desktop/images/icon-currency.png" class="currency-img">
+                        <div class="title4 currency-num">1000000000 sberbank rub</div>
                     </div>
-                    <div class="title4 flexbox__item--grow">1000000000 sberbank rub</div>
+
                 </div>
             </div>
             <div class="timer">

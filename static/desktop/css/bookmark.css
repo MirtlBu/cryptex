@@ -107,8 +107,8 @@
 }
 
 .bookmark__navlinks--midl {
-    border-right: none;
-    border-left: none;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
 }
 
 .bookmark__item {
@@ -267,4 +267,12 @@
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.bookmark__item--best .bookmark__body a {
+    color: #1a1a1a;
+}
+
+.bookmark__item--best .bookmark__body a:hover {
+    color: #949494;
 }
