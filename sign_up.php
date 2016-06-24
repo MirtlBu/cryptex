@@ -33,22 +33,26 @@
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
                         <label class="form--error">
-                            <div class="form__title">Last name:</div>
+                            <div class="form__title">Middle name:</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
                         <label>
-                            <div class="form__title">Middle name:</div>
+                            <div class="form__title">City:</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
                     </div><!--
                 --><div class="twocol">
                         <label class="form--error">
-                            <div class="form__title">City:</div>
+                            <div class="form__title">Last name:</div>
                             <input type="text" class="form__input form__input--whitefield">
                         </label>
-                        <label>
-                            <div class="form__title">Country:</div>
-                            <input type="text" class="form__input form__input--whitefield">
+                        <label class="whitefield_select">
+                            <div class="form__title">Country:*</div>
+                            <select id="select-country">
+                                <option>Russian Federation</option>
+                                <option>USA</option>
+                                <option>China</option>
+                            </select>
                         </label>
                     </div>
                 </div>

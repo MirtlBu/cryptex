@@ -59,17 +59,12 @@
     display: none;
 }
 
-#uploadphoto {
+.form__input--hidden {
     position: absolute;
     left: -9999px;
 }
 
-#uploadcode {
-    position: absolute;
-    left: -9999px;
-}
-
-label[for="uploadcode"] {
+.upload_controls label {
     margin-right: 10px;
 }
 

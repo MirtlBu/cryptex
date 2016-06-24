@@ -55,17 +55,13 @@ $(function() {
     //поведение аккордеона в faq
 
     function openAccordion() {
-        console.log(hashNum);
         if(isNaN(hashNum)) {
             return 0;
         }
         else {
-
             return hashNum;
         }
     }
-
-    console.log(openAccordion());
 
     $('#accordion').accordion({
         heightStyle: 'content',
@@ -134,15 +130,7 @@ $(function() {
         variableWidth: true
     });
 
-    //converting form submit
-    $('#uploadphoto').on('change', function() {
-        console.log('there will be submit form with photo');
-    });
-
-    $('#uploadcode').on('change', function() {
-        console.log('there will be submit form with code');
-    });
-
+    //upload photo
     $('#create_photo').on('click', function() {
         if($('.modal_wrap').hasClass('modal_wrap--visible')) {
             return;
@@ -164,8 +152,11 @@ $(function() {
 
     $('#take_snapshot').on('click', function() {
         Webcam.snap(function(data_uri) {
-            image = data_uri;
-            $('#my_result img').attr('src', image);
+            if(data_uri) {
+                image = data_uri;
+                $('#my_result img').attr('src', image);
+                $('#take_snapshot').closest('.modal').find('.button--inactive').removeClass('button--inactive');
+            }
         });
     });
 

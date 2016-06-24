@@ -100,7 +100,7 @@
                         </label>
                     </div><!--
                 --><div class="twocol">
-                        <label>
+                        <label class="whitefield_select">
                             <div class="form__title">Last name*</div>
                             <select id="select-country">
                                 <option>Russian Federation</option>
@@ -123,7 +123,7 @@
                     <div class="card_block">
                         <div class="card_block__row">
                             <div class="card_block__cell">
-                                <label>
+                                <label class="whitefield_select">
                                     <div class="form__title">Exp. date</div>
                                     <select id="exp_date_month">
                                         <option>Jan</option>
@@ -135,7 +135,7 @@
                                 </label>
                             </div>
                             <div class="card_block__cell">
-                                <label>
+                                <label class="whitefield_select">
                                     <div class="form__title slash">/</div>
                                     <select id="exp_date_year">
                                         <option>2011</option>

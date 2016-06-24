@@ -22,7 +22,7 @@
                     <div class="button-spinner flexbox__item">
                         <img class="spinner" src="static/desktop/images/loader.gif">
                         <div class="upload_controls">
-                            <input type="file" id="uploadphoto">
+                            <input type="file" id="uploadphoto" class="form__input--hidden">
                             <label for="uploadphoto" class="button button--red button--long">
                                 <span class="button__text">Upload</span>
                                 <span class="button__image"></span>
@@ -44,7 +44,7 @@
                     <div class="button-spinner flexbox__item">
                         <img class="spinner" src="static/desktop/images/loader.gif">
                         <div class="upload_controls">
-                            <input type="file" id="uploadcode">
+                            <input type="file" id="uploadcode" class="form__input--hidden">
                             <label for="uploadcode" class="button button--red button--long">
                                 <span class="button__text">Upload</span>
                                 <span class="button__image"></span>
@@ -88,9 +88,16 @@ http:/webcamio.com. If you have web cam on you PC use online service like</p>
         <div class="modal__snapshots" id="my_result">
             <img src="">
         </div>
-        <div class="modal__buttons">
-            <button class="button button--red modal__button" id="take_snapshot" type="button">Take Snapshot</button>
-            <button class="button button--red modal__button" id="send_snapshot" type="button">Send</button>
+        <div class="modal__buttons flexbox">
+            <div class="flexbox__item">
+                <button class="button button--red modal__button" id="take_snapshot" type="button">Take Snapshot</button>
+            </div>
+            <div class="button-spinner flexbox__item">
+                <img class="spinner" src="static/desktop/images/loader.gif">
+                <div class="upload_controls">
+                    <button class="button button--red modal__button button--inactive" id="send_snapshot" type="button">Send</button>
+                </div>
+            </div>
         </div>
         <div class="modal__close"></div>
     </div>
