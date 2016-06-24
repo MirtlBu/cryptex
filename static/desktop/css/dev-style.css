@@ -148,6 +148,10 @@ li {
     justify-content: space-between;
 }
 
+.flexbox--start {
+    justify-content: flex-start;
+}
+
 .flexbox__item--shrink {
     flex: 0 1 auto;
 }
@@ -411,12 +415,6 @@ li {
 
 .autorization-form .button__image {
     margin-left: 90px;
-}
-
-.twocol {
-    width: 50%;
-    display: inline-block;
-    vertical-align: top;
 }
 
 .twocol:last-child label {

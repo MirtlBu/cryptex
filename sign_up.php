@@ -27,33 +27,55 @@
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 <div class="whitefield whitefield--padded">
                     <div class="title4">Personal information:</div>
-                    <div class="twocol">
-                        <label>
-                            <div class="form__title">First name:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label class="form--error">
-                            <div class="form__title">Middle name:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label>
-                            <div class="form__title">City:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                    </div><!--
-                --><div class="twocol">
-                        <label class="form--error">
-                            <div class="form__title">Last name:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label class="whitefield_select">
-                            <div class="form__title">Country:*</div>
-                            <select id="select-country">
-                                <option>Russian Federation</option>
-                                <option>USA</option>
-                                <option>China</option>
-                            </select>
-                        </label>
+                    <div class="form__layout form__layout--twocol">
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <label>
+                                        <div class="form__title">First name:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
+                                <div class="flexbox__item">
+                                    <label class="form--error">
+                                        <div class="form__title">Last name:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <label>
+                                        <div class="form__title">Middle name:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
+                                <div class="flexbox__item">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <label>
+                                        <div class="form__title">City:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
+                                <div class="flexbox__item">
+                                    <label class="whitefield_select">
+                                        <div class="form__title">Country:</div>
+                                        <select id="select-country">
+                                            <option>Russian Federation</option>
+                                            <option>USA</option>
+                                            <option>China</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="button-spinner float-right">

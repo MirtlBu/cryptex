@@ -9,8 +9,8 @@
                     remember we never exchange in messengers or social networks!
                 </p>
             </div>
-            <div class="text-greenfield">
-                <div class="twocol">
+            <div class="text-greenfield flexbox flexbox--start contacts_flex_margin_bottom">
+                <div class="contacts_flex_margin_right">
                     <div class="title2">General questions</div>
                     <table>
                         <tbody>
@@ -48,8 +48,8 @@
                             </tr>
                         </tbody>
                     </table>
-                </div><!--
-             --><div class="twocol">
+                </div>
+                <div class="">
                     <div class="title2">Affiliate program</div>
                     <table>
                         <tbody>

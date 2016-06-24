@@ -126,14 +126,6 @@
     background-repeat: no-repeat;
 }
 
-.twocol .form__title {
-    width: 110px;
-}
-
-.twocol .form__input {
-    width: 250px;
-}
-
 ::-webkit-input-placeholder {
     color: #939393;
 }
@@ -220,4 +212,12 @@
 .autorization-form .checkbox label {
     display: inline-block;
     margin: 0;
+}
+
+.form__layout--twocol .form__title {
+    width: 110px;
+}
+
+.form__layout--twocol .form__input {
+    width: 250px;
 }

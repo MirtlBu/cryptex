@@ -14,7 +14,7 @@
 }
 
 .contacts td {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .contacts .text-greenfield p {
@@ -27,4 +27,14 @@
 
 .contacts .form__row {
     margin-bottom: 30px;
+}
+
+/*костыли*/
+
+.contacts_flex_margin_right {
+    margin-right: 160px;
+}
+
+.contacts_flex_margin_right {
+    margin-bottom: 20px;
 }
