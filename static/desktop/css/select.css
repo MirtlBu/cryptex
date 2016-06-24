@@ -314,7 +314,7 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
 .card_block div.fancy-select {
     width: 100px;
     display: table-cell;
-    vertical-align: top;
+    vertical-align: baseline;
 }
 
 .card_block div.fancy-select div.trigger, .card_block div.fancy-select ul.options {

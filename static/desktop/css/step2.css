@@ -147,6 +147,7 @@
 
 .card_block__cell {
     display: table-cell;
+    vertical-align: middle;
 }
 
 .card_block .form__title  {
@@ -156,6 +157,7 @@
 .card_block .slash {
     width: 50px;
     display: table-cell;
+    vertical-align: middle;
     text-align: center;
 }
 

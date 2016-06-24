@@ -89,63 +89,80 @@
                         <div class="address-selection__controls">
                         </div>
                     </div>
-                    <div class="twocol">
-                        <label>
-                            <div class="form__title">First name*</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label class="form--lock">
-                            <div class="form__title">Middle name</div>
-                            <input type="text" class="form__input form__input--whitefield" value="readonly" readonly >
-                        </label>
-                    </div><!--
-                --><div class="twocol">
-                        <label class="whitefield_select">
-                            <div class="form__title">Last name*</div>
-                            <select id="select-country">
-                                <option>Russian Federation</option>
-                                <option>USA</option>
-                                <option>China</option>
-                            </select>
-                        </label>
-                        <label class="form--error">
-                            <div class="form__title">Account</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <div class="checkbox checkbox--green">
-                            <input type="checkbox" class="form__checkbox" id="remember_check" checked="checked"></input>
-                            <label for="remember_check">
-                                <span>Remember me</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="card_block">
-                        <div class="card_block__row">
-                            <div class="card_block__cell">
-                                <label class="whitefield_select">
-                                    <div class="form__title">Exp. date</div>
-                                    <select id="exp_date_month">
-                                        <option>Jan</option>
-                                        <option>Feb</option>
-                                        <option>Mr</option>
-                                        <option>Apr</option>
-                                        <option>Ma</option>
-                                    </select>
-                                </label>
+                    <div class="form__layout form__layout--twocol">
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <label>
+                                        <div class="form__title">First name:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
+                                <div class="flexbox__item">
+                                    <label class="form--error">
+                                        <div class="form__title">Last name:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
                             </div>
-                            <div class="card_block__cell">
-                                <label class="whitefield_select">
-                                    <div class="form__title slash">/</div>
-                                    <select id="exp_date_year">
-                                        <option>2011</option>
-                                        <option>2012</option>
-                                        <option>2013</option>
-                                        <option>2014</option>
-                                        <option>2015</option>
-                                        <option>2016</option>
-                                    </select>
-                                </label>
+                        </div>
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <label class="form--lock">
+                                        <div class="form__title form--error">Middle name</div>
+                                        <input type="text" class="form__input form__input--whitefield" value="readonly" readonly >
+                                    </label>
+                                </div>
+                                <div class="flexbox__item">
+                                    <label>
+                                        <div class="form__title">Account:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                    <div class="checkbox checkbox--green">
+                                        <input type="checkbox" class="form__checkbox" id="remember_check" checked="checked"></input>
+                                        <label for="remember_check">
+                                            <span>Remember me</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <div class="card_block">
+                                        <div class="card_block__row">
+                                            <div class="card_block__cell">
+                                                <label class="whitefield_select">
+                                                    <div class="form__title">Exp. date</div>
+                                                    <select id="exp_date_month">
+                                                        <option>Jan</option>
+                                                        <option>Feb</option>
+                                                        <option>Mr</option>
+                                                        <option>Apr</option>
+                                                        <option>Ma</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                            <div class="card_block__cell">
+                                                <label class="whitefield_select">
+                                                    <div class="form__title slash">/</div>
+                                                    <select id="exp_date_year">
+                                                        <option>2011</option>
+                                                        <option>2012</option>
+                                                        <option>2013</option>
+                                                        <option>2014</option>
+                                                        <option>2015</option>
+                                                        <option>2016</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flexbox__item">
+                                </div>
                             </div>
                         </div>
                     </div>
