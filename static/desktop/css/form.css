@@ -80,7 +80,7 @@
 .form__title:after {
   content: '';
   position: relative;
-  left: 10px;
+  left: 5px;
   top: 3px;
   width: 22px;
   height: 21px;
@@ -127,7 +127,7 @@
 }
 
 .twocol .form__title {
-    width: 105px;
+    width: 110px;
 }
 
 .twocol .form__input {
