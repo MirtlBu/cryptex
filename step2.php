@@ -131,11 +131,11 @@
                         <div class="form__row">
                             <div class="flexbox">
                                 <div class="flexbox__item">
-                                    <div class="card_block">
-                                        <div class="card_block__row">
-                                            <div class="card_block__cell">
+                                    <div class="card_exp">
+                                        <div>
+                                            <div class="form__title">Exp. date</div>
+                                            <div class="card_exp__cell">
                                                 <label class="whitefield_select">
-                                                    <div class="form__title">Exp. date</div>
                                                     <select id="exp_date_month">
                                                         <option>Jan</option>
                                                         <option>Feb</option>
@@ -145,9 +145,11 @@
                                                     </select>
                                                 </label>
                                             </div>
-                                            <div class="card_block__cell">
+                                            <div class="card_exp__cell">
+                                                <div class="form__title slash">/</div>
+                                            </div>
+                                            <div class="card_exp__cell">
                                                 <label class="whitefield_select">
-                                                    <div class="form__title slash">/</div>
                                                     <select id="exp_date_year">
                                                         <option>2011</option>
                                                         <option>2012</option>

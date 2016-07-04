@@ -311,12 +311,12 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
     background-color: #d3d3d3;
 }
 
-.card_block div.fancy-select {
+.card_exp div.fancy-select {
     width: 100px;
     display: table-cell;
     vertical-align: baseline;
 }
 
-.card_block div.fancy-select div.trigger, .card_block div.fancy-select ul.options {
+.card_exp div.fancy-select div.trigger, .card_exp div.fancy-select ul.options {
     width: 100%;
 }
