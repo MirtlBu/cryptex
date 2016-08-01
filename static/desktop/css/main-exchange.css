@@ -46,11 +46,3 @@
 .main-exchange-info__amount {
     text-transform: uppercase;
 }
-
-.main-exchange .float-right {
-    margin-top: -7px;
-}
-
-.main-exchange .float-right.button {
-    margin-top: -7px;
-}

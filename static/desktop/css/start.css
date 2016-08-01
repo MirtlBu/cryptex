@@ -1,0 +1,23 @@
+.start .padded-field{
+    padding-bottom: 60px;
+}
+
+.start .title3 {
+    font-size: 22px;
+}
+
+.start .flexbox {
+    margin-bottom: 50px;
+}
+
+.start .flexbox__item--left {
+    margin-right: 30px;
+}
+
+.start .flexbox__item--text {
+    flex: 6;
+}
+
+.start .flexbox__item--img {
+    flex: 5;
+}

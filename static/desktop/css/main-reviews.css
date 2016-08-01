@@ -50,8 +50,3 @@
 .main-reviews__item:nth-child(3) .main-reviews__text {
     float: right;
 }
-
-.main-reviews .button {
-    display: block;
-    margin: 0 auto;
-}

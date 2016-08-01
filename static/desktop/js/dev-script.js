@@ -1,5 +1,7 @@
 $(function() {
 
+    var hashNum = parseInt(location.hash.slice(1));
+
     $.each([$('#select-pay'), $('#select-take')], function(index, val) {
         val.fancySelect({
             optionTemplate: function(optionEl) {
@@ -15,8 +17,15 @@ $(function() {
         });
     });
 
-    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3')], function(index, val) {
+    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3'), $('#select-country'), $('#exp_date_year'), $('#exp_date_month')], function(index, val) {
         val.fancySelect({});
+    });
+
+    var select_program = $('#select-program');
+    select_program.fancySelect({
+        optionTemplate: function(optionEl) {
+            return  '<a href="/' + optionEl.data('url') + '">' + optionEl.text() + '</a';
+        }
     });
 
     //переключение табов в меню bookmark
@@ -39,13 +48,24 @@ $(function() {
         }
 
         var from = '.' + $(this).data('from');
-        console.log(from);
-        $('.bookmark__item--exchange .align-right .bookmark__row--body').addClass('bookmark__row--body--hidden');
-        $('.bookmark__item--exchange .align-right').find(from).removeClass('bookmark__row--body--hidden');
+        $('.exchange-switch li').addClass('bookmark__body--hidden');
+        $('.exchange-switch').find(from).removeClass('bookmark__body--hidden');
     });
 
+    //поведение аккордеона в faq
+
+    function openAccordion() {
+        if(isNaN(hashNum)) {
+            return 0;
+        }
+        else {
+            return hashNum;
+        }
+    }
+
     $('#accordion').accordion({
-        heightStyle: 'content'
+        heightStyle: 'content',
+        active: openAccordion()
     });
 
     // поведение пагинации
@@ -83,4 +103,80 @@ $(function() {
             }
         }
     });
+    //выбор адреса
+    $('.step2').on('click', '.address-selection__item', function(e) {
+        if($(e.target).hasClass('address-selection__remove')) {
+            e.stopPropagation();
+            $(e.target).closest('.address-selection__item').remove();
+        }
+        else {
+            if($(this).hasClass('address-selection__item--active')) {
+                return;
+            }
+            else {
+                $('.address-selection__item').removeClass('address-selection__item--active');
+                $(this).addClass('address-selection__item--active');
+            }
+        }
+    });
+    //слайдер с адресам
+    $('.address-selection__items').slick({
+        appendArrows: $('.address-selection__controls'),
+        prevArrow: '<span class="slick-prev">',
+        nextArrow: '<span class="slick-next">',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: false,
+        variableWidth: true
+    });
+
+    //upload photo
+    $('#create_photo').on('click', function() {
+        if($('.modal_wrap').hasClass('modal_wrap--visible')) {
+            return;
+        }
+        else {
+            $('.modal_wrap').addClass('modal_wrap--visible');
+            Webcam.attach('#my_camera');
+        }
+    });
+
+    function uploadSuccess(context) {
+        $(context).closest('.upload_controls')
+            .addClass('upload_controls--hidden')
+                .next('.verification__status')
+                .addClass('verification__status--uploaded ');
+    }
+
+    var image;
+
+    $('#take_snapshot').on('click', function() {
+        Webcam.snap(function(data_uri) {
+            if(data_uri) {
+                image = data_uri;
+                $('#my_result img').attr('src', image);
+                $('#take_snapshot').closest('.modal').find('.button--inactive').removeClass('button--inactive');
+            }
+        });
+    });
+
+    $('#send_snapshot').on('click', function() {
+        Webcam.upload(image, 'myscript.php', function(code, text) {
+            $('.modal_wrap').removeClass('modal_wrap--visible');
+            uploadSuccess($('#uploadcode'));
+        });
+    });
+
+    $('.modal__close').on('click', function() {
+        $('.modal_wrap').removeClass('modal_wrap--visible');
+    });
+
+    $('#uploadcode').on('change', function() {
+        uploadSuccess($(this));
+    });
+
+    $('#uploadphoto').on('change', function() {
+        uploadSuccess($(this));
+    });
+
 });

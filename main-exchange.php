@@ -32,30 +32,34 @@
                     </select>
                 </div>
             </div>
-            <ul class="main-exchange-info">
-                <li class="main-exchange-info__item">
-                    <div class="main-exchange-info__title">Комиссия за перевод</div>
-                    <div class="main-exchange-info__amount">2 usd</div>
-                </li><!--
-                --><li class="main-exchange-info__item">
-                    <div class="main-exchange-info__title">Комиссия</div>
-                    <div class="main-exchange-info__amount">2% (0.902 BTC)</div>
-                </li><!--
-                --><li class="main-exchange-info__item">
-                    <div class="main-exchange-info__title">Курс</div>
-                    <div class="main-exchange-info__amount">33.959475</div>
-                </li>
-            </ul>
+            <div class="semitransparent semitransparent--center">
+                <ul class="flexbox">
+                    <li class="flexbox__item">
+                        <span>Комиссия за перевод</span>
+                        <span>100usd</span>
+                    </li>
+                    <li class="flexbox__item">
+                        <span>Комиссия</span>
+                        <span>2% (0.902 BTC)</span>
+                    </li>
+                    <li class="flexbox__item">
+                        <span>Курс</span>
+                        <span>33.959475</span>
+                    </li>
+                </ul>
+            </div>
             <div>
                 <label>
                     <div class="title3 title3--light">Ваш e-mail</div>
                     <input type="text" class="form__input form__input--main-exchange form__input--305px">
                 </label>
-                <button type="submit" class="button button--red float-right">
-                    <span class="button__text">Обменять сейчас</span>
-                    <span class="button__image"></span>
-                </button>
-                <img class="loader--big float-right" src="static/desktop/images/loader.gif">
+                <div class="button-spinner float-right">
+                    <img class="spinner" src="static/desktop/images/loader.gif">
+                    <button type="submit" class="button button--red button--long">
+                        <span class="button__text">Обменять сейчас</span>
+                        <span class="button__image"></span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>

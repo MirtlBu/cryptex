@@ -8,7 +8,7 @@
             </div>
             <div class="text-greenfield">
                 <p>We would be happy to get feed back from our customers. Please rate write some words about our service
-                    <a href="#" class="underlined">here</a>.
+                    <a href="#" class="underlined text-link--white">here</a>.
                 </p>
             </div>
             <div class="reviews__item">
@@ -239,7 +239,37 @@
                 </div>
             </div>
             <div class="pagination-wrap">
-                <div class="pagination"></div>
+                <div class="pagination">
+                    <ul>
+                        <li class="pagination__item">
+                            <a href="#" data-index="prev" class="pagination__link pagination__text pagination__text--prev pagination__link--current">Предыдущая</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="1" class="pagination__link pagination__link--current">1</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="2" class="pagination__link">2</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="3" class="pagination__link">3</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="..." class="pagination__link pagination__link--ellipse">...</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="4" class="pagination__link">4</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="5" class="pagination__link">5</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="6" class="pagination__link">6</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" data-index="next" class="pagination__link pagination__text pagination__text--next">Следующая</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

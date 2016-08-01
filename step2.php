@@ -31,38 +31,158 @@
                         </label>
                     </div>
                 </div>
-                <div class="whitefield">
+                <div class="whitefield whitefield--padded">
                     <div class="title4">Personal information:</div>
-                    <div class="twocol">
-                        <label>
-                            <div class="form__title">First name:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label class="form--error">
-                            <div class="form__title">Last name:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label>
-                            <div class="form__title">Middle name:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                    </div><!--
-                --><div class="twocol">
-                        <label class="form--error">
-                            <div class="form__title">City:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
-                        <label>
-                            <div class="form__title">Country:</div>
-                            <input type="text" class="form__input form__input--whitefield">
-                        </label>
+                    <div class="text-whitefield">Выберите адрес</div>
+                    <div class="address-selection">
+                        <ul class="address-selection__items flexbox">
+                            <li class="address-selection__item">
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Константин Константинопольский</div>
+                                </div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item address-selection__item--active">
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654</div>
+                                    <div class="address-selection__name">ИВАНОВ иван</div>
+                                </div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Летисия Ортис Рокасолано</div>
+                                </div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Константин Константинопольский</div>
+                                </div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654</div>
+                                    <div class="address-selection__name">ИВАНОВ иван</div>
+                                </div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Летисия Ортис Рокасолано</div>
+                                </div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                            <li class="address-selection__item">
+                                <div class="address-selection__info">
+                                    <div class="address-selection__address">8654865486548654 Сбербанк</div>
+                                    <div class="address-selection__name">Константин Константинопольский</div>
+                                </div>
+                                <span class="address-selection__remove">Удалить адрес</span>
+                            </li>
+                        </ul>
+                        <div class="address-selection__controls">
+                        </div>
+                    </div>
+                    <div class="form__layout form__layout--twocol">
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <label>
+                                        <div class="form__title">First name:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
+                                <div class="flexbox__item">
+                                    <label class="form--error">
+                                        <div class="form__title">Last name:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <label class="form--lock">
+                                        <div class="form__title form--error">Middle name</div>
+                                        <input type="text" class="form__input form__input--whitefield" value="readonly" readonly >
+                                    </label>
+                                </div>
+                                <div class="flexbox__item">
+                                    <label>
+                                        <div class="form__title">Account:</div>
+                                        <input type="text" class="form__input form__input--whitefield">
+                                    </label>
+                                    <div class="checkbox checkbox--green">
+                                        <input type="checkbox" class="form__checkbox" id="remember_check" checked="checked"></input>
+                                        <label for="remember_check">
+                                            <span>Remember me</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <div class="card_exp">
+                                        <div>
+                                            <div class="form__title">Exp. date</div>
+                                            <div class="card_exp__cell">
+                                                <label class="whitefield_select">
+                                                    <select id="exp_date_month">
+                                                        <option>Jan</option>
+                                                        <option>Feb</option>
+                                                        <option>Mr</option>
+                                                        <option>Apr</option>
+                                                        <option>Ma</option>
+                                                        <option>Jn</option>
+                                                        <option>Jl</option>
+                                                        <option>Aug</option>
+                                                        <option>Sep</option>
+                                                        <option>Okt</option>
+                                                        <option>Nov</option>
+                                                        <option>Dec</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                            <div class="card_exp__cell">
+                                                <div class="form__title slash">/</div>
+                                            </div>
+                                            <div class="card_exp__cell">
+                                                <label class="whitefield_select">
+                                                    <select id="exp_date_year">
+                                                        <option>2011</option>
+                                                        <option>2012</option>
+                                                        <option>2013</option>
+                                                        <option>2014</option>
+                                                        <option>2015</option>
+                                                        <option>2016</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flexbox__item">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <button type="submit" class="button button--red float-right">
-                    <span class="button__text">Save order</span>
-                    <span class="button__image"></span>
-                </button>
-                 <img class="loader--big float-right" src="static/desktop/images/loader.gif">
+                <div class="button-spinner float-right">
+                    <img class="spinner" src="static/desktop/images/loader.gif">
+                    <button type="submit" class="button button--red button--medium">
+                        <span class="button__text">Save order</span>
+                        <span class="button__image"></span>
+                    </button>
+                </div>
             </form>
         </div>
     </div>

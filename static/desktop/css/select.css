@@ -132,6 +132,7 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
     margin-right: 5px;
     display: inline-block;
     vertical-align: middle;
+    line-height: 29px;
 }
 
 .select-cur {
@@ -139,11 +140,7 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
     vertical-align: middle;
     color: #b8b8b8;
     text-transform: uppercase;
-}
-
-.header div.fancy-select {
-    float: right;
-    top: -7px;
+    line-height: 29px;
 }
 
 .header div.fancy-select div.trigger {
@@ -212,6 +209,10 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
             user-select: none;
 }
 
+.header div.fancy-select ul.options li a {
+    color: #323232;
+}
+
 .header div.fancy-select ul.options li.selected {
     background: #f1f1f1;
     color: #323232;
@@ -220,3 +221,115 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
 .header div.fancy-select ul.options li:hover, .header div.fancy-select ul.options li.selected:hover {
     color: #089e95;
 }
+
+#select-program ~ .trigger {
+    width: auto;
+    height: auto;
+    border: none;
+    overflow: visible;
+    padding: 0 15px;
+}
+
+#select-program ~ .options {
+    width: auto;
+    height: auto;
+    top: 25px;
+    border: none;
+    background-color: #fff;
+}
+
+#select-program ~ .options li {
+    width: auto;
+    height: auto;
+    padding: 7px 15px;
+}
+
+#select-program ~ .options li.selected {
+    background-color: #fff;
+}
+
+#select-program ~ .options li:hover {
+    background: #f5f5f5;
+    color: #323232;
+}
+
+#select-program + .trigger:after {
+    right: 0;
+}
+
+.whitefield_select div.fancy-select div.trigger {
+    width: 250px;
+    height: 42px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #232323;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+}
+
+.whitefield_select div.fancy-select ul.options {
+    top: 43px;
+    width: 250px;
+    height: auto;
+    background: #f1f1f1;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.whitefield_select div.fancy-select ul.options.open {
+    border: 1px solid #ccc;
+}
+
+.whitefield_select div.fancy-select ul.options li {
+    width: 250px;
+    height: 42px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #232323;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.whitefield_select div.fancy-select ul.options li:hover, .whitefield_select div.fancy-select ul.options li.hover {
+    background-color: #d9d9d9;
+}
+
+.whitefield_select div.fancy-select ul.options li.selected:hover {
+    background-color: #d3d3d3;
+}
+
+.card_exp div.fancy-select {
+    width: 100px;
+    display: table-cell;
+    vertical-align: baseline;
+}
+
+.card_exp div.fancy-select div.trigger, .card_exp div.fancy-select ul.options {
+    width: 100%;
+}
+
+.form__row .flexbox__item .div.fancy-select div.trigger {
+    width: 250px;
+}
+
+.form__row .flexbox__item div.fancy-select select:focus ~ div.trigger {
+    border: 1px solid #089e95;
+}
+

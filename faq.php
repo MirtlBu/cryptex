@@ -5,7 +5,7 @@
             <h1>Faq</h1>
             <div class="text-greenfield">
                 <div id="accordion">
-                    <div class="faq__title whitefield">
+                    <div class="faq__title whitefield" id="one">
                         <div class="title3">Типы электронных валют, принимаемых к оплат</div>
                     </div>
                     <div class="faq__item whitefield">
@@ -13,24 +13,24 @@
                             проведение платежей осуществляется в течение 1-10 минут после оплаты. Исключение составляют следующие ситуации.
                         </p>
                     </div>
-                    <div class="faq__title whitefield">
-                        <div class="title3">Типы электронных валют, принимаемых к оплат</div>
+                    <div class="faq__title whitefield" id="two">
+                        <div class="title3">Что такое криптовалюта?</div>
                     </div>
                     <div class="faq__item whitefield">
                         <p>Во всех случаях, если не указано обратное,
                             проведение платежей осуществляется в течение 1-10 минут после оплаты. Исключение составляют следующие ситуации.
                         </p>
                     </div>
-                    <div class="faq__title whitefield">
-                        <div class="title3">Типы электронных валют, принимаемых к оплат</div>
+                    <div class="faq__title whitefield" id="three">
+                        <div class="title3">Как зарегистрироваться?</div>
                     </div>
                     <div class="faq__item whitefield">
                         <p>Во всех случаях, если не указано обратное,
                             проведение платежей осуществляется в течение 1-10 минут после оплаты. Исключение составляют следующие ситуации.
                         </p>
                     </div>
-                    <div class="faq__title whitefield">
-                        <div class="title3">Типы электронных валют, принимаемых к оплат</div>
+                    <div class="faq__title whitefield" id="four">
+                        <div class="title3">Как быстро я получу свои деньги?</div>
                     </div>
                     <div class="faq__item whitefield">
                         <p>Во всех случаях, если не указано обратное,
@@ -55,8 +55,8 @@
                             предлагаемые сервером, по подтверждению платежа и его оплате.
                         </p>
                     </div>
-                    <div class="faq__title whitefield">
-                        <div class="title3">Типы электронных валют, принимаемых к оплат</div>
+                    <div class="faq__title whitefield" id="five">
+                        <div class="title3">Какие бонусы я получу при обмене?</div>
                     </div>
                     <div class="faq__item whitefield">
                         <p>Во всех случаях, если не указано обратное,

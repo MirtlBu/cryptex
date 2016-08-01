@@ -2,10 +2,6 @@
     margin-bottom: 15px;
 }
 
-.step2 .text-whitefield {
-    margin: 0 auto 15px auto;
-}
-
 .step2 label {
     display: table;
     margin-bottom: 15px;
@@ -36,6 +32,137 @@
     color: #00857d;
 }
 
-.step2 .underlined:after {
+.step2 .underlined:hover:after {
     background: #00857d;
 }
+
+.address-selection {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.address-selection-wrap {
+    display: inline-block;
+}
+
+.address-selection__item {
+    position: relative;
+    width: 215px !important;
+    height: 122px;
+    margin-right: 9px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.address-selection__item:hover {
+    border: 1px solid #089e95;
+}
+
+.address-selection__item:focus {
+    outline: none;
+}
+
+.address-selection__remove {
+    font-size: 14px;
+    color: #ff535f;
+    text-transform: lowercase;
+    opacity: .8;
+    border-bottom: 1px solid transparent;
+}
+
+.address-selection__remove:hover {
+    opacity: 1;
+    border-bottom: 1px solid #ff535f;
+}
+
+.address-selection__item:after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 7px;
+    top: 10px;
+    right: 10px;
+    background-repeat:  no-repeat;
+    background-image: url(/static/desktop/images/icon-check.png);
+    background-position: 0 0;
+    display: none;
+}
+
+.address-selection__item--active {
+    opacity: 1;
+    border: 1px solid #089e95;
+}
+
+.address-selection__item--active:after {
+    display: block;
+}
+
+.address-selection__items.flexbox {
+    width: 672px;
+}
+
+.address-selection__controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slick-arrow {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: transparent;
+    background-image: url(/static/desktop/images/icon-arrows.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.slick-prev {
+    background-position: -25px 0;
+}
+
+.slick-next {
+    background-position: 0 0;
+}
+
+.slick-prev.slick-disabled {
+    background-position: -75px 0;
+}
+
+.slick-next.slick-disabled {
+    background-position: -50px 0;
+}
+
+.card_exp {
+    display: table;
+}
+
+.card_exp > div {
+    display: table-row;
+}
+
+.card_exp__cell {
+    display: table-cell;
+    vertical-align: baseline;
+}
+
+/*.card_exp .form__title  {
+    width: 110px;
+}*/
+
+.card_exp .slash {
+    width: 50px;
+    text-align: center;
+}
+
+.card_exp .slash:after {
+    content: none;
+}
+
+/*.step2 .checkbox {
+    margin-left: 110px;
+}*/

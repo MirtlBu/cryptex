@@ -9,41 +9,65 @@
                     remember we never exchange in messengers or social networks!
                 </p>
             </div>
-            <div class="text-greenfield">
-                <div class="twocol">
+            <div class="text-greenfield flexbox flexbox--start contacts_flex_margin_bottom">
+                <div class="contacts_flex_margin_right">
                     <div class="title2">General questions</div>
                     <table>
                         <tbody>
                             <tr>
-                                <td class="contacts__title">Email:</td>
-                                <td class="contacts__text">support@cryptex24.com</td>
+                                <td class="contacts__title">
+                                    <span>Email:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="mailto:support@cryptex24.com" class="underlined text-link--white">support@cryptex24.com</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Skype:</td>
-                                <td class="contacts__text">cryptex24com</td>
+                                <td class="contacts__title">
+                                    <span>Skype:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="#" class="underlined text-link--white">click here</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Icq:</td>
-                                <td class="contacts__text">13123123</td>
+                                <td class="contacts__title">
+                                    <span>Icq:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="" class="underlined text-link--white">678706590</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Jabber:</td>
-                                <td class="contacts__text">jaber@cryptex24.com</td>
+                                <td class="contacts__title">
+                                    <span>Jabber:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="mailto:jabber@cryptex24.com" class="underlined text-link--white">mailto:jabber@cryptex24.com</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
-                </div><!--
-             --><div class="twocol">
+                </div>
+                <div class="">
                     <div class="title2">Affiliate program</div>
                     <table>
                         <tbody>
                             <tr>
-                                <td class="contacts__title">Email:</td>
-                                <td class="contacts__text">support@cryptex24.com</td>
+                                <td class="contacts__title">
+                                    <span>Email:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="mailto:support@cryptex24.com" class="underlined text-link--white">support@cryptex24.com</a>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="contacts__title">Skype:</td>
-                                <td class="contacts__text">cryptex24com</td>
+                                <td class="contacts__title">
+                                    <span>Skype:</span>
+                                </td>
+                                <td class="contacts__text">
+                                    <a href="#" class="underlined text-link--white">click here</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -69,11 +93,13 @@
                         <textarea type="text" class="form__input form__textarea form__input--whitefield form__input--510"></textarea>
                     </label>
                 </div>
-                <button type="submit" class="button button--red float-right">
-                    <span class="button__text">Send message</span>
-                    <span class="button__image"></span>
-                </button>
-                <img class="loader--big float-right" src="static/desktop/images/loader.gif">
+                <div class="button-spinner float-right">
+                    <img class="spinner" src="static/desktop/images/loader.gif">
+                    <button type="submit" class="button button--red button--medium">
+                        <span class="button__text">Send message</span>
+                        <span class="button__image"></span>
+                    </button>
+                </div>
             </form>
         </div>
     </div>

@@ -1,11 +1,11 @@
-.contacts__title {
+.contacts__title span {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.contacts__text {
+.contacts__text a {
     font-size: 17px;
 }
 
@@ -14,13 +14,23 @@
 }
 
 .contacts td {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .contacts .text-greenfield p {
     margin: 15px 0 25px 0;
 }
 
-.contacts .twocol {
-    margin-bottom: 15px;
+.contacts .form__row {
+    margin-bottom: 30px;
+}
+
+/*костыли*/
+
+.contacts_flex_margin_right {
+    margin-right: 160px;
+}
+
+.contacts_flex_margin_right {
+    margin-bottom: 20px;
 }
