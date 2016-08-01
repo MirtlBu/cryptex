@@ -15,9 +15,9 @@
 .order__title {
     margin-right: 20px;
     font-size: 17px;
-    color: #787878;
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    color: #787878;
 }
 
 .order__text {
@@ -26,18 +26,18 @@
 }
 
 .order-invoice {
+    padding: 2px 0 2px 0;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-weight: 400;
-    padding: 2px 0 2px 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .order-invoice .table {
     padding: 20px;
     border-collapse: separate;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .order-invoice td {
@@ -52,9 +52,9 @@
     margin: 25px 0 30px 0;
 }
 
-.step3 .timer {
+.step3 .timer__text {
     font-size: 65px;
-    line-height: 55px;
+    line-height: 57px;
 }
 
 .step3 .timer__img {
@@ -63,7 +63,7 @@
 }
 
 .step3 .whitefield .title4 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .step3 .flexbox {
@@ -81,7 +81,7 @@
 }
 
 .step3 .button-spinner {
-    margin-top: 0
+    margin-top: 0;
 }
 
 .step3 .from-to .flexbox {

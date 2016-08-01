@@ -12,7 +12,7 @@ var gulp = require('gulp'),
 var cssfiles = [
     'static/vendors/FancySelect/fancySelect.css',
     'static/vendors/slick.css',
-    'static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.css',
+    'static/vendors/jquery-ui-1.12.0.custom/jquery-ui.min.css',
     'static/desktop/css/form.css',
     'static/desktop/css/table.css',
     'static/desktop/css/select.css',
@@ -47,7 +47,7 @@ var cssfiles = [
 
 var jsfiles = [
     'static/vendors/jquery-2.1.4.min.js',
-    'static/vendors/jquery-ui-1.11.4.custom/jquery-ui.min.js',
+    'static/vendors/jquery-ui-1.12.0.custom/jquery-ui.min.js',
     'static/vendors/FancySelect/fancySelect.js',
     'static/vendors/slick.min.js',
     'static/vendors/webcam.min.js',

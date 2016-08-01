@@ -142,6 +142,13 @@
                                                         <option>Mr</option>
                                                         <option>Apr</option>
                                                         <option>Ma</option>
+                                                        <option>Jn</option>
+                                                        <option>Jl</option>
+                                                        <option>Aug</option>
+                                                        <option>Sep</option>
+                                                        <option>Okt</option>
+                                                        <option>Nov</option>
+                                                        <option>Dec</option>
                                                     </select>
                                                 </label>
                                             </div>

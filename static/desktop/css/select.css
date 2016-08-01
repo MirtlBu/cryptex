@@ -278,9 +278,13 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
     width: 250px;
     height: auto;
     background: #f1f1f1;
-    border: 1px solid #ccc;;
+    border: 1px solid transparent;
     box-sizing: border-box;
     overflow-x: hidden;
+}
+
+.whitefield_select div.fancy-select ul.options.open {
+    border: 1px solid #ccc;
 }
 
 .whitefield_select div.fancy-select ul.options li {
@@ -303,7 +307,7 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
             user-select: none;
 }
 
-.whitefield_select div.fancy-select ul.options li:hover {
+.whitefield_select div.fancy-select ul.options li:hover, .whitefield_select div.fancy-select ul.options li.hover {
     background-color: #d9d9d9;
 }
 
@@ -320,3 +324,12 @@ div.fancy-select ul.options.overflowing, div.fancy-select ul.options.overflowing
 .card_exp div.fancy-select div.trigger, .card_exp div.fancy-select ul.options {
     width: 100%;
 }
+
+.form__row .flexbox__item .div.fancy-select div.trigger {
+    width: 250px;
+}
+
+.form__row .flexbox__item div.fancy-select select:focus ~ div.trigger {
+    border: 1px solid #089e95;
+}
+

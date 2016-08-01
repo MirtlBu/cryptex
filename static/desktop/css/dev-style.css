@@ -376,7 +376,7 @@ li {
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5px;
+    margin: -6px 5px 0 0;
 }
 
 .timer__text {
