@@ -16,12 +16,12 @@
 }
 
 .rateus td {
-    font-size: 17px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 17px;
     font-weight: 400;
-    color: #323232;
-    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.7;
+    color: #323232;
 }
 
 .rateus td div {
@@ -30,12 +30,12 @@
 }
 
 .rateus__title {
-    font-size: 17px;
-    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
     margin-right: 40px;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7;
 }
 
 .curly {

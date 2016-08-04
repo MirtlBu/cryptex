@@ -40,11 +40,11 @@
 }
 
 .bordered {
+    margin-bottom: 40px;
     padding: 20px 35px;
     box-sizing: border-box;
     font-size: 18px;
     border: 2px solid #ff535f;
-    margin-bottom: 40px;
 }
 
 .textpage .table {
@@ -55,7 +55,6 @@
     background-color: #dbdbdb;
 }
 
-    /*font-size: 17px;
+/*font-size: 17px;
     font-weight: 400;
     color: #323232;*/
-

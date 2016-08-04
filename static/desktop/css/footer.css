@@ -1,7 +1,7 @@
 .footer {
-    background: #ffffff;
     padding: 65px 0;
     border-top: 1px solid rgba(183, 183, 183, .3);
+    background: #ffffff;
 }
 
 .table__footer {
@@ -22,15 +22,15 @@
 }
 
 .footer__copyrights, .footer__link {
-    font-size: 15px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 15px;
     font-weight: 400;
-    color: #8b8b8b;
     -webkit-font-smoothing: antialiased;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
+    color: #8b8b8b;
 }
 
 .footer__link:hover {

@@ -3,26 +3,26 @@
 }
 
 .verification__status {
-    font-size: 17px;
-    color: #089e95;
+    display: none;
     font-family: 'PT Sans Narrow',Helvetica,Arial,sans-serif;
+    font-size: 17px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    display: none;
+    color: #089e95;
 }
 
 .verification__status span {
-    position: relative;
     padding-left: 30px;
+    position: relative;
 }
 
 .verification__status span:after {
-    content: '';
-    position: absolute;
     width: 15px;
     height: 12px;
-    left: 0;
+    position: absolute;
     top: 3px;
+    left: 0;
+    content: '';
     background-image: url(/static/desktop/images/icon-check2.png);
     background-repeat: no-repeat;
 }
@@ -40,8 +40,9 @@
 }
 
 .verification .flexbox__item:nth-of-type(2) {
-    flex: 1;
     text-align: right;
+
+    flex: 1;
 }
 
 .verification .button--red {
@@ -69,19 +70,19 @@
 }
 
 .verification .title4.title4--padded {
-    text-transform: none;
     margin: 20px auto 5px;
-    position: relative;
     padding-left: 30px;
+    position: relative;
+    text-transform: none;
 }
 
 .verification .title4.title4--padded:after {
-    content: '';
-    position: absolute;
     width: 22px;
     height: 21px;
+    position: absolute;
     top: 0;
     left: 0;
+    content: '';
     background-image: url(/static/desktop/images/icon-question.png);
     background-repeat: no-repeat;
 }
@@ -101,5 +102,3 @@
 .upload_controls--hidden {
     display: none;
 }
-
-

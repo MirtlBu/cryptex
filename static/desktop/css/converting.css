@@ -1,18 +1,18 @@
 .converting div.trigger {
-    position: relative;
     width: 305px;
     height: 42px;
     padding: 6px 15px;
     box-sizing: border-box;
-    background: #fff;
-    border: none;
-    border-radius: 3px;
+    position: relative;
     overflow: hidden;
-    text-overflow: ellipsis;
+    font-family: 'PT Sans Narrow',Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 400;
+    text-overflow: ellipsis;
     color: #1e1e1e;
-    font-family: 'PT Sans Narrow',Helvetica,Arial,sans-serif;
+    border: none;
+    border-radius: 3px;
+    background: #ffffff;
 }
 
 .converting .underlined {
@@ -20,8 +20,8 @@
 }
 
 .toknow {
-    background-color: #fff;
     padding: 50px 0;
+    background-color: #ffffff;
 }
 
 .main-description.converting {

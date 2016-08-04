@@ -9,11 +9,11 @@ $(function() {
                     '<span class="select-title">' + optionEl.text() + '</span>' +
                     '<span class="select-cur">(' + optionEl.data('value') + ')</span>';
                 },
-                triggerTemplate: function(optionEl) {
-                    return '<span class="currency-img" style="background: url(' + optionEl.data('icon') + ')"></span>' +
+            triggerTemplate: function(optionEl) {
+                return '<span class="currency-img" style="background: url(' + optionEl.data('icon') + ')"></span>' +
                     '<span class="select-title">' + optionEl.text() + '</span>' +
                     '<span class="select-cur">(' + optionEl.data('value') + ')</span>';
-                }
+            }
         });
     });
 
@@ -24,7 +24,7 @@ $(function() {
     var select_program = $('#select-program');
     select_program.fancySelect({
         optionTemplate: function(optionEl) {
-            return  '<a href="/' + optionEl.data('url') + '">' + optionEl.text() + '</a';
+            return '<a href="/' + optionEl.data('url') + '">' + optionEl.text() + '</a';
         }
     });
 
@@ -35,11 +35,10 @@ $(function() {
         var dataVal = $(this).data('nav');
         $('.bookmark__item--active').removeClass('bookmark__item--active');
         $('.bookmark__item--' + dataVal).addClass('bookmark__item--active');
-
     });
 
     $('.bookmark__item--exchange').on('click', '.exchange-from', function() {
-        if ($(this).hasClass('exchange-from--active')) {
+        if($(this).hasClass('exchange-from--active')) {
             return false;
         }
         else {
@@ -53,7 +52,6 @@ $(function() {
     });
 
     //поведение аккордеона в faq
-
     function openAccordion() {
         if(isNaN(hashNum)) {
             return 0;
@@ -68,7 +66,7 @@ $(function() {
         active: openAccordion()
     });
 
-    // поведение пагинации
+    //поведение пагинации
     $('.pagination__link').on('click', function() {
         var $this = $(this);
         if($this.hasClass('pagination__text')) {
@@ -103,6 +101,7 @@ $(function() {
             }
         }
     });
+
     //выбор адреса
     $('.step2').on('click', '.address-selection__item', function(e) {
         if($(e.target).hasClass('address-selection__remove')) {
@@ -119,6 +118,7 @@ $(function() {
             }
         }
     });
+
     //слайдер с адресам
     $('.address-selection__items').slick({
         appendArrows: $('.address-selection__controls'),

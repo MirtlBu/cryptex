@@ -8,19 +8,19 @@
 }
 
 .header-topbar {
-    padding-bottom: 10px;
     margin-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgba(183, 183, 183, .3);
 }
 
 .header-topbar__rates {
     display: inline-block;
-    font-size: 12px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 12px;
     font-weight: 400;
-    color: #949494;
-    text-transform: uppercase;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #949494;
 }
 
 .header-topbar__nav {
@@ -32,9 +32,9 @@
 }
 
 .header-topbar__link {
-    display: block;
     padding-left: 15px;
     box-sizing: border-box;
+    display: block;
 }
 
 .header-topbar__link .title4 {
@@ -50,22 +50,22 @@
 }
 
 .header-topbar__avatar {
-    position: relative;
     width: 9px;
     height: 12px;
     margin-left: 15px;
     padding: 0;
+    position: relative;
     background-image: url(/static/desktop/images/icon-avatar.png);
     background-repeat: no-repeat;
 }
 
 .header-topbar__avatar:after {
-    content: none;
-    position: absolute;
     width: 12px;
     height: 12px;
-    left: 13px;
+    position: absolute;
     top: 3px;
+    left: 13px;
+    content: none;
     background-image: url(/static/desktop/images/icon-to3.png);
     background-repeat: no-repeat;
     background-size: 75%;
@@ -84,19 +84,19 @@
 }
 
 .header-bottombar__link {
-    display: block;
     margin-right: 20px;
     position: relative;
+    display: block;
 }
 
 .header-bottombar__link:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    margin-top: -5px;
-    right: -16px;
     width: 6px;
     height: 6px;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    content: '';
     background: url(/static/desktop/images/square-divider.png);
 }
 
@@ -106,9 +106,9 @@
 }
 
 .header-bottombar__link:hover .title4 {
-    color: #089e95;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
+    color: #089e95;
 }

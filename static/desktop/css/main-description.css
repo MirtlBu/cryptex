@@ -1,9 +1,9 @@
 .main-description {
+    padding: 50px 0;
     background-color: #e8e8e8;
     background-image: url(/static/desktop/images/bg-2.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 50px 0;
 }
 
 .main-description h2 {
@@ -12,10 +12,10 @@
 }
 
 .main-description p {
-    font-size: 17px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 17px;
     font-weight: 400;
-    color: #1e1e1e;
-    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+    color: #1e1e1e;
 }

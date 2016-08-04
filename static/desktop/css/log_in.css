@@ -1,7 +1,7 @@
 .log_in .underlined {
-    color: #089e95;
-    -webkit-font-smoothing: antialiased;
     margin-left: 25px;
+    -webkit-font-smoothing: antialiased;
+    color: #089e95;
 }
 
 .log_in .underlined:after {

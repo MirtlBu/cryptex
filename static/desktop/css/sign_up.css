@@ -1,7 +1,7 @@
 .sign_up .underlined {
-    color: #089e95;
-    -webkit-font-smoothing: antialiased;
     margin-left: 25px;
+    -webkit-font-smoothing: antialiased;
+    color: #089e95;
 }
 
 .sign_up .underlined:after {

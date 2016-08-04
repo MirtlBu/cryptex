@@ -1,21 +1,23 @@
 {
-    "name": "cryptex",
-    "version": "0.0.1",
-    "description": "Cryptex project",
-    "main": "index.js",
-    "scripts": {
+  "name": "cryptex",
+  "version": "0.0.1",
+  "description": "Cryptex project",
+  "main": "index.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-},
-    "author": "Mirtl",
-    "license": "ISC",
-    "devDependencies": {
-    "gulp": "latest",
+  },
+  "author": "Mirtl",
+  "license": "ISC",
+  "devDependencies": {
     "autoprefixer-core": "latest",
+    "gulp": "latest",
     "gulp-concat": "latest",
-    "gulp-uglify": "latest",
-    "gulp-notify": "latest",
-    "gulp-util": "latest",
+    "gulp-csscomb": "^3.0.7",
     "gulp-cssmin": "latest",
-    "gulp-rename": "latest"
-    }
+    "gulp-jscs": "^4.0.0",
+    "gulp-notify": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
+  }
 }

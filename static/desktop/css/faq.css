@@ -10,15 +10,15 @@
 }
 
 .faq .title3:before {
-    content: '';
-    position: absolute;
-    right: 35px;
-    top: 50%;
-    margin-top: -2px;
     width: 10px;
     height: 9px;
-    background: url(/static/desktop/images/triangle-2.png) no-repeat;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    content: '';
     transition: all .2s linear;
+    background: url(/static/desktop/images/triangle-2.png) no-repeat;
 }
 
 .faq .whitefield {
@@ -46,13 +46,13 @@
 }
 
 .faq .ui-accordion-header-active {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .faq .ui-accordion-header-active .title3 {
-    color: #1b1b1b;
     font-weight: 700;
+    color: #1b1b1b;
 }
 
 .faq .ui-accordion-header-active .title3:before {
@@ -60,6 +60,6 @@
 }
 
 .faq .ui-accordion-content-active {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }

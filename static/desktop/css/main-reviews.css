@@ -8,35 +8,35 @@
 }
 
 .main-reviews__item {
+    margin-bottom: 40px;
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 40px;
 }
 
 .main-reviews__title {
-    font-size: 15px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 15px;
     font-weight: 400;
-    color: #9c9c9c;
     -webkit-font-smoothing: antialiased;
     text-align: center;
+    color: #9c9c9c;
 }
 
 .main-reviews__image {
     width: 273px;
     height: 14px;
-    background: url(/static/desktop/images/square-line-long.png);
     margin: 10px 0 20px 0;
+    background: url(/static/desktop/images/square-line-long.png);
 }
 
 .main-reviews__text {
     width: 265px;
-    font-size: 17px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 17px;
     font-weight: 400;
-    color: #1e1e1e;
     -webkit-font-smoothing: antialiased;
     line-height: 1.4;
+    color: #1e1e1e;
 }
 
 .main-reviews__item:nth-child(1) .main-reviews__text {

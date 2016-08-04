@@ -12,9 +12,9 @@
 .main-features__image {
     width: 98px;
     height: 99px;
+    margin-right: 20px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 20px;
 }
 
 .main-features__text {
@@ -28,11 +28,11 @@
 }
 
 .main-features__text span {
-    font-size: 17px;
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 17px;
     font-weight: 400;
-    color: #616161;
     -webkit-font-smoothing: antialiased;
+    color: #616161;
 }
 
 .main-features__image--fast {

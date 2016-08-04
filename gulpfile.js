@@ -7,12 +7,25 @@ var gulp = require('gulp'),
     notify = require('gulp-notify'),
     cssmin = require('gulp-cssmin'),
     rename = require('gulp-rename'),
-    gutil = require('gulp-util');
+    gutil = require('gulp-util'),
+    csscomb = require('gulp-csscomb'),
+    jscs = require('gulp-jscs');
 
-var cssfiles = [
+var css_vendors = [
     'static/vendors/FancySelect/fancySelect.css',
-    'static/vendors/slick.css',
+    'static/vendors/slick/slick.css',
     'static/vendors/jquery-ui-1.12.0.custom/jquery-ui.min.css',
+];
+
+var js_vendors = [
+    'static/vendors/jquery-2.1.4.min/jquery-2.1.4.min.js',
+    'static/vendors/jquery-ui-1.12.0.custom/jquery-ui.min.js',
+    'static/vendors/FancySelect/fancySelect.js',
+    'static/vendors/slick/slick.min.js',
+    'static/vendors/webcamjs/webcam.min.js',
+];
+
+var css_files = [
     'static/desktop/css/form.css',
     'static/desktop/css/table.css',
     'static/desktop/css/select.css',
@@ -45,14 +58,13 @@ var cssfiles = [
     'static/desktop/css/320.css'
 ];
 
-var jsfiles = [
-    'static/vendors/jquery-2.1.4.min.js',
-    'static/vendors/jquery-ui-1.12.0.custom/jquery-ui.min.js',
-    'static/vendors/FancySelect/fancySelect.js',
-    'static/vendors/slick.min.js',
-    'static/vendors/webcam.min.js',
+var js_files = [
     'static/desktop/js/dev-script.js'
 ];
+
+function arrayConcat(a, b) {
+    return a.concat(b);
+}
 
 gulp.task('watch', function() {
     gulp.watch('static/desktop/js/*.js', ['js']);
@@ -60,9 +72,24 @@ gulp.task('watch', function() {
 
 });
 
+gulp.task('combcss', function() {
+    return gulp.src(css_files)
+        .pipe(csscomb())
+        .pipe(gulp.dest('static/desktop/css/'));
+});
+
+gulp.task('combjs', function() {
+    return gulp.src(js_files)
+        .pipe(jscs())
+        .pipe(jscs.reporter())
+        .pipe(jscs({fix: true}))
+        .pipe(gulp.dest('static/desktop/js/'));
+});
+
 gulp.task('css', function () {
-    return gulp.src(cssfiles)
+    return gulp.src(arrayConcat(css_vendors, css_files))
         .pipe(concat('style.css'))
+        .pipe(csscomb())
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('static/desktop/css/'))
@@ -70,7 +97,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('js', function () {
-    return gulp.src(jsfiles)
+    return gulp.src(arrayConcat(js_vendors, js_files))
         .pipe(concat('script.js'))
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))

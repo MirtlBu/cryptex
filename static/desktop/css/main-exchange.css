@@ -1,6 +1,6 @@
 .main-exchange {
-    text-align: left;
     padding-bottom: 60px;
+    text-align: left;
 }
 
 .form__input--main-exchange {
@@ -19,28 +19,28 @@
 .from-to-1 {
     width: 23px;
     height: 75px;
+    margin: 0 35px;
+    position: relative;
+    top: 50px;
     display: inline-block;
     vertical-align: top;
     background: url(/static/desktop/images/icon-to.png);
-    position: relative;
-    top: 50px;
-    margin: 0 35px;
 }
 
 .main-exchange-info__item {
     width: 272px;
-    display: inline-block;
-    vertical-align: top;
     margin: 15px 1px 25px 0;
-    line-height: 1.5;
     padding: 16px 60px;
-    background: rgba(255, 255, 255, .15);
-    font-size: 17px;
-    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    text-align: center;
     box-sizing: border-box;
+    display: inline-block;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: top;
+    color: #ffffff;
+    background: rgba(255, 255, 255, .15);
 }
 
 .main-exchange-info__amount {
