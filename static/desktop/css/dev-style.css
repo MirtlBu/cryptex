@@ -312,7 +312,12 @@ li {
     margin-left: 400px;
 }
 
-.main, .step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews, .start, .verification, .converting, .textpage {
+.main {
+    padding-top: 15px;
+    position: relative;
+}
+
+.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews, .start, .verification, .converting, .textpage {
     padding: 15px 0;
     position: relative;
 }
@@ -639,6 +644,24 @@ li {
 #send_snapshot {
     margin-right: 40px;
     float: right;
+}
+
+.cc-banner * {
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif !important;
+    font-size: 17px !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.cc-link {
+    opacity: 1 !important;
+}
+
+.cc-link:hover {
+    color: #00857d !important;
+}
+
+.cc-btn.cc-dismiss:hover {
+    background: #e1404b !important;
 }
 
 @media (min-width: 1900px) {
