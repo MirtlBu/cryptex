@@ -1,0 +1,31 @@
+.affiliate .flexbox {
+    align-items: baseline;
+}
+
+.affiliate form .flexbox {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.affiliate .statistic__item span:first-of-type {
+    color: #323232;
+    font-size: 17px;
+}
+
+.affiliate .statistic__item span:last-of-type {
+    font-weight: bold;
+}
+
+.affiliate .total {
+    width: 100%;
+    background-color: #089e95;
+    color: #fff;
+    font-size: 18px;
+    line-height: 61px;
+    height: 60px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}

@@ -54,6 +54,7 @@ var css_files = [
     'static/desktop/css/verification.css',
     'static/desktop/css/converting.css',
     'static/desktop/css/textpage.css',
+    'static/desktop/css/affiliate.css',
     'static/desktop/css/dev-style.css',
     'static/desktop/css/320.css'
 ];

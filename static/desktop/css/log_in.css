@@ -1,19 +1,13 @@
 .log_in .underlined {
     margin-left: 25px;
-    -webkit-font-smoothing: antialiased;
     color: #089e95;
-}
-
-.log_in .underlined:after {
-    background: #089e95;
+    background: linear-gradient(#089e95, #089e95) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.05em;
 }
 
 .log_in .underlined:hover {
     color: #00857d;
-}
-
-.log_in .underlined:after {
-    background: #00857d;
 }
 
 .log_in .checkbox {

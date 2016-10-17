@@ -41,19 +41,15 @@
 
 .verification .flexbox__item:nth-of-type(2) {
     text-align: right;
-
     flex: 1;
 }
 
 .verification .button--red {
     width: auto;
     height: 45px;
-    padding: 12px 25px;
+    line-height: 45px;
+    padding: 0 25px;
     box-sizing: border-box;
-}
-
-.verification .button-spinner {
-    margin-top: 0;
 }
 
 .verification .button__image {

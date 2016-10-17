@@ -195,6 +195,9 @@
 .bookmark__item--exchange .underlined {
     text-transform: none;
     color: #089e95;
+    background: linear-gradient(#089e95, #089e95) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.05em;
 }
 
 .bookmark__item--exchange .underlined:after {

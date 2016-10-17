@@ -8,10 +8,9 @@
 
 .textpage .underlined {
     color: #089e95;
-}
-
-.textpage .underlined:after {
-    background-color: #089e95;
+    background: linear-gradient(#089e95, #089e95) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.05em;
 }
 
 .textpage .underlined:hover {

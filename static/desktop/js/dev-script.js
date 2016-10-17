@@ -17,7 +17,7 @@ $(function() {
         });
     });
 
-    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3'), $('#select-country'), $('#exp_date_year'), $('#exp_date_month')], function(index, val) {
+    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3'), $('#select-country'), $('#exp_date_year'), $('#exp_date_month'), $('#paymentMethod')], function(index, val) {
         val.fancySelect({});
     });
 

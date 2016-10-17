@@ -20,20 +20,14 @@
     font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
     font-size: 17px;
     font-weight: 400;
-    -webkit-font-smoothing: antialiased;
     color: #089e95;
-}
-
-.step2 .underlined:after {
-    background: #089e95;
+    background: linear-gradient(#089e95, #089e95) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.05em;
 }
 
 .step2 .underlined:hover {
     color: #00857d;
-}
-
-.step2 .underlined:hover:after {
-    background: #00857d;
 }
 
 .address-selection {
