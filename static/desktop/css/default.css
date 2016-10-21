@@ -1,0 +1,38 @@
+p, li {
+    -webkit-font-smoothing: antialiased;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.green_container {
+    color: #fff;
+}
+
+.white_container {
+    color: #787878;
+}
+
+.white_container li, .green_container li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.white_container li:after, .green_container li:after {
+    position: absolute;
+    left: 0;
+    content: '';
+    background-repeat: no-repeat;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.white_container li:after {
+    background-color: #787878;
+}
+
+.green_container li:after {
+    background-color: #fff;
+}

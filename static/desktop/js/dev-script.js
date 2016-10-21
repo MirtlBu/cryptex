@@ -17,8 +17,18 @@ $(function() {
         });
     });
 
-    $.each([$('#select-lang'), $('#select-rate1'), $('#select-rate2'), $('#select-rate3'), $('#select-country'), $('#exp_date_year'), $('#exp_date_month'), $('#paymentMethod')], function(index, val) {
-        val.fancySelect({});
+    $.each([$('#select-lang'),
+            $('#select-rate1'),
+            $('#select-rate2'),
+            $('#select-rate3'),
+            $('#select-country'),
+            $('#exp_date_year'),
+            $('#exp_date_month'),
+            $('#paymentMethod'),
+            $('#keygenPage'),
+            $('#keygenLang'),
+            $('#your_language')], function(index, val) {
+                val.fancySelect({});
     });
 
     var select_program = $('#select-program');
@@ -63,7 +73,8 @@ $(function() {
 
     $('#accordion').accordion({
         heightStyle: 'content',
-        active: openAccordion()
+        active: openAccordion(),
+        collapsible: true
     });
 
     //поведение пагинации

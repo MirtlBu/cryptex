@@ -9,18 +9,6 @@
     color: #43a9a6;
 }
 
-.faq .title3:before {
-    width: 10px;
-    height: 9px;
-    margin-top: -2px;
-    position: absolute;
-    top: 50%;
-    right: 35px;
-    content: '';
-    transition: all .2s linear;
-    background: url(/static/desktop/images/triangle-2.png) no-repeat;
-}
-
 .faq .whitefield {
     margin: 0 auto;
 }
@@ -55,11 +43,23 @@
     color: #1b1b1b;
 }
 
-.faq .ui-accordion-header-active .title3:before {
-    transform: rotate(180deg);
-}
-
 .faq .ui-accordion-content-active {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+.faq .ui-icon {
+    width: 10px;
+    height: 9px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    content: '';
+    transition: all .2s linear;
+    background: url(/static/desktop/images/triangle-2.png) no-repeat;
+}
+
+.faq .ui-accordion-header-active .ui-icon {
+    transform: rotate(180deg);
 }

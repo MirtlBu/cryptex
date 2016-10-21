@@ -26,6 +26,7 @@ var js_vendors = [
 ];
 
 var css_files = [
+    'static/desktop/css/default.css',
     'static/desktop/css/form.css',
     'static/desktop/css/table.css',
     'static/desktop/css/select.css',
@@ -55,6 +56,9 @@ var css_files = [
     'static/desktop/css/converting.css',
     'static/desktop/css/textpage.css',
     'static/desktop/css/affiliate.css',
+    'static/desktop/css/keygen.css',
+    'static/desktop/css/unsubscribe.css',
+    'static/desktop/css/profile.css',
     'static/desktop/css/dev-style.css',
     'static/desktop/css/320.css'
 ];

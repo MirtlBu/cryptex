@@ -1,0 +1,12 @@
+.unsubscribe .green_container .title4 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.unsubscribe .green_container .title4 + p {
+    margin-top: 0;
+}
+
+.unsubscribe .button {
+    margin-top: 20px;
+}

@@ -221,3 +221,20 @@
 .form__layout--twocol .form__input {
     width: 250px;
 }
+
+.form__row--lined {
+    border-top: 1px solid rgba(255, 255, 255, .8);
+    position: relative;
+    padding-top: 5px;
+}
+
+.form__row--lined:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: calc(100% + 2px);
+    top: -4px;
+    left: 0;
+    border-top: 1px solid rgba(255, 255, 255, .8);
+    padding: 2px 0 2px 0;
+}

@@ -1,0 +1,47 @@
+.keygen__form {
+    margin-bottom: 30px;
+}
+
+.keygen__links {
+    padding: 2px 0 2px 0;
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    border-top: 1px solid #cccccc;
+    position: relative;
+    margin-top: 20px;
+}
+
+.keygen__links:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: calc(100% + 2px);
+    top: -4px;
+    left: 0;
+    border-top: 1px solid #cccccc;
+    padding: 2px 0 2px 0;
+}
+
+.keygen .flexbox__item {
+    margin: 15px 0;
+    font-size: 17px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.keygen__title {
+    flex: 1;
+    margin-right: 20px;
+    color: #787878;
+}
+
+.keygen__val {
+    flex: 3;
+    color: #232323;
+}
+
+.keygen__select .whitefield_select {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}

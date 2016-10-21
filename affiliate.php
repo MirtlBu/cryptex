@@ -41,7 +41,7 @@
                 </div>
             </div>
             <form class="" id="withdrawForm">
-                <div class="error" id="registrationFormError">
+                <div class="error" id="withdrawFormError">
                     <p></p>
                 </div>
                 <div class="whitefield">

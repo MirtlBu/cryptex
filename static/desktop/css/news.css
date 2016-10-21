@@ -32,11 +32,10 @@
     color: #bcbcbc;
 }
 
-.news .underlined {
-    -webkit-font-smoothing: antialiased;
-    color: #089e95;
+.news .text-link--green {
+    opacity: .9;
 }
 
-.news .underlined:after {
-    background: #00857d;
+.news .text-link--green:hover {
+    opacity: 1;
 }

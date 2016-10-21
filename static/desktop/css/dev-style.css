@@ -1,3 +1,4 @@
+@import url('default.css');
 @import url('form.css');
 @import url('table.css');
 @import url('select.css');
@@ -25,6 +26,9 @@
 @import url('start.css');
 @import url('textpage.css');
 @import url('affiliate.css');
+@import url('keygen.css');
+@import url('unsubscribe.css');
+@import url('profile.css');
 
 body, html {
     width: 100%;
@@ -45,7 +49,7 @@ button, input, textarea {
     box-shadow: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -313,7 +317,26 @@ li {
     position: relative;
 }
 
-.step2, .step3, .order_completed, .order_processing, .sign_up, .log_in, .rates, .contacts, .personal, .faq, .news, .reviews, .start, .verification, .converting, .textpage, .affiliate {
+.step2,
+.step3,
+.order_completed,
+.order_processing,
+.sign_up,
+.log_in,
+.rates,
+.contacts,
+.personal,
+.faq,
+.news,
+.reviews,
+.start,
+.verification,
+.converting,
+.textpage,
+.affiliate,
+.keygen,
+.unsubscribe,
+.profile {
     padding: 15px 0;
     position: relative;
 }
@@ -418,20 +441,16 @@ li {
     margin-left: 90px;
 }
 
-/*.twocol:last-child label {
-    float: right;
-}*/
-
-/*.float-right.button {
-    margin: 20px 0;
-}*/
-
 .float-right {
     float: right;
 }
 
 .text-link--green {
     color: #089e95;
+}
+
+.text-link--green:hover {
+    color: #00857d;
 }
 
 .text-link--white {
@@ -448,6 +467,20 @@ li {
     background: linear-gradient(#089e95, #089e95) no-repeat;
     background-size: 100% 1px;
     background-position: 0 1.05em;
+}
+
+.underlined.text-link--green:hover {
+    color: #00857d;
+    background: linear-gradient(#00857d, #00857d) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1.05em;
+}
+
+.underlined.text-link--white:hover {
+    color: rgba(255, 255, 255, .9);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)) no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 1em;
 }
 
 .warning {
@@ -492,7 +525,6 @@ li {
     padding: 20px 25px;
     box-sizing: border-box;
     background: rgba(255, 255, 255, .15);
-
     flex: 1;
 }
 

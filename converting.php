@@ -1,4 +1,4 @@
-<div class="background" style="height: 930px;"></div>
+<div class="background" style="height: 1000px;"></div>
 <div class="container-1230px">
     <div class="container-820px">
         <form class="converting" style="min-height: 910px;">
