@@ -17,7 +17,6 @@
                             <a href="#" class="underlined">Show password</a>
                         </label>
                     </div>
-
                 </div>
                 <div class="whitefield">
                     <div class="title4">Exchange information:</div>

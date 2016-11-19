@@ -1,7 +1,7 @@
-<div class="background" style="height: 750px;"></div>
+<div class="background" style="height: 730px;"></div>
 <div class="container-1230px">
     <div class="container-820px">
-        <div class="affiliate" style="min-height: 910px;">
+        <div class="justtext" style="min-height: 910px;">
             <h1>Anti-Money Laundering (AML) policy</h1>
             <div class="green_container">
                 <p><strong>Сryptex24</strong> Company pursues a clear and consistent policy against money laundering and any other illegal activities in the financial field. Following Сryptex24 policy, employers and customers (individuals and legal entities) of this exchange service have to abide by certain requirements and rules.</p>
@@ -10,12 +10,12 @@
                 <p>The company operates under the Federal Law № 115-FZ of August 7, 2001 “On countering the legalization (laundering) of criminally gained income and terrorism financing”. Besides that, the membership of Russian Federation in FATF (Financial Action Task Force on Money Laundering) obliges the Сryptex24 company to comply FATF recommendations.</p>
                 <p>We demand that employees, customers and partners of Сryptex24 respect the policy against money laundering. In case of violations the company will be forced to apply the sanctions provided by legal regulations. In addition, all measures (including an appeal to the court) on compensation of the damage, caused to the company's reputation, will be taken.</p>
                 <p>Сryptex24 applies special requirements <a href="" class="underlined text-link--white">Link will be here </a>to its employees, who are required to comply policies against money laundering, and to prevent exchange service customers of any attempt for money laundering.</p>
-                <ul>
+                <ol>
                     <li>The client expresses concern or dissatisfaction with the Anti-Money Laundering policy;</li>
                     <li>The client tries to hide the personal data, that is necessary for his/her identification;</li>
                     <li>The client provides false data, that is necessary for his/her identification;</li>
                     <li>The data received from the client clearly indicates his/her participle to criminal activity;</li>
-                </ul>
+                </ol>
             </div>
             <div class="white_container">
                 <p><strong>About money laundering</strong></p>
@@ -31,6 +31,12 @@
                     <li>The client provides false data, that is necessary for his/her identification;</li>
                     <li>The data received from the client clearly indicates his/her participle to criminal activity;</li>
                 </ul>
+                <ol>
+                    <li>The client expresses concern or dissatisfaction with the Anti-Money Laundering policy;</li>
+                    <li>The client tries to hide the personal data, that is necessary for his/her identification;</li>
+                    <li>The client provides false data, that is necessary for his/her identification;</li>
+                    <li>The data received from the client clearly indicates his/her participle to criminal activity;</li>
+                </ol>
             </div>
         </div>
     </div>

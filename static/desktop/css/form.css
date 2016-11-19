@@ -100,7 +100,7 @@
 
 .form__row .form__title, .form__row .form__input, .form__row .form__textarea {
     display: table-cell;
-    vertical-align: baseline;
+    vertical-align: middle;
 }
 
 .form__row .form__textarea {

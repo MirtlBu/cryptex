@@ -29,6 +29,7 @@
 @import url('keygen.css');
 @import url('unsubscribe.css');
 @import url('profile.css');
+@import url('wiki.css');
 
 body, html {
     width: 100%;
@@ -336,7 +337,8 @@ li {
 .affiliate,
 .keygen,
 .unsubscribe,
-.profile {
+.profile,
+.wiki {
     padding: 15px 0;
     position: relative;
 }
@@ -483,6 +485,51 @@ li {
     background-position: 0 1em;
 }
 
+@-moz-document url-prefix() {
+
+    .underlined.text-link--white {
+        background: linear-gradient(#fff, #fff) no-repeat;
+        background-size: 100% 1px;
+        background-position: 0 1.2em;
+    }
+    .underlined.text-link--white:hover {
+        color: rgba(255, 255, 255, .9);
+        background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)) no-repeat;
+        background-size: 100% 1px;
+        background-position: 0 1.2em;
+    }
+    .underlined.text-link--green,
+    .sign_up .underlined,
+    .step2 .underlined,
+    .bookmark__row .underlined,
+    .log_in .underlined,
+    .textpage .underlined {
+        background: linear-gradient(#089e95, #089e95) no-repeat;
+        background-size: 100% 1px;
+        background-position: 0 1.2em;
+    }
+    .underlined.text-link--green:hover,
+    .sign_up .underlined:hover,
+    .step2 .underlined:hover,
+    .bookmark__row .underlined:hover,
+    .log_in .underlined:hover,
+    .textpage .underlined:hover {
+        color: #00857d;
+        background: linear-gradient(#00857d, #00857d) no-repeat;
+        background-size: 100% 1px;
+        background-position: 0 1.2em;
+    }
+    .squarelist__item:after {
+        top: 8px !important;
+    }
+    .form__title.slash {
+        top: -5px;
+    }
+    .step3 .button-spinner {
+        margin-top: 1px;
+    }
+}
+
 .warning {
     margin: 20px 0;
     padding: 20px 50px 20px 80px;
@@ -561,7 +608,7 @@ li {
 .squarelist__item:after {
     width: 11px;
     height: 11px;
-    top: 6px;
+    top: 7px;
     background-image: url(/static/desktop/images/square-divider3.png);
 }
 
@@ -679,6 +726,18 @@ li {
 
 .text_notice {
     font-size: 15px;
+}
+
+.justtext h2 {
+    margin-top: 35px;
+}
+
+.title2--dark {
+    color: #3a3a3a;
+}
+
+.title2--to-low {
+    text-transform: none;
 }
 
 @media (min-width: 1900px) {

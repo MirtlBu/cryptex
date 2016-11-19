@@ -34,16 +34,22 @@
     position: relative;
 }
 
-.order-invoice:after {
+.order-invoice:after, .order-invoice:before {
     content: '';
     position: absolute;
     width: 100%;
-    height: calc(100% + 2px);
-    top: -4px;
     left: 0;
+    padding: 2px 0;
+}
+
+.order-invoice:after {
+    top: -4px;
     border-top: 1px solid #cccccc;
+}
+
+.order-invoice:before {
+    bottom: -4px;
     border-bottom: 1px solid #cccccc;
-    padding: 2px 0 2px 0;
 }
 
 .order-invoice .text-whitefield {

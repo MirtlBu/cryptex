@@ -33,19 +33,17 @@
                 <div class="keygen__links">
                     <div class="flexbox">
                         <div class="flexbox__item keygen__title">Personalised text link:</div>
-                        <div class="flexbox__item keygen__val">https://cryptex24.com/ru/exchange/bitcoin-to-paypal/?partner=1</div>
+                        <div class="flexbox__item keygen__val">tralalala</div>
                     </div>
                     <div class="flexbox">
                         <div class="flexbox__item keygen__title">Personalised HTML link:</div>
                         <div class="flexbox__item keygen__val">
-                            &lt;a href="https://cryptex24.com/ru/exchange/bitcoin-to-paypal/?partner=1"&gt;
-                                Обмен Bitcoin на PayPal
-                            &lt;/a&gt;
+                            tralalala
                         </div>
                     </div>
                     <div class="flexbox">
                         <div class="flexbox__item keygen__title">Personalised bbCode link:</div>
-                        <div class="flexbox__item keygen__val">[url="https://cryptex24.com/ru/exchange/bitcoin-to-paypal/?partner=1"]Обмен Bitcoin на PayPal[/url]</div>
+                        <div class="flexbox__item keygen__val">tralalala</div>
                     </div>
                 </div>
             </div>

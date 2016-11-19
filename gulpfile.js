@@ -15,14 +15,17 @@ var css_vendors = [
     'static/vendors/FancySelect/fancySelect.css',
     'static/vendors/slick/slick.css',
     'static/vendors/jquery-ui-1.12.0.custom/jquery-ui.min.css',
+    'static/vendors/cookieconsent/cookieconsent.min.css'
 ];
 
 var js_vendors = [
     'static/vendors/jquery-2.1.4.min/jquery-2.1.4.min.js',
     'static/vendors/jquery-ui-1.12.0.custom/jquery-ui.min.js',
     'static/vendors/FancySelect/fancySelect.js',
-    'static/vendors/slick/slick.min.js',
     'static/vendors/webcamjs/webcam.min.js',
+    'static/vendors/cookieconsent/cookieconsent.min.js',
+    'static/vendors/numberMask/numberMask.min.js',
+    'static/vendors/slick/slick.min.js'
 ];
 
 var css_files = [
@@ -59,6 +62,7 @@ var css_files = [
     'static/desktop/css/keygen.css',
     'static/desktop/css/unsubscribe.css',
     'static/desktop/css/profile.css',
+    'static/desktop/css/wiki.css',
     'static/desktop/css/dev-style.css',
     'static/desktop/css/320.css'
 ];
@@ -102,7 +106,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('js', function () {
-    return gulp.src(arrayConcat(js_vendors, js_files))
+    return gulp.src(js_vendors)
         .pipe(concat('script.js'))
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))

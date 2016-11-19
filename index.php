@@ -18,11 +18,11 @@
                     {"background":"#ff535f", "text": "#fff"}
                 },
             "content":
-                {"dismiss":"Got it!"},
-            "message": "This website uses cookies to ensure you get the best experience on our website",
-            "dismiss":"Got it!",
-            "learnMore":"More info",
-            "link":"https://frontend.cryptex24.com/en/"
+                {"dismiss":"Got it!!!!",
+                "message": "tralala",
+                "link": "Learn more",
+                "href": "https://frontend.cryptex24.com/en/",
+                "header": "ololo"}
             }
         </div>
         <div class="container-1230px container-1230px--absolute">
@@ -41,8 +41,6 @@
 
         <?php include "footer.php";?>
 
-        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.css" />
-        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.js"></script>
         <script type="text/javascript">
             function cookieConsent(elem) {
                 var options = document.getElementById(elem).textContent;
@@ -51,6 +49,7 @@
         </script>
 
         <script type="text/javascript" src="/static/desktop/js/script.min.js"></script>
+        <script type="text/javascript" src="/static/desktop/js/dev-script.js"></script>
 
     </body>
 </html>

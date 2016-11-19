@@ -1,33 +1,75 @@
 @media (max-width: 600px) {
-    .container-1230px {
-        width: auto;
+
+    .main {
+        padding: 10px 15px;
+        box-sizing: border-box;
     }
 
-    .container-820px {
-        width: auto;
+    .background {
+        min-height: 1120px !important;
+        top: 80px;
+    }
+
+    body, .background, .container-1230px, .container-820px {
+        width: 100% !important;
+        min-width: 100% !important;
         margin: 0 auto;
     }
 
+    .container-1230px--absolute {
+        position: relative;
+    }
+
     .bookmark {
-        width: 320px;
+        width: 100%;
+        position: relative;
         padding: 0;
+    }
+
+    .bookmark__item {
+        margin: 0 auto 10px;
+    }
+
+    .bookmark__nav, .bookmark__tab, .terms__bookmark, .bookmark__item {
+        width: 100%;
+    }
+
+    .bookmark__col {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .terms__bookmark, .bookmark__triangle {
         display: none;
     }
 
     .header {
+        width: 26px;
+        height: 17px;
+        position: absolute;
+        top: 24px;
+        right: 20px;
+        background-image: url(/static/desktop/images/icon-hamburger.png);
+        background-repeat: no-repeat;
+        z-index: 1;
+        padding: 0;
+    }
+
+    .header .container-1230px {
         display: none;
     }
 
     .logo {
         width: auto;
         height: 70px;
-        padding: 0 15px;
+        padding: 21px 15px;
         box-sizing: border-box;
-        position: fixed;
+        position: relative;
         top: 0;
         left: 0;
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
 
     .square-line-short {
@@ -38,11 +80,153 @@
         width: 30px;
         height: 30px;
         margin: 0;
-        background-size: 100%;
+        background-size: contain;
+        flex: 1;
     }
 
     .logo__text {
+        text-align: left;
         margin-bottom: 0;
         font-size: 20px;
+        flex: 2;
+    }
+
+    .whitefield {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .form__input {
+        width: 100%;
+    }
+
+    .main-exchange-field__item, .main-exchange-info__item, .main-features__item {
+        display: block;
+    }
+
+    .from-to-1 {
+        display: none;
+    }
+
+    .semitransparent .flexbox {
+        flex-direction: column;
+    }
+
+    .button--red, a.button--red, label.button--red {
+        display: block;
+        width: 100%;
+    }
+
+    .main-exchange div.fancy-select div.trigger, .main-exchange div.fancy-select ul.options {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form__input--main-exchange {
+        width: 50%;
+    }
+
+    .semitransparent .flexbox__item {
+        margin: 0 0 1px 0;
+    }
+
+    .form__input--main-exchange.form__input--305px {
+        width: 100%;
+    }
+
+    .button-spinner {
+        position: relative;
+    }
+
+    .spinner {
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        margin-left: -25px;
+        top: 65px;
+    }
+
+    .main-features__item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .main-features__text {
+        text-align: left;
+    }
+
+    .main-news__item, .main-reviews__item {
+        display: block;
+    }
+
+    .main-reviews__item:nth-child(1) .main-reviews__text, .float-right, .main-reviews__item:nth-child(3) .main-reviews__text {
+        float: none;
+    }
+
+    .main-reviews__item:nth-child(2) .main-reviews__text {
+        margin: 0;
+    }
+
+    .main-reviews__item {
+        margin-bottom: 30px;
+    }
+
+    .main-description {
+        background-color: transparent;
+        background-image: none;
+    }
+
+    .main-reviews__image {
+        width: 100%;
+        background-position: 50%;
+    }
+
+    .main-news__item {
+        width: 100%;
+        padding: 0 35px;
+        box-sizing: border-box;
+    }
+
+    .main-news__item:not(:last-child) {
+        margin: 0;
+    }
+
+    .main-description, .main-reviews {
+        padding: 0 0 30px 0;
+    }
+
+    .main-features, .main-news, .main-description, .footer {
+        padding: 30px 0;
+    }
+
+    .table__footer {
+        padding: 0 10px 0 50px;
+        box-sizing: border-box;
+    }
+
+    .table__footer td:not(:first-child) {
+        width: 100%;
+    }
+
+    .table__footer td {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .contacts {
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+
+    .contacts .text-greenfield.flexbox {
+        flex-direction: column;
     }
 }

@@ -144,19 +144,17 @@
     vertical-align: baseline;
 }
 
-/*.card_exp .form__title  {
-    width: 110px;
-}*/
+.autorization-form .card_exp__cell label {
+    margin-bottom: 0;
+}
 
 .card_exp .slash {
     width: 50px;
     text-align: center;
+    position: relative;
+    top: 5px;
 }
 
 .card_exp .slash:after {
     content: none;
 }
-
-/*.step2 .checkbox {
-    margin-left: 110px;
-}*/

@@ -4,10 +4,11 @@
 
 .start .title3 {
     font-size: 22px;
+    margin: 30px 0 0 0;
 }
 
 .start .flexbox {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .start .flexbox__item--left {
@@ -20,4 +21,20 @@
 
 .start .flexbox__item--img {
     flex: 5;
+}
+
+.start .padded-field {
+    padding-bottom: 0;
+}
+
+.start h2 {
+    margin-top: 28px;
+}
+
+.start h2:first-of-type {
+    margin-top: 48px;
+}
+
+.start .green_container li, .start .white_container li{
+    margin-bottom: 5px;
 }
